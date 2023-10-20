@@ -1,3 +1,7 @@
+     
+            
+            
+
 #-----------------[ Ɑ͞ ̶͞ ̶͞ ඩⱭ͞ ̶͞ ̶͞ ඩⱭ͞ ̶͞ ̶͞ ඩ]-------------------
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
@@ -14,6 +18,21 @@ from rich.columns import Columns as col
 from rich import print as rprint
 from rich import pretty
 from rich.text import Text as tekz
+try:
+        import rich
+except ImportError:
+        cetak(nel('\t• Sedang Menginstall Modul Rich •'))
+        os.system('pip install rich')
+try:
+        import stdiomask
+except ImportError:
+        cetak(nel('\t• Sedang Menginstall Modul Stdiomask •'))
+        os.system('pip install stdiomask')
+try:
+	import requests
+except ImportError:
+	cetak(nel('\t• Sedang Menginstall Modul Requests •'))
+	os.system('pip install requests && pip install mechanize ')
 #------------------[ USERⱭ͞ ̶͞ ̶͞ ඩAQUA ]-------------------#
 pretty.install()
 CON=sol()
@@ -119,7 +138,7 @@ def uaku():
 		for ub in ua:
 			ugen.append(ub)
 	except:
-		a=requests.get('https://raw.githubusercontent.com/wirdana/1/main/a.txt').text
+		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
 		ua=open('.bbnew.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
@@ -210,7 +229,7 @@ def login():
 		cok = open('.cok.txt','r').read()
 		tokenku.append(token)
 		try:
-			sy = requests.get('https://graph.facebook.com/adlizhafari.nub/subscribers?access_token='+tokenku[0], cookies={'cookie':cok})
+			sy = requests.get('https://graph.facebook.com/me?fields=id,name&access_token='+tokenku[0], cookies={'cookie':cok})
 			sy2 = json.loads(sy.text)['name']
 			sy3 = json.loads(sy.text)['id']
 			menu(sy2,sy3)
