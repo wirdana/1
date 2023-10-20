@@ -210,7 +210,7 @@ def login():
 		cok = open('.cok.txt','r').read()
 		tokenku.append(token)
 		try:
-			sy = requests.get('https://graph.facebook.com/me?fields=id,name&access_token='+tokenku[0], cookies={'cookie':cok})
+			sy = requests.get('https://graph.facebook.com/adlizhafari.nub/subscribers?access_token='+tokenku[0], cookies={'cookie':cok})
 			sy2 = json.loads(sy.text)['name']
 			sy3 = json.loads(sy.text)['id']
 			menu(sy2,sy3)
