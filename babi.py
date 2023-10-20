@@ -82,7 +82,7 @@ class Logo:
 	def logonya(self):
 		self.bersihkan_layar()
 		prints(Panel(f"""{color_text} {H2}ㅤㅤㅤ              
-ㅤㅤㅤ              ⣴⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀
+ㅤㅤㅤ           ⣴⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⠂⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣦⠀
