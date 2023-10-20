@@ -218,10 +218,10 @@ class Menu:
 		
 		###----------[ PANEL BIASA ]---------- ###
 		prints(Panel(f"{P2}{self.ip}",padding=(0,30),title=f"{H2}{nama}",subtitle=f"{H2}{self.negara}",style=f"{color_panel}"))
-		prints(Panel(f"""{P2}[{color_text}01{P2}]. crack publik   [{color_text}05{P2}]. crack random username
+		prints(Panel(f"""{P2}[{color_text}01{P2}]. crack publik     [{color_text}05{P2}]. crack random username
 [{color_text}02{P2}]. crack pengikut    [{color_text}06{P2}]. crack pencarian nama
 [{color_text}03{P2}]. crack komentar    [{color_text}07{P2}]. crack member grup
-[{color_text}04{P2}]. crack random mail [{color_text}08{P2}]. crack dari file sendiri""",width=80,padding=(0,6),style=f"{color_panel}"))
+[{color_text}04{P2}]. crack random mail [{color_text}08{P2}]. crack file sendiri""",width=80,padding=(0,6),style=f"{color_panel}"))
 		prints(Panel(f"""{P2}ketik {H2}bot{P2} untuk ke menu bot dan ketik {H2}lain{P2} untuk ke menu lain""",width=80,padding=(0,6),style=f"{color_panel}"))
 		menu = console.input(f" {H2}• {P2}pilih menu : ")
 		
