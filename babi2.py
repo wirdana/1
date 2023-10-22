@@ -30,7 +30,7 @@ def tik():
     titik = [
      '.   ', '..  ', '... ']
     for o in titik:
-        print('\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mSedang Masuk COK \x1b[1;97m' + o, end=' ')
+        print('Sedang Masuk COK')
         sys.stdout.flush()
         time.sleep(1)
 
