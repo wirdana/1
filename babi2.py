@@ -590,7 +590,7 @@ def pilih_super():
     jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mTunggu sebentar \x1b[1;97m...')
     titik = ['.   ', '..  ', '... ']
     for o in titik:
-        print('\r\r\x1b[1;91m[\x1b[1;96m\xe2\x9c\xb8\x1b[1;91m] \x1b[1;92mCrack \x1b[1;97m' + o, end=' ')
+        print('Crack')
         sys.stdout.flush()
         time.sleep(1)
 
