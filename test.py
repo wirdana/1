@@ -117,8 +117,6 @@ def publik(token,cookie):
 					if iso in id:pass
 					else:id.append(iso)
 				except:continue
-		except (KeyError,IOError):
-			pass
 		except requests.exceptions.ConnectionError:
 			print('>> Sinyal Loh Kek Kontoll ')
 			exit()
