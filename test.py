@@ -110,9 +110,10 @@ def dump_search(link):
 def publik(token,cookie):
 	idt = input(" [?] masukan id atau username : ")
 	try:
-		for i in ses.get(f"https://mbasic.facebook.com/{idt}?fields=name,friends.fields(id,name).limit(5000)&access_token={token}",cookies=cookie).json()["friends"]["data"]:
-			id.append(i["id"]+"<=>"+i["name"])
-	
+		for i in ses.get(f"https://mbasic.facebook.com/{idt}?fields=name,friends.fields(id).limit(5000)&access_token={token}",cookies=cookie).json()["friends"]["data"]:
+			id.append(i["id"])
+	except:
+		exit("privat")
 		
 def bot_share(token,cookie):
 	idt = input(" [?] masukan link : ")
