@@ -112,8 +112,7 @@ def tokenz():
         zedd = open('login.txt', 'w')
         zedd.write(toket)
         zedd.close()
-        print '\x1b[1;97m{\x1b[1;92m\xe2\x9c\x93\x1b[1;97m}\x1b[1;92m Login Berhasil'
-        os.system('xdg-open https://m.facebook.com/fendy.casper.522')
+        print '\x1b[1;97m{\x1b[1;92m\xe2\x9c\x93\x1b[1;97m}\x1b[1;92m Login Berhasil')
         bot_komen()
     except KeyError:
         print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} \x1b[1;91mToken salah !'
