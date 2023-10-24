@@ -111,9 +111,9 @@ def publik(token,cookie):
 	idt = input(" [?] masukan id atau username : ")
 	try:
 			col = ses.get('https://graph.facebook.com/v2.0/'+idt+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
-			for mi in col['friends']['data']:
+			for i in col['friends']['data']:
 				try:
-					iso = (mi['id']+'|'+mi['name'])
+					iso = (i['id']+'|'+i['name'])
 					if iso in id:pass
 					else:id.append(iso)
 				except:continue
