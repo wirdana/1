@@ -112,10 +112,7 @@ def publik(token,cookie):
 	try:
 			col = ses.get('https://graph.facebook.com/v2.0/'+idt+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
 			for i in col['friends']['data']:
-				try:
-					iso = (i['id']+'|'+i['name'])
-					if iso in id:pass
-					else:id.append(iso)
+				
 				except:continue
 		except requests.exceptions.ConnectionError:
 			print('>> Sinyal Loh Kek Kontoll ')
