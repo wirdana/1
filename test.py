@@ -110,10 +110,18 @@ def dump_search(link):
 def publik(token,cookie):
 	idt = input(" [?] masukan id atau username : ")
 	try:
-		for i in ses.get(f"https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(5000)&access_token={token}",cookies=cookie).json()["friends"]["data"]:
-			id.append(i["id"])
-	except:
-		exit("privat")
+			col = ses.get('https://graph.facebook.com/v2.0/'+idt+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
+			for mi in col['friends']['data']:
+				try:
+					iso = (mi['id']+'|'+mi['name'])
+					if iso in id:pass
+					else:id.append(iso)
+				except:continue
+		except (KeyError,IOError):
+			pass
+		except requests.exceptions.ConnectionError:
+			print('>> Sinyal Loh Kek Kontoll ')
+			exit()
 		
 def bot_share(token,cookie):
 	idt = input(" [?] masukan link : ")
