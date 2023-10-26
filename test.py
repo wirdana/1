@@ -135,7 +135,7 @@ class Login:
 	###----------[ UBAH BAHASA ]---------- ###
 	def ubah_bahasa(self,cookie):
 		try:
-			url = ses.get("https://touch.facebook.com/language/",cookies={"cookie": cookie})
+			url = ses.get("https://mbasic.facebook.com/language/",cookies={"cookie": cookie})
 			parsing = parser(url.text,"html.parser")
 			for x in parsing.find_all("form",{"method":"post"}):
 				if "Bahasa Indonesia" in str(x):
@@ -144,7 +144,7 @@ class Login:
 						"jazoest" : re.search('name="jazoest" value="(.*?)"', str(url.text)).group(1),
 						"submit"  : "Bahasa Indonesia"
 					}
-					post = ses.post("https://touch.facebook.com"+x["action"],data=data,cookies={"cookie": cookie})
+					post = ses.post("https://mbasic.facebook.com"+x["action"],data=data,cookies={"cookie": cookie})
 		except:
 			pass
 		
@@ -161,7 +161,7 @@ class Menu:
 	###----------[ CEK INFO LOGIN ]---------- ###
 	def cek_login(self,cookie):
 		try:
-			url = ses.get("https://touch.facebook.com/profile.php",cookies=cookie).text
+			url = ses.get("https://mbasic.facebook.com/profile.php",cookies=cookie).text
 			nama = re.findall("<title>(.*?)</title>",url)[0]
 			if "Konten Tidak Ditemukan" in nama:
 				try:os.remove("data/cookie")
