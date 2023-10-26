@@ -111,13 +111,13 @@ class Login:
 	###----------[ LOGIN COOKIE ]---------- ###
 	def login_cookie(self,cookie):
 		try:
-			url = ses.get("https://mbasic.facebook.com/",cookies={"cookie": cookie}).text
+			url = ses.get("https://m.facebook.com/",cookies={"cookie": cookie}).text
 			if "Apa yang Anda pikirkan sekarang" in url:
 				pass
 			else:
 				for z in url.find_all("a",href=True):
 					if "Tidak, Terima Kasih" in z.text:
-						get = ses.get("https://touch.facebook.com"+z["href"],cookies={"cookie": cookie})
+						get = ses.get("https://m.facebook.com"+z["href"],cookies={"cookie": cookie})
 						parsing = parser(get.text,"html.parser")
 						action = parsing.find("form",{"method":"post"})["action"]
 						data = {
@@ -125,7 +125,7 @@ class Login:
 							"jazoest":re.search('name="jazoest" value="(.*?)"', str(get.text)).group(1),
 							"submit": "OK, Gunakan Data"
 						}
-						post = ses.post("https://mbasic.facebook.com"+action,data=data,cookies={"cookie": cookie})
+						post = ses.post("https://m.facebook.com"+action,data=data,cookies={"cookie": cookie})
 						break
 			open("data/cookie","w").write(cookie)
 			Menu().menu()
@@ -136,7 +136,7 @@ class Login:
 	###----------[ UBAH BAHASA ]---------- ###
 	def ubah_bahasa(self,cookie):
 		try:
-			url = ses.get("https://touch.facebook.com/language/",cookies={"cookie": cookie})
+			url = ses.get("https://m.facebook.com/language/",cookies={"cookie": cookie})
 			parsing = parser(url.text,"html.parser")
 			for x in parsing.find_all("form",{"method":"post"}):
 				if "Bahasa Indonesia" in str(x):
@@ -145,7 +145,7 @@ class Login:
 						"jazoest" : re.search('name="jazoest" value="(.*?)"', str(url.text)).group(1),
 						"submit"  : "Bahasa Indonesia"
 					}
-					post = ses.post("https://touch.facebook.com"+x["action"],data=data,cookies={"cookie": cookie})
+					post = ses.post("https://m.facebook.com"+x["action"],data=data,cookies={"cookie": cookie})
 		except:
 			pass
 		
@@ -162,7 +162,7 @@ class Menu:
 	###----------[ CEK INFO LOGIN ]---------- ###
 	def cek_login(self,cookie):
 		try:
-			url = ses.get("https://mbasic.facebook.com/profile.php",cookies=cookie).text
+			url = ses.get("https://m.facebook.com/profile.php",cookies=cookie).text
 			nama = re.findall("<title>(.*?)</title>",url)[0]
 			if "Konten Tidak Ditemukan" in nama:
 				try:os.remove("data/cookie")
@@ -203,14 +203,14 @@ class Menu:
 			user = console.input(f" {H2}• {P2}Masukan Id Atau Username : ")
 			if user in["Me","me"]:
 				user = Dump(cookie).GetUser()
-			Dump(cookie).Dump_Publik(f"https://mbasic.facebook.com/{user}?v=friends")
+			Dump(cookie).Dump_Publik(f"https://m.facebook.com/{user}?v=friends")
 			Crack().atursandi()
 			
 		###----------[ KOMENTAR ]---------- ###
 		elif menu in["3","03"]:
 			prints(Panel(f"""{P2}masukan id postingan, pastikan postingan bersifat publik dan tidak private""",width=80,style=f"{color_panel}"))
 			user = console.input(f" {H2}• {P2}masukan id postingan : ")
-			Dump(cookie).Dump_Komentar(f"https://touch.facebook.com/{user}")
+			Dump(cookie).Dump_Komentar(f"https://m.facebook.com/{user}")
 			Crack().atursandi()
 			
 		###----------[ EMAIL ]---------- ###
@@ -241,7 +241,7 @@ class Menu:
 					self.id.append(people+" "+idt)
 			try:
 				for gas in self.id:
-					Dump(cookie).Dump_Pencarian(f"https://touch.facebook.com/public/{gas}")
+					Dump(cookie).Dump_Pencarian(f"https://m.facebook.com/public/{gas}")
 			except:pass
 			Crack().atursandi()
 		
@@ -249,7 +249,7 @@ class Menu:
 		elif menu in["7","07"]:
 			prints(Panel(f"""{P2}masukan id grup, pastikan grup bersifat publik dan tidak private""",width=80,style=f"{color_panel}"))
 			user = console.input(f" {H2}• {P2}masukan id grup : ")
-			Dump(cookie).Dump_MemberGrup(f"https://touch.facebook.com/groups/{user}")
+			Dump(cookie).Dump_MemberGrup(f"https://m.facebook.com/groups/{user}")
 			Crack().atursandi()
 			
 		###----------[ FILE MASSAL ]---------- ###
@@ -280,7 +280,7 @@ class Dump:
 	###----------[ GET USER SENDIRI ]---------- ###
 	def GetUser(self):
 		try:
-			url = ses.get("https://mbasic.facebook.com/profile.php",cookies=self.cookie).text
+			url = ses.get("https://m.facebook.com/profile.php",cookies=self.cookie).text
 			uid = re.findall('name="target" value="(.*?)"',url)[0]
 			return uid
 		except:
@@ -299,7 +299,7 @@ class Dump:
 					console.print(f" {H2}• {P2}sedang proses mengumpulkan id, berhasil mendapatkan {len(tampung)} id....", end="\r")
 			for x in url.find_all("a",href=True):
 				if "Lihat Teman Lain" in x.text:
-					self.Dump_Publik("https://mbasic.facebook.com/"+x.get("href"))
+					self.Dump_Publik("https://m.facebook.com/"+x.get("href"))
 		except:pass
 		
 	###----------[ DUMP KOMENTAR ]---------- ###
@@ -316,7 +316,7 @@ class Dump:
 					console.print(f" {H2}• {P2}sedang proses mengumpulkan id, berhasil mendapatkan {len(tampung)} id....", end="\r")
 			for z in data.find_all("a",href=True):
 				if "Lihat komentar sebelumnya…" in z.text:
-					self.Dump_Komentar("https://touch.facebook.com"+z["href"])
+					self.Dump_Komentar("https://m.facebook.com"+z["href"])
 		except:pass
 		
 	###----------[ DUMP PENCARIAN NAMA ]---------- ###
@@ -352,7 +352,7 @@ class Dump:
 					console.print(f" {H2}• {P2}sedang proses mengumpulkan id, berhasil mendapatkan {len(tampung)} id....", end="\r")
 			for x in data.find_all("a",href=True):
 				if "Lihat Postingan Lainnya" in x.text:
-					self.Dump_MemberGrup("https://touch.facebook.com"+x.get("href"))
+					self.Dump_MemberGrup("https://m.facebook.com"+x.get("href"))
 		except:pass
 		
 	###----------[ DUMP FILE ]---------- ###
@@ -566,13 +566,13 @@ class Crack:
 		
 		###----------[ CEK MODE GRATIS ]---------- ###
 		try:
-			url = ses.get("https://touch.facebook.com/",cookies={"cookie": cookie}).text
+			url = ses.get("https://m.facebook.com/",cookies={"cookie": cookie}).text
 			if "Apa yang Anda pikirkan sekarang" in url:
 				pass
 			else:
 				for z in url.find_all("a",href=True):
 					if "Tidak, Terima Kasih" in z.text:
-						get = ses.get("https://touch.facebook.com"+z["href"],cookies={"cookie": cookie})
+						get = ses.get("https://m.facebook.com"+z["href"],cookies={"cookie": cookie})
 						parsing = parser(get.text,"html.parser")
 						action = parsing.find("form",{"method":"post"})["action"]
 						data = {
@@ -580,7 +580,7 @@ class Crack:
 							"jazoest":re.search('name="jazoest" value="(.*?)"', str(get.text)).group(1),
 							"submit": "OK, Gunakan Data"
 						}
-						post = ses.post("https://touch.facebook.com"+action,data=data,cookies={"cookie": cookie})
+						post = ses.post("https://m.facebook.com"+action,data=data,cookies={"cookie": cookie})
 						break
 		except:pass
 			
@@ -595,7 +595,7 @@ class Crack:
 				
 		###----------[ APLIKASI KADALUWARSA ]---------- ###
 		kadalu = Tree("Aplikasi Kadaluwarsa",guide_style="bold grey100")
-		self.apkkadaluwarsa("https://touch.facebook.com/settings/apps/tabbed/?tab=inactive",cookie)
+		self.apkkadaluwarsa("https://m.facebook.com/settings/apps/tabbed/?tab=inactive",cookie)
 		if len(self.kadaluwarsa)==0:
 			kadalu.add(f"{P2}tidak ada aplikasi yang terkait")
 		else:
@@ -617,7 +617,7 @@ class Crack:
 				if "Ditambahkan" in apk.text:
 					self.aktif.append(f"{str(apk.text).replace('Ditambahkan',' Ditambahkan')}")
 				else:continue
-			next = "https://touch.facebook.com"+data.find("a",string="Lihat Lainnya")["href"]
+			next = "https://m.facebook.com"+data.find("a",string="Lihat Lainnya")["href"]
 			self.apkaktif(next,cookie)
 		except:pass
 		
@@ -629,7 +629,7 @@ class Crack:
 				if "Kedaluwarsa" in apk.text:
 					self.kadaluwarsa.append(f"{str(apk.text).replace('Kedaluwarsa',' Kedaluwarsa')}")
 				else:continue
-			next = "https://touch.facebook.com"+data.find("a",string="Lihat Lainnya")["href"]
+			next = "https://m.facebook.com"+data.find("a",string="Lihat Lainnya")["href"]
 			self.apkkadaluwarsa(next,cookie)
 		except:pass
 	
