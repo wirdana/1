@@ -54,10 +54,10 @@ for z in range(200):
 	versi = random.choice(["10_0_2","10_1_1","10_2","10_2_1","10_3_1","10_3_2","10_3_3"])
 	verchrome = random.choice(["602.1.50","602.2.14","602.3.12","602.4.6","603.1.30","603.2.4","603.3.8","601.1.46"])
 	mob = random.choice(["14A456","14B100","14C92","14D27","14E304","14F89","14G60","13C75","13D15","13E233","13E238","13F69","13G34","13G36"])
-	ua = f"Mozilla/5.0 (Linux; Android 8.1.0; CPH1803 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.105 Mobile Safari/537.36 GoogleApp/13.44.10.26.arm64[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]"
-	ua = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]"
-	ua = f"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]"
-	ua = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]"
+	ua = f"Mozilla/5.0 (Linux; Android 8.1.0; CPH1803 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.105 Mobile Safari/537.36 GoogleApp/13.44.10.26.arm64[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]",
+	ua = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]",
+	ua = f"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]",
+	ua = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]",
 	ua = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]"
 	ua = f"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]"
 	ua = f"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]"
