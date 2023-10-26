@@ -96,7 +96,7 @@ class Login:
 	###----------[ MENU LOGIN ]---------- ###
 	def menu_login(self):
 		Logo().logonya()
-		prints(Panel(f"{P2}{self.ip}",padding=(9),subtitle=f"{H2}{self.negara}",style=f"{color_panel}"))
+		prints(Panel(f"{P2}{self.ip}",padding=(0,30),subtitle=f"{H2}{self.negara}",style=f"{color_panel}"))
 		prints(Panel(f"""{P2}[{color_text}01{P2}]. login menggunakan cookie facebook
 [{color_text}02{P2}]. login menggunakan kredensial""",width=80,padding=(0,15),style=f"{color_panel}"))
 		login = console.input(f" {H2}• {P2}pilih menu : ")
@@ -189,7 +189,7 @@ class Menu:
 			Login().menu_login()
 		
 		###----------[ PANEL BIASA ]---------- ###
-		prints(Panel(f"{P2}{self.ip}",padding=(0,30),title=f"{H2}{nama}",subtitle=f"{H2}{self.negara}",style=f"{color_panel}"))
+		prints(Panel(f"  {P2}{self.ip}",padding=(0,30),title=f"{H2}{nama}",subtitle=f"{H2}{self.negara}",style=f"{color_panel}"))
 		prints(Panel(f"""{P2}[{color_text}01{P2}]. crack dari id publik   [{color_text}05{P2}]. crack dari random username
 [{color_text}02{P2}]. crack dari pengikut    [{color_text}06{P2}]. crack dari pencarian nama
 [{color_text}03{P2}]. crack dari komentar    [{color_text}07{P2}]. crack dari member grup
