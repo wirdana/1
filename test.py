@@ -90,7 +90,7 @@ class Login:
 	
 	###----------[ FUNCTION INIT ]---------- ###
 	def __init__(self):
-		self.ip = ses.get("http://ip-api.com/json/").json()["query"]
+			self.ip = ses.get("http://ip-api.com/json/").json()["query"]
 		self.negara = ses.get("http://ip-api.com/json/").json()["country"]
 
 	###----------[ MENU LOGIN ]---------- ###
