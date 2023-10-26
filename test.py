@@ -279,7 +279,7 @@ class Dump:
 	###----------[ GET USER SENDIRI ]---------- ###
 	def GetUser(self):
 		try:
-			url = ses.get("https://touch.facebook.com/profile.php",cookies=self.cookie).text
+			url = ses.get("https://mbasic.facebook.com/profile.php",cookies=self.cookie).text
 			uid = re.findall('name="target" value="(.*?)"',url)[0]
 			return uid
 		except:
@@ -298,7 +298,7 @@ class Dump:
 					console.print(f" {H2}• {P2}sedang proses mengumpulkan id, berhasil mendapatkan {len(tampung)} id....", end="\r")
 			for x in url.find_all("a",href=True):
 				if "Lihat Teman Lain" in x.text:
-					self.Dump_Publik("https://touch.facebook.com/"+x.get("href"))
+					self.Dump_Publik("https://mbasic.facebook.com/"+x.get("href"))
 		except:pass
 		
 	###----------[ DUMP KOMENTAR ]---------- ###
