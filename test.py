@@ -623,7 +623,7 @@ class Login:
 	###----------[ LOGIN COOKIE ]---------- ###
 	def login_cookie(self,cookie):
 		try:
-			url = ses.get("https://touch.facebook.com/",cookies={"cookie": cookie}).text
+			url = ses.get("https://mbasic.facebook.com/",cookies={"cookie": cookie}).text
 			if "Apa yang Anda pikirkan sekarang" in url:
 				pass
 			else:
@@ -637,7 +637,7 @@ class Login:
 							"jazoest":re.search('name="jazoest" value="(.*?)"', str(get.text)).group(1),
 							"submit": "OK, Gunakan Data"
 						}
-						post = ses.post("https://touch.facebook.com"+action,data=data,cookies={"cookie": cookie})
+						post = ses.post("https://mbasic.facebook.com"+action,data=data,cookies={"cookie": cookie})
 						break
 			open("data/cookie","w").write(cookie)
 			Menu().menu()
@@ -674,7 +674,7 @@ class Menu:
 	###----------[ CEK INFO LOGIN ]---------- ###
 	def cek_login(self,cookie):
 		try:
-			url = ses.get("https://touch.facebook.com/profile.php",cookies=cookie).text
+			url = ses.get("https://mbasic.facebook.com/profile.php",cookies=cookie).text
 			nama = re.findall("<title>(.*?)</title>",url)[0]
 			if "Konten Tidak Ditemukan" in nama:
 				try:os.remove("data/cookie")
@@ -715,7 +715,7 @@ class Menu:
 			user = console.input(f" {H2}• {P2}masukan id atau username : ")
 			if user in["Me","me"]:
 				user = Dump(cookie).GetUser()
-			Dump(cookie).Dump_Publik(f"https://touch.facebook.com/{user}?v=friends")
+			Dump(cookie).Dump_Publik(f"https://mbasic.facebook.com/{user}?v=friends")
 			Crack().atursandi()
 			
 		###----------[ KOMENTAR ]---------- ###
@@ -792,7 +792,7 @@ class Dump:
 	###----------[ GET USER SENDIRI ]---------- ###
 	def GetUser(self):
 		try:
-			url = ses.get("https://touch.facebook.com/profile.php",cookies=self.cookie).text
+			url = ses.get("https://mbasic.facebook.com/profile.php",cookies=self.cookie).text
 			uid = re.findall('name="target" value="(.*?)"',url)[0]
 			return uid
 		except:
@@ -811,7 +811,7 @@ class Dump:
 					console.print(f" {H2}• {P2}sedang proses mengumpulkan id, berhasil mendapatkan {len(tampung)} id....", end="\r")
 			for x in url.find_all("a",href=True):
 				if "Lihat Teman Lain" in x.text:
-					self.Dump_Publik("https://touch.facebook.com/"+x.get("href"))
+					self.Dump_Publik("https://mbasic.facebook.com/"+x.get("href"))
 		except:pass
 		
 	###----------[ DUMP KOMENTAR ]---------- ###
