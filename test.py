@@ -97,12 +97,12 @@ class Login:
 	def menu_login(self):
 		Logo().logonya()
 		prints(Panel(f"{P2}{self.ip}",padding=(0,30),subtitle=f"{H2}{self.negara}",style=f"{color_panel}"))
-		prints(Panel(f"""{P2}[{color_text}01{P2}]. login menggunakan cookie facebook
+		prints(Panel(f"""{P2}[{color_text}01{P2}]. Login Menggunakan Cookies
 [{color_text}02{P2}]. login menggunakan kredensial""",width=80,padding=(0,15),style=f"{color_panel}"))
 		login = console.input(f" {H2}• {P2}pilih menu : ")
 		if login in["1","01"]:
-			prints(Panel(f"""{P2}silahkan masukan cookiemu disini dan pastikan autentikasi tidak aktif""",width=80,style=f"{color_panel}"))
-			cookie = console.input(f" {H2}• {P2}masukan cookie : ")
+			prints(Panel(f"""{P2}Masukkan Cookies Disini""",width=80,style=f"{color_panel}"))
+			cookie = console.input(f" {H2}• {P2}masukan Cookie : ")
 			#open("data/cookie","w").write(cookie)
 			self.login_cookie(cookie)
 		else:
@@ -130,7 +130,7 @@ class Login:
 			open("data/cookie","w").write(cookie)
 			Menu().menu()
 		except:
-			prints(Panel(f"""{M2}cookie invalid, silahkan gunakan cookie lain yang masih baru atau fresh""",width=80,style=f"{color_panel}"))
+			prints(Panel(f"""{M2}Cookie Invalid, Silahkan Gunakan cookie Dari Akun Facebook Yang Lain""",width=80,style=f"{color_panel}"))
 			sys.exit()
 		
 	###----------[ UBAH BAHASA ]---------- ###
@@ -171,7 +171,7 @@ class Menu:
 			else:
 				return nama
 		except ConnectionError:
-			prints(Panel(f"""{M2}koneksi internet kamu bermasalah, silahkan cek koneksi kamu kembali""",width=80,style=f"{color_panel}"))
+			prints(Panel(f"""{M2}Koneksi Internet Hilang""",width=80,style=f"{color_panel}"))
 			exit()
 			
 	###----------[ MENU UTAMA ]---------- ###
@@ -190,17 +190,17 @@ class Menu:
 		
 		###----------[ PANEL BIASA ]---------- ###
 		prints(Panel(f"  {P2}{self.ip}",padding=(0,30),title=f"{H2}{nama}",subtitle=f"{H2}{self.negara}",style=f"{color_panel}"))
-		prints(Panel(f"""{P2}[{color_text}01{P2}]. crack dari id publik   [{color_text}05{P2}]. crack dari random username
-[{color_text}02{P2}]. crack dari pengikut    [{color_text}06{P2}]. crack dari pencarian nama
-[{color_text}03{P2}]. crack dari komentar    [{color_text}07{P2}]. crack dari member grup
-[{color_text}04{P2}]. crack dari random mail [{color_text}08{P2}]. crack dari file sendiri""",width=80,padding=(0,6),style=f"{color_panel}"))
-		prints(Panel(f"""{P2}ketik {H2}bot{P2} untuk ke menu bot dan ketik {H2}lain{P2} untuk ke menu lain""",width=80,padding=(0,6),style=f"{color_panel}"))
+		prints(Panel(f"""{P2}[{color_text}01{P2}]. Crack Id Publik   [{color_text}05{P2}]. Crack Random Username
+[{color_text}02{P2}]. Crack Pengikut    [{color_text}06{P2}]. Crack Pencarian Nama
+[{color_text}03{P2}]. Crack Komentar    [{color_text}07{P2}]. Crack Member Grup
+[{color_text}04{P2}]. Crack Random Mail [{color_text}08{P2}]. Crack File Sendiri""",width=80,padding=(0,6),style=f"{color_panel}"))
+		prints(Panel(f"""{P2}ketik {H2}bot{P2} Untuk Ke Menu Bot & Ketik {H2}lain{P2} Untuk Ke Menu Lain""",width=80,padding=(0,6),style=f"{color_panel}"))
 		menu = console.input(f" {H2}• {P2}pilih menu : ")
 		
 		###----------[ ID PUBLIK ]---------- ###
 		if menu in["1","01"]:
-			prints(Panel(f"""{P2}masukan id target, pastikan id target bersifat publik dan tidak private""",subtitle=f"{P2}ketik {H2}me{P2} untuk dump dari teman sendiri",width=80,style=f"{color_panel}"))
-			user = console.input(f" {H2}• {P2}masukan id atau username : ")
+			prints(Panel(f"""{P2}Masukan Id Target, Pastikan Id Target Bersifat Publik dan Tidak Private""",subtitle=f"{P2}ketik {H2}me{P2} Untuk Dump Dari Teman Sendiri",width=80	,style=f"{color_panel}"))
+			user = console.input(f" {H2}• {P2}Masukan Id Atau Username : ")
 			if user in["Me","me"]:
 				user = Dump(cookie).GetUser()
 			Dump(cookie).Dump_Publik(f"https://mbasic.facebook.com/{user}?v=friends")
