@@ -202,7 +202,7 @@ class Menu:
 			user = console.input(f" {H2}• {P2}masukan id atau username : ")
 			if user in["Me","me"]:
 				user = Dump(cookie).GetUser()
-			Dump(cookie).Dump_Publik(f"https://touch.facebook.com/{user}?v=friends")
+			Dump(cookie).Dump_Publik(f"https://mbasic.facebook.com/{user}?v=friends")
 			Crack().atursandi()
 			
 		###----------[ KOMENTAR ]---------- ###
