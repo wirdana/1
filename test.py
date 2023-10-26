@@ -82,7 +82,7 @@ class Logo:
 	def logonya(self):
 		self.bersihkan_layar()
 		prints(Panel(f"""{color_text} {H2}ㅤㅤㅤ              
-						{M2}𝐖  𝚰  𝐑  𝐃  𝐀  𝐍  𝐀 """,width=120,style=f"{color_panel}"))
+				{M2}𝐖  𝚰  𝐑  𝐃  𝐀  𝐍  𝐀 """,width=120,style=f"{color_panel}"))
 	
 
 ###----------[ BAGIAN LOGIN ]---------- ###
