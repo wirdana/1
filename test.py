@@ -110,13 +110,13 @@ class Login:
 	###----------[ LOGIN COOKIE ]---------- ###
 	def login_cookie(self,cookie):
 		try:
-			url = ses.get("https://touch.facebook.com/",cookies={"cookie": cookie}).text
+			url = ses.get("https://mbasic.facebook.com/",cookies={"cookie": cookie}).text
 			if "Apa yang Anda pikirkan sekarang" in url:
 				pass
 			else:
 				for z in url.find_all("a",href=True):
 					if "Tidak, Terima Kasih" in z.text:
-						get = ses.get("https://touch.facebook.com"+z["href"],cookies={"cookie": cookie})
+						get = ses.get("https://mbasic.facebook.com"+z["href"],cookies={"cookie": cookie})
 						parsing = parser(get.text,"html.parser")
 						action = parsing.find("form",{"method":"post"})["action"]
 						data = {
@@ -124,7 +124,7 @@ class Login:
 							"jazoest":re.search('name="jazoest" value="(.*?)"', str(get.text)).group(1),
 							"submit": "OK, Gunakan Data"
 						}
-						post = ses.post("https://touch.facebook.com"+action,data=data,cookies={"cookie": cookie})
+						post = ses.post("https://mbasic.facebook.com"+action,data=data,cookies={"cookie": cookie})
 						break
 			open("data/cookie","w").write(cookie)
 			Menu().menu()
