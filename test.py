@@ -28,7 +28,8 @@ P2 = "[#FFFFFF]" # PUTIH
 ###----------[ GLOBAL NAMA ]---------- ###
 sekarang = calendar.timegm(time.gmtime(time.time()))
 tampung = []
-#ugent = []
+ugent = []
+ugent2 = []
 
 ###----------[ CEK WARNA TEMA ]---------- ###
 try:
@@ -48,8 +49,8 @@ versi_app = str(random.randint(111111111,999999999))
 ###----------[ GENERATE USERAGENT ]---------- ###
 pretty.install()
 CON=sol()
-ugen2=[]
-ugen=[]
+#ugen2=[]
+#ugen=[]
 cokbrut=[]
 ses=requests.Session()
 princp=[]
@@ -73,7 +74,7 @@ for xd in range(10000):
 	h=random.randrange(40,150)
 	i='Mobile Safari/537.36'
 	uaku=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugen.append(uaku)
+	ugent.append(uaku)
 	
 	a='Mozilla/5.0 (Linux; U; Android'
 	b=random.choice(['4.0','5.0','6.0','7.0','8.0','4.1.1','5.1.1','6.0.1','71.1','7.1.2','8.1.0','8.1.1','9','10','11','12'])
@@ -85,7 +86,7 @@ for xd in range(10000):
 	h=random.randrange(40,150)
 	i='Mobile Safari/534.30'
 	uaku=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugen.append(uaku)
+	ugent.append(uaku)
 	
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['4.0','5.0','6.0','7.0','8.1.0','8.1.1','9','10','11','12'])
@@ -97,7 +98,7 @@ for xd in range(10000):
 	h=random.randrange(40,150)
 	i='Mobile Safari/537.36'
 	uaku=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugen.append(uaku)
+	ugent.append(uaku)
 for xd in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['4.2.2','4.4.2','5.1.1','6.0.1','7.1.1','7.1.2','8.1.0'])
@@ -109,7 +110,7 @@ for xd in range(10000):
 	h=random.randrange(40,150)
 	i='Mobile Safari/537.36'
 	uaku=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugen2.append(uaku)
+	ugent2.append(uaku)
 	
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['4','5','6','7','8','9','10','11','12','5.1.1','6.0.1','7.1.2','8.1.0'])
@@ -121,7 +122,7 @@ for xd in range(10000):
 	h=random.randrange(40,150)
 	i='Mobile Safari/537.36'
 	uaku=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugen2.append(uaku)
+	ugent2.append(uaku)
 def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
