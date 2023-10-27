@@ -4,6 +4,8 @@ from concurrent.futures import ThreadPoolExecutor
 from bs4 import BeautifulSoup as parser
 from datetime import date,datetime
 from requests.exceptions import ConnectionError
+from rich.console import Console as sol
+from rich import pretty
 ses = requests.Session()
 
 ###----------[ IMPORT MODULE RICH ]---------- ###
@@ -44,7 +46,7 @@ except:simcard = subprocess.check_output("getprop gsm.operator.alpha",shell=True
 versi_app = str(random.randint(111111111,999999999))
 
 ###----------[ GENERATE USERAGENT ]---------- ###
-#pretty.install()
+pretty.install()
 CON=sol()
 ugen2=[]
 ugen=[]
