@@ -44,7 +44,7 @@ except:simcard = subprocess.check_output("getprop gsm.operator.alpha",shell=True
 versi_app = str(random.randint(111111111,999999999))
 
 ###----------[ GENERATE USERAGENT ]---------- ###
-pretty.install()
+#pretty.install()
 CON=sol()
 ugen2=[]
 ugen=[]
