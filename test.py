@@ -29,7 +29,6 @@ P2 = "[#FFFFFF]" # PUTIH
 sekarang = calendar.timegm(time.gmtime(time.time()))
 tampung = []
 ugent = []
-ugent2 = []
 
 ###----------[ CEK WARNA TEMA ]---------- ###
 try:
@@ -47,94 +46,25 @@ except:simcard = subprocess.check_output("getprop gsm.operator.alpha",shell=True
 versi_app = str(random.randint(111111111,999999999))
 
 ###----------[ GENERATE USERAGENT ]---------- ###
-pretty.install()
-CON=sol()
-#ugen2=[]
-#ugen=[]
-cokbrut=[]
-ses=requests.Session()
-princp=[]
-from rich.console import Console
-from rich.columns import Columns
-wa = Console()
-try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
-	open('.prox.txt','w').write(prox)
-except Exception as e:
-	print('[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mBrayennnXD')
-prox=open('.prox.txt','r').read().splitlines()
-for xd in range(10000):
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['4.0','5.0','6.0','7.0','8.0','4.1.1','5.1.1','6.0.1','71.1','7.1.2','8.1.0','8.1.1','9','10','11','12'])
-	c='CHM-U01 Build/HonorCHM-U01)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36'
-	uaku=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugent.append(uaku)
-	
-	a='Mozilla/5.0 (Linux; U; Android'
-	b=random.choice(['4.0','5.0','6.0','7.0','8.0','4.1.1','5.1.1','6.0.1','71.1','7.1.2','8.1.0','8.1.1','9','10','11','12'])
-	c='ru-ru; MI 2S Build/JRO03L)'
-	d='AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Chrome/'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/534.30'
-	uaku=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugent.append(uaku)
-	
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['4.0','5.0','6.0','7.0','8.1.0','8.1.1','9','10','11','12'])
-	c='Redmi 5pro Build/N2G47H)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36'
-	uaku=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugent.append(uaku)
-for xd in range(10000):
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['4.2.2','4.4.2','5.1.1','6.0.1','7.1.1','7.1.2','8.1.0'])
-	c='V8 Plus Build/KOT49H)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36'
-	uaku=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugent2.append(uaku)
-	
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['4','5','6','7','8','9','10','11','12','5.1.1','6.0.1','7.1.2','8.1.0'])
-	c='vivo 1918 Build/RP1A.200720.012; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36'
-	uaku=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugent2.append(uaku)
-def uaku():
-	try:
-		ua=open('bbnew.txt','r').read().splitlines()
-		for ub in ua:
-			ugen.append(ub)
-	except:
-		a=requests.get('https://raw.githubusercontent.com/wirdana/1/main/a.txt').text
-		ua=open('.a.txt','w')
-		aa=re.findall('line">(.*?)<',str(a))
-		for un in aa:
-			ua.write(un+'\n')
-		ua=open('.bbnew.txt','r').read().splitlines() 
+for z in range(200):
+	versi_android = str(random.randint(4,12))+".0.0"
+	versi_chrome = str(random.randint(300,325))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
+	device = random.choice(["Mozilla/5.0 (Linux; Android 11; RMX2144 Build/RKQ1.201217.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.71 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/375.1.0.28.111;]","Mozilla/5.0 (Linux; U; Android 10;  en-us; GT-P280W) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.4590.125 Mobile Safari/537.36"])
+	dev = device.split(" Build/")[0]
+	az = "A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"
+	build = f"{random.choice(az)}{random.choice(az)}{random.choice(az)}{random.randint(10, 90)}{random.choice(az)}"
+	versi = random.choice(["10_0_2","10_1_1","10_2","10_2_1","10_3_1","10_3_2","10_3_3"])
+	verchrome = random.choice(["602.1.50","602.2.14","602.3.12","602.4.6","603.1.30","603.2.4","603.3.8","601.1.46"])
+	mob = random.choice(["14A456","14B100","14C92","14D27","14E304","14F89","14G60","13C75","13D15","13E233","13E238","13F69","13G34","13G36"])
+	ua = f"Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1,Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5A Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Postman/9.27.0 Chrome/94.0.4606.81 Electron/15.5.7 Safari/537.36,Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-N920C Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.2 Chrome/56.0.2924.87 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]"
+	#ua = f"Mozilla/5.0 (Linux; Android 11; RMX2144 Build/RKQ1.201217.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.71 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/375.1.0.28.111;]","Mozilla/5.0 (Linux; U; Android 10;  en-us; GT-P280W) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.4590.125 Mobile Safari/537.36,{str(random.randint(70,150))};FBBV/54364624;FBDV/iPhone5,1;FBMD/iPhone;FBSN/iOS;FBSV/{str(versi).replace('_','.')};FBSS/2;FBCR/T-Mobile;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]"
+	#ua = f"Mozilla/5.0 (Linux; Android {versi_android}; LG-F320L Build/{build}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{versi_chrome} Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.{str(random.randint(100000, 900000))};]"
+	#ua = f"Dalvik/2.1.0 (Linux; U; Android {str(rr(6,20))}; Avvio_793 Build/KOT49H) [FBAN/Orca-Android;FBAV/3.0.1-release;FBLC/in_ID;FBBV/128764;FBCR/Tsel-PakaiSarung;FBMF/Avvio;FBBD/Avvio;FBDV/Avvio_793;FBSV/{str(rr(6,13))}.0;;FBCA/armeabi-v7a:armeabi;FBDM/"+"{density=2.75,width=1080,height=2110}] FBBK/1"
+#[FBAN/MessengerLite;FBAV/{versi_chrome};FBBV/193013937;FBDM/"+"{density=2.625,width=1080,height=1794};"+f"FBLC/en_US;FBRV/0;FBCR/Verizon;FBMF/Google;FBBD/google;FBPN/com.facebook.mlite;FBDV/Pixel 2;FBSV/{versi_android};FBBK/1;FBOP/1;FBCA/arm64-v8a:;
+#FBDM/"+"{density=1.5,width=540,height=960};"+"FBLC/en_US;FBRV/183119516;FBCR/TM;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.mlite;FBDV/vivo 1606;FBSV/{versi_android};FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+#[FBAN/MessengerLite;FBAV/{versi_chrome};FBPN/com.facebook.mlite;FBLC/en_US;FBBV/{versi_app};FBCR/Airtel;FBMF/Facebook/lge;FBBD/FEVER;FBDV/FEVER;FBSV/{versi_android};FBCA/armeabi-v7a:armeabi;FBDM/"+"{density=2.75,width=1080,height=2179};FB_FW/1;])"
+	if ua in ugent:pass
+	else:ugent.append(ua)
 	
 ###----------[ LOGO AUTHOR DAN VERSI]---------- ###
 class Logo:
