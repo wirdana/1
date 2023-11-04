@@ -530,7 +530,7 @@ def crack_publik(t,c):
 	           'fields': "friends"
 	           }	           
 	       )
-		bas = ses.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookies':c}).json()
+		bas = ses.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookies':coki}).json()
 		for pi in bas['friends']['data']:
 			try:
 				try:
