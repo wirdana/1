@@ -504,11 +504,6 @@ def get_komen(url):
 
 def crack_publik(t,c):
 	try:
-		token = open('.token.txt','r').read()
-		cok = open('.c.txt','r').read()
-	except IOError:
-	    exit()
-	try:
 		kumpulkan = int(input(f'\x1b[1;97m Mau Berapa Id? : '))
 	except ValueError:
 	    exit()
