@@ -502,7 +502,7 @@ def get_komen(url):
 			try:get_komen("https://mbasic.facebook.com"+z["href"])
 			except:pass
 
-def crack_publik(t,c):
+def crack_publik():
 
 	akun = input(f'[{hh}!{P}] MAKE SURE THE ACCOUNT IS PUBLIC\n[{hh}?{P}] ID : ')
 	try:
