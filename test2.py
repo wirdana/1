@@ -503,13 +503,16 @@ def get_komen(url):
 			except:pass
 
 def crack_publik(t,c):
+
 	akun = input(f'[{hh}!{P}] MAKE SURE THE ACCOUNT IS PUBLIC\n[{hh}?{P}] ID : ')
 	try:
 		bas = ses.get(f'https://graph.facebook.com/{akun}?fields=friends.fields(id,name,username)&access_token={t}',cookies=c).json()
 		for pi in bas['friends']['data']:
 			try:
-				try:dump.append(pi['username']+'|'+pi['name'])
-				except:dump.append(pi['id']+'|'+pi['name'])
+				try:
+					dump = (pi['username']+'|'+pi['name'])
+				except:
+					dump = (pi['id']+'|'+pi['name'])
 				print(f'\r[{hh}!{P}] Dumping %s id'%(len(dump)),end=" ")
 				sys.stdout.flush()
 				time.sleep(0.0002)
@@ -517,6 +520,24 @@ def crack_publik(t,c):
 		atur_atur()
 	except (KeyError,IOError):
 		exit(f"[{M}!{P}] Account friendships are not public")	
+
+
+
+	
+	#akun = input(f'[{hh}!{P}] MAKE SURE THE ACCOUNT IS PUBLIC\n[{hh}?{P}] ID : ')
+	#try:
+		#bas = ses.get(f'https://graph.facebook.com/{akun}?fields=friends.fields(id,name,username)&access_token={t}',cookies=c).json()
+		#for pi in bas['friends']['data']:
+			#try:
+				#try:dump.append(pi['username']+'|'+pi['name'])
+				#except:dump.append(pi['id']+'|'+pi['name'])
+				#print(f'\r[{hh}!{P}] Dumping %s id'%(len(dump)),end=" ")
+				#sys.stdout.flush()
+				#time.sleep(0.0002)
+			#except:continue
+		#atur_atur()
+	#except (KeyError,IOError):
+		#exit(f"[{M}!{P}] Account friendships are not public")	
 
 
 def crack_masal(t,c):
