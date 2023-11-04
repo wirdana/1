@@ -542,18 +542,21 @@ def crack_publik(t,c):
 	       bas = ses.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookie':c}).json()
 	       for pi in bas['friends']['data']:
 	           try:
-			dump = (pi['username']+'|'+pi['name'])
-		except:
-			dump = (pi['id']+'|'+pi['name'])
-		if dump in id:pass
+	               dump = (xr['id']+'|'+xr['name'])
+	               if dump in id:pass
 	               else:id.append(dump)
-		print(f'\r[{hh}!{P}] Dumping %s id'%(len(dump)),end=" ")
-		sys.stdout.flush()
-		time.sleep(0.0002)
-			except:continue
-		atur_atur()
+	           except:continue
+	    except (KeyError,IOError):
+	      pass
+	    except requests.exceptions.ConnectionError:
+	        exit()
+	try:
+	      print(f"\x1b[1;97m Total  :{h}{x} "+str(len(id))) 
+	      atur_atur()
+	except requests.exceptions.ConnectionError:
+	    exit()
 	except (KeyError,IOError):
-		exit(f"[{M}!{P}] Account friendships are not public")	
+		exit()	
 
 
 
