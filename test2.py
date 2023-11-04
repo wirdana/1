@@ -128,7 +128,7 @@ def back():
 try:
 	clear_layar()
 	print(logo2())
-	#print(f'\r\n[{hh}!{P}] Currently dump the proxy and create a user agent.')
+	print(f'\r\n[{hh}!{P}] Currently dump the proxy and create a user agent.')
 	try:os.remove('.proxy.txt')
 	except:pass
 	A = ''
@@ -201,8 +201,8 @@ for x in range(999):
 	else:redmi.append(F)
 try:abcd = open('.proxy.txt','r').read().splitlines()
 except:sys.exit(f"[{M}!{P}] Failed dump proxy")
-#print(f'[{hh}!{P}] Total new proxy : '+str(len(abcd)))
-#print(f'[{hh}!{P}] Total useragent : '+str(len(redmi)))
+print(f'[{hh}!{P}] Total new proxy : '+str(len(abcd)))
+print(f'[{hh}!{P}] Total useragent : '+str(len(redmi)))
 sleep(1)
 
 def get_data():
