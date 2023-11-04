@@ -504,7 +504,7 @@ def get_komen(url):
 
 def crack_publik(t,c):
 	try:
-		coki = open('.cookie.txt','r').read()
+		coki = open('.cookies.txt','r').read()
 		c = {'cookie':coki}
 		t = open('.token.txt','r').read()
 	except IOError:
@@ -540,7 +540,7 @@ def crack_publik(t,c):
 	           'fields': "friends"
 	           }	           
 	       )
-	       url = requests.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookie':c}).json()
+	       url = requests.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookies':c}).json()
 	       for xr in url['friends']['data']:
 	           try:
 	               woy = (xr['id']+'|'+xr['name'])
@@ -553,11 +553,7 @@ def crack_publik(t,c):
 	        exit()
 	try:
 	      print(f"\x1b[1;97m Total  :{h}{x} "+str(len(id))) 
-	      setting()
-	except requests.exceptions.ConnectionError:
-	    exit()
-	except (KeyError,IOError):
-		exit()	
+	      atur_atur()
 
 
 
