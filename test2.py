@@ -540,12 +540,12 @@ def crack_publik(t,c):
 	           'fields': "friends"
 	           }	           
 	       )
-	       bas = ses.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies=c).json()
-	       for pi in bas['friends']['data']:
+	       url = requests.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookie':c}).json()
+	       for xr in url['friends']['data']:
 	           try:
-	               dump = (xr['id']+'|'+xr['name'])
-	               if dump in id:pass
-	               else:id.append(dump)
+	               woy = (xr['id']+'|'+xr['name'])
+	               if woy in id:pass
+	               else:id.append(woy)
 	           except:continue
 	    except (KeyError,IOError):
 	      pass
@@ -553,7 +553,7 @@ def crack_publik(t,c):
 	        exit()
 	try:
 	      print(f"\x1b[1;97m Total  :{h}{x} "+str(len(id))) 
-	      atur_atur()
+	      setting()
 	except requests.exceptions.ConnectionError:
 	    exit()
 	except (KeyError,IOError):
