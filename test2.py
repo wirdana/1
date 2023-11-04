@@ -505,7 +505,7 @@ def get_komen(url):
 def crack_publik(t,c):
 	try:
 		token = open('.token.txt','r').read()
-		coki = open('.cookie.txt','r').read()
+		cok = open('.cok.txt','r').read()
 	except IOError:
 	    exit()
 	try:
@@ -539,16 +539,15 @@ def crack_publik(t,c):
 	           'fields': "friends"
 	           }	           
 	       )
-		bas = ses.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookies':coki}).json()
-		for pi in bas['friends']['data']:
-			try:
-				try:
-					dump.append(pi['username']+'|'+pi['name'])
-				except:
-					dump.append(pi['id']+'|'+pi['name'])
-				print(f'\r[{hh}!{P}] Dumping %s id'%(len(dump)),end=" ")
-				sys.stdout.flush()
-				time.sleep(0.0002)
+	       bas = ses.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookies':cok}).json()
+	       for pi in bas['friends']['data']:
+	           try:
+			dump.append(pi['username']+'|'+pi['name'])
+		except:
+			dump.append(pi['id']+'|'+pi['name'])
+			print(f'\r[{hh}!{P}] Dumping %s id'%(len(dump)),end=" ")
+			sys.stdout.flush()
+			time.sleep(0.0002)
 			except:continue
 		atur_atur()
 	except (KeyError,IOError):
