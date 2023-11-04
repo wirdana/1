@@ -128,7 +128,7 @@ def back():
 try:
 	clear_layar()
 	print(logo2())
-	print(f'\r\n[{hh}!{P}] Currently dump the proxy and create a user agent.')
+	#print(f'\r\n[{hh}!{P}] Currently dump the proxy and create a user agent.')
 	try:os.remove('.proxy.txt')
 	except:pass
 	A = ''
