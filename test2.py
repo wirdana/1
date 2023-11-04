@@ -504,8 +504,9 @@ def get_komen(url):
 
 def crack_publik(t,c):
 	try:
-		token = open('.token.txt','r').read()
-		cok = open('.cok.txt','r').read()
+		coki = open('.cookie.txt','r').read()
+		c = {'cookie':coki}
+		t = open('.token.txt','r').read()
 	except IOError:
 	    exit()
 	try:
