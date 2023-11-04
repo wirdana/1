@@ -509,8 +509,17 @@ def crack_publik(t,c):
 	except IOError:
 	    exit()
 	try:
-		akun = input(f'[{hh}!{P}] MAKE SURE THE ACCOUNT IS PUBLIC\n[{hh}?{P}] ID : ')
-		uid.append(akun)
+		kumpulkan = int(input(f'\x1b[1;97m Mau Berapa Id? : '))
+	except ValueError:
+	    exit()
+	if kumpulkan<1 or kumpulkan>1000:
+	    exit()
+	ses=requests.Session()
+	bilangan = 0
+	for KOTG49H in range(kumpulkan):
+		bilangan+=1
+		Masukan = input(f'\x1b[1;97m Masukkan Id Yang Ke  '+str(bilangan)+f' : ')
+		uid.append(Masukan)
 	for user in uid:
 	    try:
 	       head = (
