@@ -542,11 +542,14 @@ def crack_publik(t,c):
 	       bas = ses.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookie':c}).json()
 	       for pi in bas['friends']['data']:
 	           try:
-			
-			dump.append(pi['id']+'|'+pi['name'])
-			print(f'\r[{hh}!{P}] Dumping %s id'%(len(dump)),end=" ")
-			sys.stdout.flush()
-			time.sleep(0.0002)
+			dump = (pi['username']+'|'+pi['name'])
+		except:
+			dump = (pi['id']+'|'+pi['name'])
+		if dump in id:pass
+	               else:id.append(dump)
+		print(f'\r[{hh}!{P}] Dumping %s id'%(len(dump)),end=" ")
+		sys.stdout.flush()
+		time.sleep(0.0002)
 			except:continue
 		atur_atur()
 	except (KeyError,IOError):
