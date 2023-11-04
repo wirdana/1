@@ -508,9 +508,9 @@ def crack_publik(t,c):
 		cok = open('.cookie.txt','r').read()
 	except IOError:
 	    exit()
-
-	akun = input(f'[{hh}!{P}] MAKE SURE THE ACCOUNT IS PUBLIC\n[{hh}?{P}] ID : ')
-	uid.append(akun)
+	try:
+		akun = input(f'[{hh}!{P}] MAKE SURE THE ACCOUNT IS PUBLIC\n[{hh}?{P}] ID : ')
+		uid.append(akun)
 	for user in uid:
 	    try:
 	       head = (
