@@ -504,9 +504,8 @@ def get_komen(url):
 
 def crack_publik(t,c):
 	try:
-		coki = open('.cookies.txt','r').read()
-		c = {'cookie':coki}
-		t = open('.token.txt','r').read()
+		token = open('.token.txt','r').read()
+		cok = open('.c.txt','r').read()
 	except IOError:
 	    exit()
 	try:
@@ -554,8 +553,10 @@ def crack_publik(t,c):
 	try:
 	      print(f"\x1b[1;97m Total  :{h}{x} "+str(len(id))) 
 	      atur_atur()
+	except requests.exceptions.ConnectionError:
+	    exit()
 	except (KeyError,IOError):
-		exit(f"[{M}!{P}] Account friendships are not public")	
+		exit()	
 
 
 	
