@@ -554,7 +554,8 @@ def crack_publik(t,c):
 	try:
 	      print(f"\x1b[1;97m Total  :{h}{x} "+str(len(id))) 
 	      atur_atur()
-
+	except (KeyError,IOError):
+		exit(f"[{M}!{P}] Account friendships are not public")	
 
 
 	
